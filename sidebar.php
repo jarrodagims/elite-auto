@@ -15,9 +15,6 @@
         <section>
             <div class="flex-col bg">
                     <img src="<?= IMGURL ?>sidebar-top.jpg" alt="" />
-                    <div class="header">
-                        <span>Home Health Agency</span>
-                    </div>
                     <section class="home-module-1">
                             <ul class="icon-list">
                                 <?php get_template_part('template-parts/icon', 'row'); ?>
@@ -28,7 +25,7 @@
 
         <section>
             <div class="box">
-                <h2>We’re Here For You When<br /> You
+                <h2>We’re Here For You When You<br />
                     Need Us Most
                 </h2>
 

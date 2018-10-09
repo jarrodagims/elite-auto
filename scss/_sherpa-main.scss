@@ -98,7 +98,7 @@ body {
     }
 
     &.directions:after {
-      background: #137CCD;
+      background: #606060;
     }
   }
 }
@@ -112,6 +112,7 @@ body {
         .columns {
           display: flex;
           flex-direction: row;
+          flex-wrap: wrap;
 
           > div {
             width: 50%;
@@ -124,7 +125,6 @@ body {
           color: #606060;
           font-size: 32px;
           @include raleway();
-          font-weight: 400;
           
           span {
             margin-top: 0;
@@ -141,14 +141,14 @@ body {
         }
 
         p.blurb {
-          color: #918F8D;
+          color: #606060;
           font-weight: 300;
           font-family: 'Roboto', sans-serif;
         }
 
         p {
           font-weight: 300;
-          color: #918F8D;
+          color: #606060;
         }
 
         h2 {
@@ -165,8 +165,8 @@ body {
         }
 
         ul {
-          padding-left: 3em;
-          color: #918F8D;
+          
+          color: #606060;
         }
 
 
@@ -182,16 +182,16 @@ body {
         @media screen and (max-width: $screen-sm-max) {
             .columns {
               flex-direction: column;
+              display: flex;
             }
         }
 
         @media screen and (max-width: $grid-float-breakpoint-max) {
 
-        
-
 
           h1 {
             text-align: center;
+            line-height: 1.5;
           }
 
           ul {
@@ -350,6 +350,7 @@ body {
 
         h1 {
           margin-bottom: 1.5em;
+          line-height: 1.5;
         }
 
         min-height: 10em;
@@ -374,6 +375,51 @@ body {
 
       .flex-row strong.header {
         margin-bottom: 0;
+      }
+
+      .sidebar-content {
+        ul:not(.icon-list) {
+        list-style: none;
+        padding-left: 1em;
+ 
+        li {
+          position: relative;
+          padding-left: 1em;
+        }
+
+        li::before {
+          content: '';
+          border-radius: 100%;
+          background: $sherpa-brand-primary;
+          width: 5px;
+          height: 5px;
+          position: absolute;
+          left: 0;
+          display: block;
+          top: .5em;
+        }
+
+        &.double-list {
+          > li {
+            padding-left: 0;
+            width: 50%;
+
+            
+            &::before {
+              display: none;
+            }
+          }
+
+          @media screen and (max-width: $screen-sm-max) {
+             > li {
+                width: 100%;
+             }
+
+             margin-bottom: 0;
+          }
+
+        }
+      }
       }
 
       ul, ol {
@@ -409,7 +455,7 @@ body {
 
       .page-content h2 {
         margin-top: 0;
-        font-weight: 400;
+        font-weight: 300;
         line-height: 1.5;
       }
 
@@ -570,7 +616,7 @@ body #main {
     }
 
     .sidebar-content {
-      margin-top: 2em;
+      margin-top: 0;
     }
   }
 

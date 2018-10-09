@@ -10,8 +10,8 @@
   background-size: 8px;
   background-position: 5px center;
   background-color: rgba(#137CCD, .9);
-  border-bottom-right-radius: 35px * 2;
-  border-top-right-radius: 35px * 2;
+  border-bottom-right-radius: 70px;
+  border-top-right-radius: 70px;
   position: absolute; 
   width: 30px;
   height: 60px; 
@@ -19,12 +19,14 @@
   transition: transform 300ms ease-in-out;
 
   &.right {
-    left: 0px;
+    left: -3px;
     top: 50%;
+    transform: translateY(-50%) scale(.85, .95);
 
-    &:hover {
-      transform: translateY(-50%) translateX(-10px);
-    }
+
+//     &:hover {
+//       transform: translateY(-50%) translateX(-10px);
+//     }
 
     @media screen and (max-width: $screen-sm-max) {
       left: 50%;
@@ -33,21 +35,22 @@
       bottom: -30px;
       background-color: $sherpa-secondary-color;
 
-      &:hover {
-        transform: translateX(-50%) rotate(90deg);
-      }
+//       &:hover {
+//         transform: translateX(-50%) rotate(90deg);
+//       }
     }
   }
 
   &.left {
-    right: 0px;
+    right: -3px;
     top: 50%;
-    transform: translateY(-50%) rotate(180deg);
-    z-index: 9999;
+    transform: translateY(-50%) rotate(180deg) scale(.85, .95);
+    z-index: 9999; 
+    background-size: 8px;
  
-    &:hover {
-      transform: translateY(-50%) rotate(180deg) translateX(-10px);
-    }
+//     &:hover {
+//       transform: translateY(-50%) rotate(180deg) translateX(-10px);
+//     }
 
     @media screen and (max-width: $screen-sm-max) {
       left: 50%;
@@ -57,9 +60,9 @@
       background-color: $sherpa-secondary-color;
       position: absolute;
 
-      &:hover {
-        transform: translateX(-50%) rotate(90deg);
-      }
+//       &:hover {
+//         transform: translateX(-50%) rotate(90deg);
+//       }
     }
   }
 
@@ -70,14 +73,13 @@
     bottom: -30px;
     background-color: $sherpa-secondary-color;
 
-    &:hover {
-      transform:  translateX(-50%) translateY(-10px) rotate(90deg);
-    } 
+//     &:hover {
+//       transform:  translateX(-50%) translateY(-10px) rotate(90deg);
+//     } 
   }
 }
 
 #home-main {
-  z-index: 0;
   position: relative;
 
   

@@ -27,7 +27,7 @@ class SocialMedia {
 	private $facebook = array(
 		'url' => FACEBOOK,
 		'name' => "Facebook",
-		'icon' => 'facebook',
+		'icon' => 'facebook-f',
 		'default' => 'http://facebook.com/',
 	);
 	private $twitter = array(
