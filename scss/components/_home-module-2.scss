@@ -3,6 +3,10 @@
 
   .navbar-sherpa, .navbar-nav {
     width: 100%;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0;
   }
 
   &::after {
@@ -11,5 +15,27 @@
     width: 100%;
     display: block;
     height: 4px;
+  }
+
+  .navbar-sherpa .nav > li > a {
+    color: #606060;
+    padding-right: 30px;
+    font-size: 18px;
+
+    &:after {
+      @include svg-arrow(fff);
+      content: '';
+      width: 20px;
+      height: 20px;
+      display: block;
+      position: absolute;
+      right: 0; 
+      top: 50%; 
+      transform: translateY(-50%);
+    }
+
+    &:hover {
+      color: $sherpa-secondary-color;
+    }
   }
 }

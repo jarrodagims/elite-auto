@@ -23,7 +23,51 @@
 }
 
 @mixin svg-arrow($color) {
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.27 14.15"><g id="d2d75648-cdc9-41eb-ad10-281f2350da98" data-name="Layer 2"><g id="96802664-1d4c-4baa-abde-3604886adfc3" data-name="Layer 1"><polygon points="8.27 7.08 1.19 0 0 1.19 5.88 7.08 0 12.96 1.19 14.15 8.27 7.08" fill="%23#{$color}"/></g></g></svg>');
+  background-image: url('data:image/svg+xml;utf8,<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 19.7 19.7" enable-background="new 0 0 19.7 19.7" xml:space="preserve">
+<g id="_x39_1d912bf-4d4d-47ec-a2ce-658329a2109f">
+	<g id="_x31_5ee2235-eb4f-4f31-bec1-19d239ce09ca">
+		<g>
+			<defs>
+				<path id="SVGID_1_" d="M0.7,9.8c0-5.1,4.1-9.1,9.2-9.1S19,4.8,19,9.9c0,5-4.1,9.1-9.1,9.1C4.8,19,0.7,14.9,0.7,9.8 M0,9.8
+					c0,5.4,4.4,9.8,9.8,9.8s9.8-4.4,9.8-9.8S15.3,0,9.8,0C4.4,0,0,4.4,0,9.8"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  overflow="visible"/>
+			</clipPath>
+			<g clip-path="url(#SVGID_2_)">
+				
+					<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="-1503.2118" y1="-7151.9165" x2="-1502.2118" y2="-7151.9165" gradientTransform="matrix(19.69 0 0 19.69 29593.5 140831.0781)">
+					<stop  offset="0" style="stop-color:#952BDC"/>
+					<stop  offset="5.000000e-02" style="stop-color:#952BDC"/>
+					<stop  offset="0.54" style="stop-color:#8B17FF"/>
+					<stop  offset="1" style="stop-color:#4100D7"/>
+				</linearGradient>
+				<rect fill="url(#SVGID_3_)" width="19.7" height="19.7"/>
+			</g>
+		</g>
+		<g>
+			<defs>
+				<polygon id="SVGID_4_" points="7.6,5.1 12.4,9.8 7.6,14.6 8,15 13.2,9.8 8,4.7 				"/>
+			</defs>
+			<clipPath id="SVGID_5_">
+				<use xlink:href="#SVGID_4_"  overflow="visible"/>
+			</clipPath>
+			<g clip-path="url(#SVGID_5_)">
+				
+					<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="-1472.3644" y1="-7122.8066" x2="-1471.3644" y2="-7122.8066" gradientTransform="matrix(5.56 0 0 5.56 8194.2705 39612.6484)">
+					<stop  offset="0" style="stop-color:#952BDC"/>
+					<stop  offset="5.000000e-02" style="stop-color:#952BDC"/>
+					<stop  offset="0.54" style="stop-color:#8B17FF"/>
+					<stop  offset="1" style="stop-color:#4100D7"/>
+				</linearGradient>
+				<rect x="7.6" y="4.7" fill="url(#SVGID_6_)" width="5.6" height="10.3"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>
+');
   background-repeat: no-repeat;
 }
 

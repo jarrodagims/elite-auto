@@ -38,6 +38,7 @@
   font-family: 'Raleway', sans-serif;
 }
 
+$transparency = 0.5;
 
 @mixin gradient() {
  background : -moz-linear-gradient(0.38% 11755.05% 0deg,rgba(149, 43, 220, 1) 0%,rgba(149, 43, 220, 1) 4.55%,rgba(139, 23, 255, 1) 53.84%,rgba(65, 0, 215, 1) 100%);
