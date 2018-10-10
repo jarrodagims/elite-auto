@@ -1,0 +1,17 @@
+.jumbotron {
+    height: 720px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+    h1 {
+    font-size: 65px;
+    font-family: 'Poppins', sans-serif;
+    }
+
+    h2 {
+        font-size: 31px;
+        color: $white;
+        font-family: 'Poppins', sans-serif;
+    }
+}

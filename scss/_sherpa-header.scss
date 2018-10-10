@@ -45,7 +45,7 @@
 //   }
 
   .navbar-sherpa .nav > li > a {
-    color: #606060;
+    color: $white;
 
     &:hover {
       color: $sherpa-brand-primary;
@@ -57,6 +57,7 @@
     text-transform: uppercase;
     min-height: 0;
     margin-top: 0;
+
   }
 }
 
@@ -86,7 +87,7 @@
 }
 
 .sub-header {
-  background: #EDEFEF;
+  @include gradient();
   color: #fff;
   padding: 10px 0;
   position: relative;
@@ -102,7 +103,6 @@
 
   @media screen and (min-width: $screen-lg-min) {
     padding: 1em 0;
-    margin-top: 110px;
 
     #header-logo {
       width: 80px;

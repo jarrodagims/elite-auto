@@ -8,14 +8,13 @@
   font-size: 12px;
   letter-spacing: 1px;
   font-family: 'Montserrat', sans-serif;
-  transition: background-color 0.2s ease-in-out;
-  background: $sherpa-brand-primary;
   font-weight: 600;
   color: $white;
   transition: transform 300ms ease-in-out;
+  @include gradient-btn();
 
    &:hover {
-    background: darken($sherpa-brand-primary, 10%);
+    background: #7935DA;
     transform: scale(1.15);
   }
 

@@ -516,6 +516,11 @@
   .navbar-brand {
     z-index: 99;
     left: 0;
+    height: auto;
+
+    img {
+      height: 245px;
+    }
   }
 }
 

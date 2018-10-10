@@ -51,16 +51,43 @@
     </p>
     <![endif]-->
 
-    <div class="container-fluid sub-header">
+    <div class="top-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    Birthday Booking
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="container">
+            <div class="row">
+                <div class="v-align">
+                    <div class="col-md-4"><a class="navbar-brand" href='<?php echo get_site_url(); ?>'><img
+                                src="<?= IMGURL; ?>logo.png"
+                                alt="<?php echo get_bloginfo(
+                                    'description'
+                                ); ?>"/></a></div>
+
+                    <div class="col-md-4">
+                        <span class="title">BOOK YOUR EVENT</span>
+                        <strong>PH.</strong>  <?php printPhone(); ?><br />
+                        3851 Constitution Dr. El Paso, TX 79922
+                    </div>
+
+                    <div class="col-md-4">
+                        <span class="title">OPERATION HOURS</span>
+                        Sunday - Thursday: <strong>12pm – 9pm</strong>
+                        Friday - Saturday:  <strong>10am – 11pm</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="sub-header">
         <div class="container">
             <div class="row ">
                 <div class="v-align">
                     <div class="col-xs-12 navbar-button text-center">
-                        <a id="header-logo" class="navbar-brand" href='<?php echo get_site_url(); ?>'><img
-                                    src="<?= IMGURL; ?>logo.png"
-                                    alt="<?php echo get_bloginfo(
-                                        'description'
-                                    ); ?>"/></a>
                         <?php echo responsive_bs_menu('primary', 'left', SITENAME); ?>
                         <ul class="nav navbar-nav navbar-right visible-xs">
                             <li class="menu-item directions"><a

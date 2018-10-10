@@ -412,7 +412,7 @@
 
 .footer-nav {
 
-  background: $sherpa-secondary-color;
+  background: transparent;
 
   @media screen and (min-width: $screen-md-min) {
     li.menu-item:first-child {
@@ -439,7 +439,10 @@
   }
 
   .navbar-sherpa .navbar-nav > li > a {
-    color: #fff;
+    color: #606060;
+    font-family: 'Poppins', sans-serif;
+    text-transform: none;
+    font-size: 17px;
   }
 
   @media screen and (max-width: $screen-sm-max) {
@@ -450,10 +453,10 @@
 #sub-footer {
   padding: 32px 0;
   text-align: center;
-  background: #FFF;
+  background: #1A1A1A;
   color: $white;
   font-size: 16px;
-  color: #29292C;
+  color: #fff;
 
   .agi-logo {
     margin-left: 0.5em;
@@ -468,7 +471,7 @@
   ul.social-media {
     margin: 0 0 0 0;
     a {
-      color: #29292C;
+      color: $white;
       &:hover {
         color: $sherpa-brand-primary;
       }
