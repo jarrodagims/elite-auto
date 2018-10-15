@@ -1,46 +1,65 @@
 .home-module-5 {
-  background: $sherpa-secondary-color;
-  color: $white;
-  text-align: center;
-  overflow: visible;
-  position: relative;
-  @include dropshadow();
-  padding: 66px 0 76px;
+  padding: 71px 0;
 
-  .btn { 
+  h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 31px;
+    color: #1A1A1A;
+    align-items: center;
+    position: relative;
     margin-top: 2em;
-    @include dropshadow();
+    margin-bottom: 1em;
+
+    &.no-margin {
+      margin-top: 1em;
+    }
+
+    &::before {
+      content: '';
+      border-radius: 100%;
+      @include gradient-btn(1);
+      display: inline-block;
+      float: left;
+      overflow: hidden;
+      margin-top: 8px;
+      margin-bottom: 1em;
+      width: 20px;
+      height: 20px;
+      margin-right: 10px;
+    }
+
+    &::after {
+      border-radius: 100%;
+      background: $white;
+      width: 16px;
+      height: 16px;
+      content: '';
+      position: absolute;
+      left: 2px;
+      top: 10px;
+    }
   }
 
-  .extra-padding {
-    padding: 0 5em;
+  ul {
+    font-size: 21px;
+
+    li {
+      margin-bottom: 1em;
+    }
   }
 
-  p {
-    line-height: 2;
-  }
+  .blox {
+    background: #F2F2F2;
+    padding: 2em;
+    margin-bottom: 10px;
 
-  @media screen and (max-width: $screen-sm-max) {
+    h3 {
+      margin-top: 0;
 
-    .extra-padding {
-      padding: 0 20px;
+
+      &::after {
+        background: #F2F2F2;
+      }
     }
-
-    h2 {
-      font-size: 19px;
-      line-height: 1.5;
-    }
-
-    p {
-      margin-bottom: 0;
-      line-height: 1.75;
-    }
-
-    padding: 2em 0;
-
-    .btn {
-      margin-bottom: 2em;
-    }
-
   }
 }

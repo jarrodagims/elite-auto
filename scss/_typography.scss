@@ -10,12 +10,14 @@ h1,
 h2,
 h3,
 h4 {
-  @include raleway();
+  font-family: 'Poppins', sans-serif;
   font-weight: 300;
 }
 
 h2 {
-  @include raleway();
+  font-family: 'Poppins', sans-serif;
+  color: #1A1A1A;
+  font-weight: 400;
   margin-bottom: 1em;
   font-size: 32px;
 }

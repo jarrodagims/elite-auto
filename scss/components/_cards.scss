@@ -108,12 +108,11 @@
 .card {
   text-align: center;
   padding: 0 0;
-  @include dropshadow();
   height: 100%;
   display: flex; 
   flex-direction: column;
-  color: #918F8D;
-  background: #F4F4F4;
+  width: 509px;
+  margin-left: auto;
 
 
   &.floating {
@@ -138,24 +137,61 @@
   }
 
   .card-title {
-    background: #003E7A;
+    background: #0093B0;
     color: $white;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    padding: 36px;
+    padding: 32px;
     font-size: 28px;
     margin: 0 0;
   } 
 
   .card-text {
-    padding: 3em 90px 50px;
+    padding: 3em 2em 50px;
     flex: 1;
+    background: #FF0000;
+    color: $white;
 
-    p {
-      margin-top: 2.5em;
-      font-size: 17px;
+    .big {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      display: block;
+      text-transform: uppercase;
+      font-size: 83px;
+      line-height: 1;
     }
+
+    .small {
+      font-size: 40px;
+      font-family: 'Poppins', sans-serif;
+      text-transform: uppercase;
+      display: block;
+      line-height: 1;
+    }
+
+    a {
+      font-size: 20px;
+      color: $white;
+      text-transform: uppercase;
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 32px;
+
+
+      &::after {
+        content: '';
+        @include svg-arrow($white);
+        width: 20px;
+        height: 20px;
+        display: block;
+        margin-left: 10px;
+      }
+    }
+
+   
 
     p.author {
       font-size: 21px;
@@ -200,7 +236,7 @@
 
   .card-img {
     height: 180px;
-    background: url('../img/government-commercial.jpg') 0 0 no-repeat;
+    background: url('../img/bg-sidebar.jpg') 0 0 no-repeat;
     background-size: cover;
     display: block;
   }

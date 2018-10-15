@@ -46,6 +46,7 @@
 
   .navbar-sherpa .nav > li > a {
     color: $white;
+    font-size: 17px;
 
     &:hover {
       color: $sherpa-brand-primary;
@@ -54,7 +55,7 @@
 
   .navbar-sherpa {
     font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
+    text-transform: none;
     min-height: 0;
     margin-top: 0;
 

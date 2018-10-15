@@ -21,6 +21,11 @@
     color: #606060;
     padding-right: 30px;
     font-size: 18px;
+    transition: color 300ms ease-in-out;
+
+    &:focus {
+      color: $sherpa-secondary-color;
+    }
 
     &:after {
       @include svg-arrow(fff);

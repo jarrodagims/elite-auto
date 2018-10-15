@@ -141,9 +141,26 @@
 
 .top-header {
   background: $sherpa-dark-color;
+  display: flex;
+  padding: 22px 0;
+ 
+  a.arrow {
+    margin-left: auto;
+    display: block;
+    color: $white;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    display: flex;
 
-  @media screen and (min-width: $grid-float-breakpoint-max) {
-    padding-top: 18px;
+    &::after {
+      @include svg-arrow($white);
+      width: 20px;
+      height: 20px;
+      display: block;
+      content: '';
+      margin-left: 10px;
+    } 
   }
 }
 
@@ -516,10 +533,44 @@
   .navbar-brand {
     z-index: 99;
     left: 0;
+    top: -60px;
     height: auto;
+    position: absolute;
 
     img {
       height: 245px;
+    }
+  }
+
+  .logo-section {
+    .row {
+      height: 209px;
+      justify-content: space-between;
+    }
+
+    .title {
+      font-family: 'Poppins', sans-serif;
+      font-weight: 700;
+      color: $sherpa-secondary-color;
+      font-size: 18px;
+      margin-bottom: .5em;
+      display: block;
+    }
+
+    p {
+      font-size: 20px;
+    }
+
+    .border-left {
+      margin-left: auto;
+
+      &::before {
+        content: '';
+        border-left: 1px solid #F2F2F2;
+        position: absolute;
+        left: 2em;
+        height: 50%;
+      }
     }
   }
 }

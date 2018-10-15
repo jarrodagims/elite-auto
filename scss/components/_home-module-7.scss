@@ -1,22 +1,5 @@
 .home-module-7 {
-  padding: 106px 0;
-
-  h2 {
-    margin-bottom: 1em;
-  }
-
-  @media screen and (max-width: $screen-sm-max) {
-    padding: 0 0 4em 0;
-
-    h2 {
-      font-size: 22px;
-      line-height: 1.5;
-      margin-top: 2em;
-
-    }
-
-    p {
-      margin-bottom: 0;
-    }
-  }
+  background: url('../img/bg-party.jpg') 0 0 no-repeat;
+  background-size: cover;
+  height: 461px;
 }

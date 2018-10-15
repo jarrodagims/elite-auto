@@ -729,3 +729,32 @@ body #main {
     }
   }
 }
+
+.full-size {
+  width: 100%;
+}
+
+.circle {
+  position: relative;
+  display: flex;
+  width: 512px;
+  height: 513px;
+  margin-left: auto;
+
+  &:before {
+    border-radius: 50%;
+    border: 20px solid rgba(255,255,255,0.5);
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    flex: 1;
+    height: 100%;
+    width: 100%;
+  }
+  img {
+    border-radius: 50%;
+  }
+}

@@ -12,6 +12,8 @@
   color: $white;
   transition: transform 300ms ease-in-out;
   @include gradient-btn();
+  border: 0;
+  border-radius: 4px;
 
    &:hover {
     background: #7935DA;
