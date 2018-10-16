@@ -2,36 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2eb721c2-176a-4b35-a1f8-3c3538869751" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/scss/components/_home-module-10.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/play.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/play.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/page-home.php" beforeDir="false" afterPath="$PROJECT_DIR$/page-home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_icons.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_sherpa-footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_sherpa-footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_sherpa-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_sherpa-header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_sherpa-home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_sherpa-home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_sherpa-main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_sherpa-main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_sherpa-navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_sherpa-navbar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/_sherpa-sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_sherpa-sidebar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_sherpa-variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_sherpa-variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_cards.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_home-module-1.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_home-module-1.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_home-module-2.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_home-module-2.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_home-module-3.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_home-module-3.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_home-module-4.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_home-module-4.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_home-module-5.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_home-module-5.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_home-module-6.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_home-module-6.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_home-module-8.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_home-module-8.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_home-module-9.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_home-module-9.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_jumbotron.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_jumbotron.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/sidebar.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -457,8 +430,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scss/_mixins.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="65" column="82" selection-start-line="65" selection-start-column="82" selection-end-line="65" selection-end-column="82" />
+            <state relative-caret-position="595">
+              <caret line="65" column="82" lean-forward="true" selection-start-line="64" selection-start-column="2" selection-end-line="65" selection-end-column="82" />
             </state>
           </provider>
         </entry>
@@ -476,7 +449,7 @@
         <entry file="file://$PROJECT_DIR$/scss/components/_home-module-4.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="97" column="16" lean-forward="true" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
+              <caret line="98" column="16" lean-forward="true" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -878,18 +851,17 @@
       <workItem from="1537890709976" duration="77826000" />
       <workItem from="1538513266079" duration="61193000" />
       <workItem from="1539191022878" duration="29366000" />
-      <workItem from="1539644335092" duration="10166000" />
+      <workItem from="1539644335092" duration="10509000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1363706000" />
+    <option name="totallyTimeSpent" value="1364049000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="631" y="190" width="1775" height="1178" extended-state="0" />
-    <editor active="true" />
+    <frame x="84" y="180" width="1775" height="1178" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994012" visible="true" weight="0.186382" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994012" visible="true" weight="0.186382" />
       <window_info id="Structure" order="1" sideWeight="0.5005988" side_tool="true" weight="0.23852521" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -903,7 +875,7 @@
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5048909" side_tool="true" weight="0.21962617" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4951091" visible="true" weight="0.21962617" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4951091" visible="true" weight="0.21962617" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -1251,7 +1223,7 @@
     <entry file="file://$PROJECT_DIR$/scss/components/_home-module-4.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="97" column="16" lean-forward="true" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
+          <caret line="98" column="16" lean-forward="true" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1264,8 +1236,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/_mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="65" column="82" selection-start-line="65" selection-start-column="82" selection-end-line="65" selection-end-column="82" />
+        <state relative-caret-position="595">
+          <caret line="65" column="82" lean-forward="true" selection-start-line="64" selection-start-column="2" selection-end-line="65" selection-end-column="82" />
         </state>
       </provider>
     </entry>
