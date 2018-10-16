@@ -5,7 +5,7 @@
 
       $('.expander').click(function (event) {
           event.preventDefault();
-          $($(this).data("target")).slideToggle();
+          $($(this).next("ul")).slideToggle();
           $(this).toggleClass('expanded');
       });
 
@@ -41,6 +41,7 @@
               else if ($(window).width() < 992) {
                   //make dropdown clickable
                   $('.dropdown-toggle').attr('data-toggle', 'dropdown');
+
               }
           }
 

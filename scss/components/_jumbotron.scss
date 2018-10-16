@@ -19,4 +19,16 @@
         font-family: 'Poppins', sans-serif;
         @include textshadow();
     }
+
+    @media screen and (max-width: $screen-sm-max) {
+        height: 100%;
+
+        h1 {
+            font-size: 28px;
+        }
+
+        h2 {
+            font-size: 16px;
+        }
+    }
 }

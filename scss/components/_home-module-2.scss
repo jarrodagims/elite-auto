@@ -43,4 +43,58 @@
       color: $sherpa-secondary-color;
     }
   }
+
+  @media screen and (max-width: $screen-sm-max) {
+
+    &::after {
+      display: none;
+    }
+
+    .container {
+      padding: 0 0;
+
+      .navbar-sherpa .nav > li > a {
+        color: #606060 !important;
+        font-size: 12px;
+        text-transform: uppercase;
+        padding: 2em;
+      }
+
+      .col-xs-12, .navbar-sherpa {
+        padding: 0 0;
+
+        ul {
+          padding: 0 0;
+          display: flex;
+          flex-wrap: wrap;
+          color: #606060;
+          font-weight: 500;
+          margin: 0 0;
+
+          li {
+            width: 50%;
+            text-align: center;
+            margin: 0 0;
+
+
+            &:nth-child(1), &:nth-child(2) {
+              border-bottom: 1px solid #e0dfdf;
+            }
+
+            &:nth-child(1), &:nth-child(3) {
+              border-right: 1px solid #e0dfdf;
+            }
+
+            a {
+              color: #606060;
+            }
+
+            a::after {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
 }

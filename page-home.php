@@ -81,53 +81,56 @@
 </section>
 <section class="home-module-4">
     <div class="top">
-        <img src="<?=IMGURL?>play.png" alt="El Paso's Place to Play" />
+        <img src="<?=IMGURL?>play.png" alt="El Paso's Place to Play" class="play-logo" />
+        <img src="<?=IMGURL?>bg-banner-top.jpg" alt="El Paso's Place to Play" class="play-bg" />
     </div>
-    <h2>Visit us today for a safe, wholesome day of fun for the entire family!</h2>
+    <div class="bottom">
+        <img src="<?=IMGURL?>bg-banner-bottom.jpg" alt="El Paso's Place to Play" />
+        <h2>Visit us today for a safe, wholesome day of fun for the entire family!</h2></div>
 </section>
 <section class="home-module-5">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <h3 class="no-margin">Laser Odyssey (ages 6 and up)</h3>
-                <ul>
+                <h3 class="no-margin expander">Laser Odyssey (ages 6 and up)</h3>
+                <ul class="expand">
                     <li>Two story industrial-themed laser tag arena</li>
                     <li>Great for team building</li>
                 </ul>
 
-                <h3>Go-Karts (Minimum of 58” to drive)</h3>
-                <ul>
+                <h3 class="expander">Go-Karts (Minimum of 58” to drive)</h3>
+                <ul class="expand">
                     <li>Double Go-Karts (Driver 58” AND 18 years old, Passenger 40” up to 56”)</li>
                 </ul>
 
-                <h3>18-Hole Miniature Golf Course</h3>
-                <ul>
+                <h3 class="expander">18-Hole Miniature Golf Course</h3>
+                <ul class="expand">
                     <li>Boulder Creek Miniature Golf – voted best in El Paso</li>
                     <li>Equipped with a handicap-friendly sidewalk for all to enjoy</li>
                 </ul>
 
-                <h3>State-of-the-Art Arcade</h3>
-                <ul>
+                <h3 class="expander">State-of-the-Art Arcade</h3>
+                <ul class="expand">
                     <li>Full of the latest video and redemption games</li>
                 </ul>
             </div>
             <div class="col-md-6">
 
-                <div class="blox"><h3>Kiddie Rides</h3>
-                <ul>
+                <div class="blox"><h3 class="expander">Kiddie Rides</h3>
+                <ul class="expand">
                     <li>Mini Go-Karts (Minimum 45” to drive, no taller than 58”)</li>
                     <li>Dizzy Drums (Minimum height requirement 35”, between 35” and 44” must ride with an adult)</li>
                     <li>Miniature Train (Ages 2 and up, not intended for adults)</li>
                 </ul></div>
 
-                <div class="blox"><h3>Bumper Boats (Driver 45”, Passenger 40”)</h3>
-                <ul>
+                <div class="blox"><h3 class="expander">Bumper Boats (Driver 45”, Passenger 40”)</h3>
+                <ul class="expand">
                     <li>Equipped with water guns and electrical motors</li>
                     <li>Beware of the waterfall, guaranteed to soak you</li>
                 </ul></div>
 
-                <div class="blox"><h3>Batting Cages</h3>
-                <ul>
+                <div class="blox"><h3 class="expander">Batting Cages</h3>
+                <ul class="expand">
                     <li>Ranges from 45 mph all the way up to 80 mph</li>
                     <li>Bat at your own risk! Everyone must wear protective headgear</li>
                     <li>Every Tuesday is buy-one-get-one-free batting cage tokens (Limit 5)</li>
@@ -175,15 +178,16 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <img src="<?=IMGURL?>pinball.jpg" alt="Pinball" />
+                <img src="<?=IMGURL?>pinball.jpg" alt="Pinball" class="hidden-sm hidden-xs" />
             </div>
         </div>
     </div>
+    <img src="<?=IMGURL?>pinball-small.jpg" alt="Pinball" class="visible-xs visible-sm" />
 </section>
 <section class="home-module-9">
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 hidden-xs hidden-sm">
                 <img src="<?=IMGURL?>bg-train.jpg" alt="Train" />
             </div>
             <div class="col-md-6">
@@ -198,7 +202,25 @@
     </div>
 
 </section>
-    <img src="<?=IMGURL ?>bg-boats-bottom.jpg" alt="Boats" class="full-size" />
+    <img src="<?=IMGURL?>train-sm.jpg" alt="Pinball" class="visible-xs visible-sm" />
+
+    <img src="<?=IMGURL ?>bg-boats-bottom.jpg" alt="Boats" class="full-size hidden-xs hidden-sm" />
+
+<section class="home-module-10">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-12">
+                <h2>The Bob-O’s Team is Ready to Help!</h2>
+                <p>Whether you’re looking for some spontaneous fun or you’re stressing out because your child’s birthday party is fast approaching and you still haven’t planned anything, Bob-O's Family Fun Center can help! Give us a call today and we’ll take care of everything for you. Nothing should stand in your way when it comes to having fun.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <img src="<?=IMGURL?>bg-boats-sm.jpg" alt="Pinball" class="visible-xs visible-sm" />
+
 <?php if (is_active_sidebar('form_widgets')) { //if the field is not empty
     ?>
     <section id="contact-form" class="visible-xs">

@@ -3,4 +3,17 @@
   background: url('../img/bg-party-triangle.png') right 0 no-repeat;
   background-size: 100% auto;
 
+  @media screen and (max-width: $screen-sm-max) {
+    text-align: center;
+
+    h2 {
+      font-size: 21px;
+    }
+
+    h3 {
+      font-size: 18px;
+      margin-bottom: 1em;
+    }
+  }
+
 }

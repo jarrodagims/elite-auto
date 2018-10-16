@@ -1,58 +1,21 @@
 @mixin cardSmall() {
+  margin: 2em auto;
+  width: 100%;
 
-  margin-bottom: 0;
-
-  .card-img {
-      background-image: url('../img/government-commercial.jpg');
-    }
-
-    &.card-2 {
-      .card-img {
-        background-image: url('../img/services-sm.jpg');
-        background-size: cover;
-      }
-    }
 
     h2 {
       font-size: 19px;
     }
 
-    .card-bottom {
-      background: #1E3151;
-      color: $white;
-      text-align: left;
-      font-size: 24px;
-      padding: 0;
-
-      a {
-        padding: 1.5em 1.5em;
-        position: relative;
-
-        &::after {
-          @include svg-arrow(FFFFFF);
-          content: '';
-          display: block;
-          height: 32px;
-          width: 32px;
-          position: absolute;
-          right: 1.5em;
-          top: 50%;
-          transform: translateY(-50%);
-        }
-      }
-
-      a .btn {
-        font-size: 10px;
-      }
-    }
-
       .card-title {
-        font-size: 19px;
-        padding: 1.5em;
+        font-size: 16px;
+        padding: .5em 0;
       }
 
-      margin-left: -35px;
-      margin-right: -35px;
+      .card-img {
+        height: 111px;
+      }
+     
 
       .btn {
         font-size: 9px;
@@ -62,7 +25,25 @@
       }
 
       .card-text { 
-        padding: 2em 20px;
+        padding: 0 20px;
+
+        a {
+          margin: 1em 0 2em;
+          font-size: .75em;
+          font-weight: 700;
+          color: $white;
+        }
+
+        .big {
+          font-size: 4em;
+          color: $white;
+        }
+
+        .small {
+          font-size: 2em;
+          letter-spacing: 4px;
+          color: $white;
+        }
 
         img {
           margin: 0.5em auto 0;
@@ -84,7 +65,7 @@
           font-weight: 400;
           line-height: 1.75;
           font-size: 15px;
-          padding: 0 3em;
+          padding: 0 0;
 
           &.author {
             font-size: 15px;
@@ -102,7 +83,7 @@
         display: block;
       }
 
-      padding: 0 20px;
+      padding: 0 0px;
 }
 
 .card {
@@ -183,7 +164,7 @@
 
       &::after {
         content: '';
-        @include svg-arrow($white);
+        @include svg-arrow-3($white);
         width: 20px;
         height: 20px;
         display: block;
@@ -236,7 +217,7 @@
 
   .card-img {
     height: 180px;
-    background: url('../img/bg-sidebar.jpg') 0 0 no-repeat;
+    background: url('../img/bg-sidebar-small.jpg') 0 0 no-repeat;
     background-size: cover;
     display: block;
   }

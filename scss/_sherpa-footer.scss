@@ -1,16 +1,29 @@
 
 
 #footer {
-  padding: 2em 0 2em;
+  padding: 0 0 2em;
   text-align: center;
   background: $white;
+
+  .top-footer {
+    background: #000;
+    position: relative;
+
+     &::before {
+      content: '';
+      @include gradient-line();
+      width: 100%;
+      display: block;
+      height: 4px;
+    }
+  }
 
   .flex-row {
     justify-content: space-between;
   }
 
   .navbar-brand img {
-   height: 158px;
+    height: 221px;
   }
 
   h2 {
@@ -51,6 +64,7 @@
         position: relative;
         display: inline-block;
         margin-bottom: 1em;
+        
 
         .button-footer {
           padding: 0 15px;
@@ -72,6 +86,33 @@
      }
   }
 
+  .logo-footer {
+    background: #000;
+    color: $white;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    padding-left: 270px;
+
+    &::before {
+      content: '';
+      display: block;
+      width: 100vw;
+      left: -50vw;
+      top: 0;
+      z-index: -1;
+      position: absolute;
+      background: #000;
+    }
+
+    p {
+      color: $white;
+      font-size: 28px;
+
+    }
+  }
+
 //   @media screen and (min-width: $screen-lg-min) {
 //     .logo-footer {
 //       margin-right: auto;
@@ -90,12 +131,13 @@
   @media screen and (min-width: $screen-md-min) {
 
    .footer-blocks {
+       padding-top: 3em;
        flex: 1;
        display: flex;
        flex-direction: row;
        justify-content: space-between;
        width: 100%;
-       align-items: center;
+       align-items: flex-start;
    }
 
 
@@ -104,28 +146,41 @@
       justify-content: space-between;
     }
 
-
-   .bbb-footer {
-     justify-content: center;
-     display: flex;
-     align-items: flex-start;
-      margin: 0 auto 0 0;
-
-      img {
-        height: 95px;
-      } 
-   } 
-
     .contact-footer, .hours-footer {
       display: flex;
       justify-content: center;
-      margin: 0 auto;
+      margin: 0 auto 0 0;
       
       > div {
         
         font-weight: 300;
         display: flex;
         flex-direction: column;
+      }
+    }
+
+    .button-footer {
+       position: relative;
+    }
+
+    .border-left {
+      margin-left: auto;
+
+      span.title {
+        text-align: center;
+      }
+      
+      p {
+        font-size: 12px;
+        text-align: center;
+      }
+
+      &::before {
+        content: '';
+        border-left: 1px solid #F2F2F2;
+        position: absolute;
+        left: -2em;
+        height: 100%;
       }
     }
 
@@ -145,6 +200,14 @@
 
   @media screen and (max-width: $screen-sm-max) {
 
+    .top-footer {
+      background: transparent;
+
+      &::before {
+        display: none;
+      }
+    }
+
     ul {
       margin: 20px auto;
       overflow: auto;
@@ -153,7 +216,13 @@
     }
 
     .logo-footer img {
-      height: 100px;
+      height: 100px;  
+      margin: 0 auto;
+    }
+
+    .logo-footer {
+      padding-left: 0;
+      text-align: center;
     }
 
     .hours-footer, .contact-footer, .logo-footer, .button-footer {
@@ -180,10 +249,11 @@
   }
 
   p {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.75;
     font-weight: 300;
     color: #29292C;
+    font-family: 'Poppins', sans-serif;
   }
 
   ul {
@@ -233,10 +303,12 @@
 
   .navbar-brand {
     text-align: center;
-    position: relative;
+    position: absolute;
     display: block;
     height: auto;
     float: none;
+    left: 0;
+    top: -170px;
   }
 
   .navbar-sherpa .navbar-nav > li > a {
@@ -306,12 +378,24 @@
 
     .button-footer {
       flex: 1;
-      flex-direction: row;
-      flex-wrap: nowrap; 
+      flex-direction: column;
+      flex-wrap: wrap; 
 
       div {
         display: flex;
         justify-content: center;
+
+        &.border-left {
+          display: block;
+    
+
+          img {
+            width: auto;
+            height: auto;
+            margin: 1em 0;
+            height: 100px;
+          }
+        }
 
         a:first-child {
           margin-right: 10px;
@@ -326,6 +410,10 @@
     .phone-footer {
       margin-top: 1.25em;
       margin-bottom: 2em;
+
+      a {
+        display: none;
+      }
     }
 
     .hours-footer {
@@ -419,13 +507,27 @@
       margin-left: 0 !important;
     }
 
-    padding: .25em 0;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    
+    .navbar-sherpa {
+      &::before {
+        content: '';
+        border-top: 1px solid #f2f2f2;
+        display: block;
+        position: absolute;
+        top: -1em;
+        width: 100%;
+      }
+
+      margin-bottom: 1em;
+    }
   }
 
   .navbar-sherpa {
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     min-height: 50px;
     margin-bottom: 0;
@@ -525,7 +627,7 @@
 
       img {
         margin: 0 auto;
-        height: 102px;
+        height: 142px;
       }
     }
 
@@ -540,6 +642,7 @@
       transform: none;
       top: 0;
       left: auto;
+      margin: 0 auto;
 
       img {
         width: auto;
@@ -556,6 +659,19 @@
 @media screen and (max-width: $screen-sm-max) {
   #footer {
     padding: 30px 20px 0;
+
+    .logo-footer {
+      background: transparent;
+
+      &::before {
+        display: none;
+      }
+
+
+      p {
+        display: none;
+      }
+    }
 
     h2 {
       font-size: 19px;

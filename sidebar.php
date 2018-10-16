@@ -13,25 +13,31 @@
     <?php endif; ?>
     <?php if (!is_page('contact-us')) : ?>
         <section>
-            <div class="flex-col bg">
-                    <img src="<?= IMGURL ?>sidebar-top.jpg" alt="" />
-                    <section class="home-module-1">
-                            <ul class="icon-list">
-                                <?php get_template_part('template-parts/icon', 'row'); ?>
-                            </ul>
-                    </section>
+            <div class="card">
+                <div class="card-title">Book your next</div>
+                <div class="card-text">
+                    <p><span class="big">Birthday</span>
+                        <span class="small">Celebration</span></p>
+
+                    <a class="arrow" href="<?= SITEURL ?>/contact-us/">Birthday Booking</a>
+                </div>
+                <div class="card-img">
+
+                </div>
             </div>
+
+            <?php echo non_responsive_bs_menu('secondary-menu', 'left', SITENAME); ?>
         </section>
 
-        <section>
-            <div class="box">
-                <h2>We’re Here For You When You<br />
-                    Need Us Most
-                </h2>
-
-                <a href="<?= SITEURL ?>/contact-us/">
-                    <button class="btn btn-primary">CONTACT US TODAY</button>
-                </a>
+        <section class="home-module-4">
+            <div class="top">
+                <img src="<?=IMGURL?>play.png" alt="El Paso's Place to Play" class="play-logo" />
+            </div>
+            <div class="bottom">
+                <h2>Visit us today for a safe, wholesome day of fun for the entire family!</h2>
+                <a href="<?= SITEURL ?>/contact-us/"><button class="btn btn-primary">
+                        Contact Us Today
+                    </button></a>
             </div>
         </section>
 

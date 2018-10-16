@@ -68,16 +68,34 @@
                                     'description'
                                 ); ?>"/></a></div>
 
-                    <div class="col-md-4 flex-col">
+                    <div class="col-md-4 flex-col hidden-xs">
                         <div><span class="title">BOOK YOUR EVENT</span>
                         <p><strong>PH.</strong> <?php printPhone(); ?><br />
                         3851 Constitution Dr. El Paso, TX 79922</p></div>
                     </div>
 
-                    <div class="col-md-4 flex-col">
+                    <div class="col-md-4 flex-col hidden-xs">
                         <div class="border-left"><span class="title">OPERATION HOURS</span>
                         <p>Sunday - Thursday: <strong>12pm – 9pm</strong><br />
                         Friday - Saturday:  <strong>10am – 11pm</strong></p></div>
                     </div>
             </div>
         </div>
+    <?php if (!is_front_page()) : ?>
+    <div class="sub-header">
+        <div class="container">
+            <div class="row ">
+                <div class="v-align">
+                    <div class="col-xs-12 navbar-button text-center">
+                        <?php echo responsive_bs_menu('primary', 'left', SITENAME); ?>
+                        <ul class="nav navbar-nav navbar-right visible-xs">
+                            <li class="menu-item directions"><a
+                                        href="<?php echo get_site_url() ?>/contact-us"></a></a></li>
+                            <li class="menu-item contact"><a href="tel:<?php if (!empty(get_option('sherpa_telephone_number'))) : echo get_option('sherpa_telephone_number'); endif; ?>"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <?php endif; ?>

@@ -5,6 +5,10 @@
 }
 
 @media screen and (max-width: $grid-float-breakpoint-max) {
+  .landing-bg {
+    background: #000;
+  }
+
   .flex-row {
     flex-direction: column;
   }

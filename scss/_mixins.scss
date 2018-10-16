@@ -62,12 +62,14 @@ $transparency: 0.76;
 }
 
 @mixin gradient-line() {
-  background : -webkit-linear-gradient(0deg, rgba(255, 250, 0, 1) 0%, rgba(255, 250, 0, 1) 2.67%, rgba(255, 212, 23, 1) 28.14%, rgba(255, 0, 0, 1) 100%);
-  background : -webkit-gradient(linear,0% 221070.09% ,0.05% 221070.09% ,color-stop(0,rgba(255, 250, 0, 1) ),color-stop(0.0267,rgba(255, 250, 0, 1) ),color-stop(0.2814,rgba(255, 212, 23, 1) ),color-stop(1,rgba(255, 0, 0, 1) ));
-  background : -o-linear-gradient(0deg, rgba(255, 250, 0, 1) 0%, rgba(255, 250, 0, 1) 2.67%, rgba(255, 212, 23, 1) 28.14%, rgba(255, 0, 0, 1) 100%);
-  background : -ms-linear-gradient(0deg, rgba(255, 250, 0, 1) 0%, rgba(255, 250, 0, 1) 2.67%, rgba(255, 212, 23, 1) 28.14%, rgba(255, 0, 0, 1) 100%);
-  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFA00', endColorstr='#FF0000' ,GradientType=0)";
-  background : linear-gradient(90deg, rgba(255, 250, 0, 1) 0%, rgba(255, 250, 0, 1) 2.67%, rgba(255, 212, 23, 1) 28.14%, rgba(255, 0, 0, 1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFA00',endColorstr='#FF0000' , GradientType=1);
+  background: rgb(255,212,23);
+  background: linear-gradient(90deg, rgba(255,212,23,1) 0%, rgba(255,0,0,1) 100%);
+}
 
+
+@function _trim($string) {
+  @return str-slice(
+                  #{$string},
+                  2, -1
+  );
 }

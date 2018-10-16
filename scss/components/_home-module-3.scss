@@ -18,5 +18,30 @@
     color: #1A1A1A;
   }
 
+  @media screen and (max-width: $screen-sm-max) {
+    padding-top: 0;
+    text-align: center;
+    padding-bottom: 0;
+
+    h4 {
+      font-size: 18px;
+      line-height: 1.5;
+    }
+
+    p {
+      font-size: 14px;
+    }
+
+    p.blurb {
+      font-size: 21px;
+      margin-bottom: 1em;
+    }
+
+    .row {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  }
+
   
 }

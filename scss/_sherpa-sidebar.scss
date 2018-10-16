@@ -123,6 +123,61 @@ body #main .container article #sidebar {
     }
   }
 
+  .card {
+    margin: 0 0 10px !important;
+  }
+
+
+  .navbar-sherpa .nav > li > a {
+    color: #606060 !important;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 2em;
+  }
+
+  .navbar-sherpa {
+    padding: 0 0;
+
+    ul {
+      padding: 0 0;
+      display: flex;
+      flex-wrap: wrap;
+      color: #606060;
+      font-weight: 500;
+      margin: 0 0;
+
+      li {
+        width: 50%;
+        text-align: center;
+        margin: 0 0;
+        padding-left: 0;
+        background: #F2F2F2;
+        font-weight: 600;
+
+        &::before {
+          display: none;
+        }
+
+
+        &:nth-child(1), &:nth-child(2) {
+          border-bottom: 1px solid #e0dfdf;
+        }
+
+        &:nth-child(1), &:nth-child(3) {
+          border-right: 1px solid #e0dfdf;
+        }
+
+        a {
+          color: #606060;
+        }
+
+        a::after {
+          display: none;
+        }
+      }
+    }
+  }
+
    .icon {
         background: $sherpa-brand-primary;
         width: 66px;
@@ -274,7 +329,6 @@ body #main .container article #sidebar {
   }
 
   p {
-    color: #515151;
     font-size: 22px;
     text-align: center;
     margin-bottom: 2em;

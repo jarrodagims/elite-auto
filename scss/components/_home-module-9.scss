@@ -19,4 +19,19 @@
   .full-size {
     width: 100%;
   }
+
+  @media screen and (max-width: $screen-sm-max) {
+    padding-top: 0;
+    margin: 1em 0;
+    text-align: center;
+    background: none;
+
+    &::after {
+      display: none;
+    }
+
+    h3 {
+      font-size: 18px;
+    }
+  }
 }

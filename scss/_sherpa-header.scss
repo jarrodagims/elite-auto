@@ -9,7 +9,7 @@
     padding-bottom: 8px;
     display: flex !important;
     justify-content: center;
-
+    
     .navbar-brand img {
       height: 55px;
       width: auto;
@@ -20,8 +20,9 @@
   .navbar-brand {
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 50px;
     transform: translateX(-50%) translateY(-50%);
+    
   }
 }
 
@@ -136,7 +137,7 @@
   }
 
   @media screen and (max-width: $screen-sm-max) {
-    margin-top: 77px;
+    margin-top: 80px;
   }
 
   @media screen and (max-width: $grid-float-breakpoint-max) {
@@ -167,11 +168,11 @@
 
 .page-template-default, .blog, .error404, .post-template-default {
 
-  @media screen and (min-width: $screen-md-min) {
-      .sub-header {
-        background: #F7F7F7;
-      }
-  }
+//   @media screen and (min-width: $screen-md-min) {
+//       .sub-header {
+//         background: #F7F7F7;
+//       }
+//   }
 
 
 

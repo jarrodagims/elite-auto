@@ -1,0 +1,22 @@
+.home-module-10 {
+  color: $white;
+  text-align: center;
+  padding: 4em 0;
+
+  h2 {
+    color: $white;
+  }
+  @include gradient-btn(1);
+
+  @media screen and (max-width: $screen-sm-max) {
+    padding: 2em 0 3em;
+
+    h2 {
+      font-size: 18px;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+  }
+}

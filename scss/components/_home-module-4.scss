@@ -1,19 +1,120 @@
+@mixin sidebar-module() {
+  .top {
+    height: 364px;
+
+    img.play-bg {
+      display: none;
+    }
+    background: url('../img/bg-banner-top-sm.jpg') 0 0 no-repeat;
+    background-size: cover;
+    text-align: center;
+
+    .play-logo {
+      position: relative;
+      max-width: 100%;
+      transform: none;
+      left: auto;
+      top: auto;
+      height: 113px;
+      margin: 0 auto;
+    }
+  }
+
+  .bottom {
+    height: auto;
+    background: rgb(148,55,218);
+    background: linear-gradient(90deg, rgba(148,55,218,1) 0%, rgba(36,13,128,1) 100%);
+    display: block;
+
+    &::after {
+      content: '';
+      @include gradient-line();
+      width: 100%;
+      display: block;
+      height: 4px;
+    }
+
+    img {
+      display: none;
+    }
+
+    h2 {
+      position: relative;
+      transform: none;
+      top: auto;
+      left: auto;
+      font-size: 14px;
+      line-height: 1.5;
+      padding: 2em;
+      color: $white;
+      margin-bottom: 0;
+    }
+
+    .btn {
+      margin-bottom: 2em;
+      background: rgb(255,212,23);
+      background: linear-gradient(90deg, rgba(255,212,23,0.75) 0%, rgba(255,0,0,1) 100%);
+    }
+  }
+}
 .home-module-4 {
-  background: url('../img/bg-banner.jpg') 0 0 no-repeat;
+ 
   background-size: cover;
   text-align: center;
 
   .top {
-    height: 810px;
+    position: relative;
+    img.play-bg {
+      width: 100%;
+      z-index: -1;
+    }
+
+    .play-logo {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translateY(-50%) translateX(-50%);
+      width: auto;
+      z-index: 99;
+    }
+//     background: url('../img/bg-banner-top.jpg') center 0 no-repeat;
+//     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .bottom {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    position: relative;
+
+    img {
+      width: 100%; 
+    }
+
+    h2 {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translateY(-50%) translateX(-50%);
+    }
   }
   
   h2 {
     color: $white;
     margin: 0 0;
     font-family: 'Poppins', sans-serif;
-    padding: 70px 0;
+    font-size: 30px;
   }
+
+  @media screen and (max-width: $screen-sm-max) {
+    @include sidebar-module();
+  }
+}
+
+body #main .container article #sidebar{
+
+    @include sidebar-module();
 }
