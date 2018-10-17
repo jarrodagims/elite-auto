@@ -1,8 +1,9 @@
 .jumbotron {
-    height: 720px;
+    height: 608px;
     display: flex;
     justify-content: center;
     align-items: center; 
+    padding: 0 0;
 
     h1 {
         font-size: 65px;
@@ -15,9 +16,26 @@
 
     h2 {
         font-size: 31px;
+        letter-spacing: -1px;
+        margin-top: 0;
         color: $white;
         font-family: 'Poppins', sans-serif;
         @include textshadow();
+        margin-bottom: 40px;
+    }
+
+    a {
+        display: block;
+        margin: 0 auto;
+    }
+
+    button {
+        width: 255px;
+        font-size: 17px;
+        display: flex;
+        padding: 1.5em 2em;
+        margin: 0 auto;
+            
     }
 
     @media screen and (max-width: $screen-sm-max) {

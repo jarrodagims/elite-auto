@@ -142,7 +142,7 @@
 .top-header {
   background: $sherpa-dark-color;
   display: flex;
-  padding: 22px 0;
+  padding: 34px 0;
  
   a.arrow {
     margin-left: auto;
@@ -152,14 +152,21 @@
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     display: flex;
+    font-size: 21px;
+    position: relative;
+    padding-right: 30px;
 
     &::after {
       @include svg-arrow-2($white);
       width: 20px;
       height: 20px;
+      right: 0;
+      top: 50%;
+      transform: translateY(-50%);
       display: block;
       content: '';
       margin-left: 10px;
+      position: absolute;
     } 
   }
 }
@@ -189,7 +196,7 @@
       display: inline-block;
 
       a {
-        margin: 0 10px; 
+        margin: 0 20px; 
       }
     }
 
@@ -729,13 +736,13 @@
       margin: 0 0;
     }
 
-    margin-left: 1em;
+//     margin-left: 1em;
 
 
 
-    &:first-child {
-      margin-left: 0;
-    }
+//     &:first-child {
+//       margin-left: 0;
+//     }
 
     &:first-child {
       a::before {
@@ -781,7 +788,7 @@
 
      li.menu-item {
        margin-left: 0;
-       margin-right: 15px;
+       margin-right: 35px;
      }
 
      li.menu-item.birthday-booking {
@@ -802,6 +809,7 @@
 
     li.menu-item.directions {
       margin-left: 0;
+      margin-right: 0;
     }
   }
 }
@@ -842,6 +850,7 @@
   .navbar-sherpa li.menu-item {
     font-size: 11px;
     letter-spacing: 1px;
+    font-weight: 300;
 
     &.logo-menu {
       text-indent: -9999px;
@@ -878,7 +887,6 @@
 
     &.directions a {
       @include svg-map($sherpa-svg-color);
-      margin-left: 15px;
 
       &:hover {
         @include svg-map($sherpa-svg-color-hover);

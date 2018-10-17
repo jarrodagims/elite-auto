@@ -18,12 +18,16 @@
     }
   }
 
+  p {
+    margin-bottom: 0;
+  }
+
   .flex-row {
     justify-content: space-between;
   }
 
   .navbar-brand img {
-    height: 221px;
+    height: 231px;
   }
 
   h2 {
@@ -34,9 +38,7 @@
 
   .btn {
     letter-spacing: 1px;
-    margin-bottom: 10px;
-    padding: 2em 2em;
-    width: 233px;
+    padding: 1.5em 2.5em;
     font-size: 11px; 
   } 
 
@@ -93,7 +95,13 @@
     width: 100%;
     align-items: center;
     position: relative;
+    padding: 1em 0;
     padding-left: 270px;
+
+    p {
+      margin-bottom: 0;
+    }
+ 
 
     &::before {
       content: '';
@@ -307,8 +315,8 @@
     display: block;
     height: auto;
     float: none;
-    left: 0;
-    top: -170px;
+    left: -30px;
+    top: -160px;
   }
 
   .navbar-sherpa .navbar-nav > li > a {
@@ -368,6 +376,7 @@
       margin: 0 0 1em;
       display: block;
       font-size: 17px;
+      letter-spacing: 1px;
     }
 
   }
@@ -503,8 +512,52 @@
   background: transparent;
 
   @media screen and (min-width: $screen-md-min) {
+
+     .navbar-nav {
+     display: flex;
+     flex-direction: row;
+     align-items: flex-start;
+     justify-content: space-between;
+     width: 100%;
+
+     li.menu-item {
+       margin-left: 0;
+       margin-right: auto;
+     }
+
+     li.menu-item.birthday-booking {
+       margin-left: auto;
+       margin-right: 0;
+       font-weight: 700;
+
+       a {
+         text-transform: uppercase;
+         padding-right: 1.5em;
+
+         &::after {
+          @include svg-arrow-2($white);
+          width: 20px;
+          height: 20px;
+          right: 0;
+          top: 50%;
+          transform: translateY(-50%);
+          display: block;
+          content: '';
+          margin-left: 10px;
+          position: absolute;
+        } 
+
+       }
+     }
+   }
+
+
     li.menu-item:first-child {
       margin-left: 0 !important;
+    }
+
+    li.menu-item {
+      margin-right: auto;
     }
 
     margin-top: 1em;
@@ -538,6 +591,7 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+    width: 100%;
   }
 
   .navbar-sherpa .navbar-nav > li > a {
@@ -545,6 +599,10 @@
     font-family: 'Poppins', sans-serif;
     text-transform: none;
     font-size: 17px;
+
+    &:hover {
+      color: $sherpa-secondary-color;
+    }
   }
 
   @media screen and (max-width: $screen-sm-max) {

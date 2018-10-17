@@ -5,7 +5,13 @@
 
   h2 {
     color: $white;
+    margin-top: 0;
   }
+
+  p {
+    font-size: 21px;
+  }
+  
   @include gradient-btn(1);
 
   @media screen and (max-width: $screen-sm-max) {

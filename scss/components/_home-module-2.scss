@@ -6,7 +6,27 @@
     font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: space-between;
-    padding: 16px 0;
+    padding: 20px 0;
+
+    li.menu-item {
+        a {
+          font-size: 600 !important;
+        }
+        margin: 0 auto;
+
+        &:first-child {
+          margin-left: 0;
+        }
+
+        &:last-child {
+          margin-left: auto;
+          margin-right: 0;
+        }
+    }
+  }
+
+  .menu-secondary-menu-container {
+    width: 100%;
   }
 
   &::after {
@@ -17,11 +37,18 @@
     height: 4px;
   }
 
+//   .navbar-nav li.menu-item {
+//     margin-right: 0;
+//   }
+
   .navbar-sherpa .nav > li > a {
     color: #606060;
     padding-right: 30px;
     font-size: 18px;
+    text-transform: uppercase;
     transition: color 300ms ease-in-out;
+    font-weight: 600;
+
 
     &:focus {
       color: $sherpa-secondary-color;

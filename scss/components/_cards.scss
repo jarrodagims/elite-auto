@@ -123,13 +123,13 @@
     text-align: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    padding: 32px;
+    padding: 24px;
     font-size: 28px;
     margin: 0 0;
   } 
 
   .card-text {
-    padding: 3em 2em 50px;
+    padding: 4em 2em 50px;
     flex: 1;
     background: #FF0000;
     color: $white;
@@ -139,8 +139,9 @@
       font-weight: 700;
       display: block;
       text-transform: uppercase;
-      font-size: 83px;
+      font-size: 76px;
       line-height: 1;
+      letter-spacing: -1px;
     }
 
     .small {
@@ -149,10 +150,12 @@
       text-transform: uppercase;
       display: block;
       line-height: 1;
+      margin-top: 5px;
+      letter-spacing: 7px;
     }
 
     a {
-      font-size: 20px;
+      font-size: 21px;
       color: $white;
       text-transform: uppercase;
       font-family: 'Poppins', sans-serif;
@@ -165,8 +168,8 @@
       &::after {
         content: '';
         @include svg-arrow-3($white);
-        width: 20px;
-        height: 20px;
+        width: 30px;
+        height: 30px;
         display: block;
         margin-left: 10px;
       }
@@ -216,7 +219,7 @@
   }
 
   .card-img {
-    height: 180px;
+    height: 220px;
     background: url('../img/bg-sidebar-small.jpg') 0 0 no-repeat;
     background-size: cover;
     display: block;

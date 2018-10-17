@@ -3,8 +3,37 @@
   background-size: cover;
   text-align: center;
 
+  .jumbotron {
+    margin-bottom: 0;
+  }
+
   .jumbo-content {
     color: $white;
+
+    h1 {
+      margin-top: 0;
+      letter-spacing: -2px;
+      line-height: 1.25;
+
+      span.dash {
+        text-indent: -9999px;
+        display: inline-block;
+        position: relative;
+        width: 28px;
+
+        &::before {
+          content: '';
+          width: 12px;
+          height: 8px;
+          background: $sherpa-brand-primary;
+          display: block;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translateY(-50%) translateX(-50%);
+        }
+      } 
+    }
   }
 
   @media screen and (max-width: $screen-sm-max) {

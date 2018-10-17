@@ -1,7 +1,7 @@
 .home-module-9 {
   background: #F7F7F7;
   margin-top: 100px;
-  padding: 100px 0 0;
+  padding: 100px 0 100px;
   position: relative;
   background-size: 100% auto;
   &::after {
@@ -18,6 +18,26 @@
 
   .full-size {
     width: 100%;
+  }
+
+  h2 {
+    font-size: 34px;
+    margin-bottom: 2.25em;
+  }
+ 
+  h3 {
+    font-size: 31px;
+    margin-bottom: 1em;
+  }
+
+  p {
+    font-size: 21px;
+    margin-bottom: 2em;
+    padding-right: 1em;
+  }
+
+  .extra-padding {
+    padding-left: 2em;
   }
 
   @media screen and (max-width: $screen-sm-max) {

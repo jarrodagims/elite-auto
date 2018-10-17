@@ -33,17 +33,17 @@
 					c0,5.4,4.4,9.8,9.8,9.8s9.8-4.4,9.8-9.8S15.3,0,9.8,0C4.4,0,0,4.4,0,9.8"/>
 			</defs>
 			<clipPath id="SVGID_2_">
-				<use xlink:href="#SVGID_1_"  overflow="visible"/>
+				<use xlink:href="%23SVGID_1_"  overflow="visible"/>
 			</clipPath>
-			<g clip-path="url(#SVGID_2_)">
+			<g clip-path="url(%23SVGID_2_)">
 				
 					<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="-1503.2118" y1="-7151.9165" x2="-1502.2118" y2="-7151.9165" gradientTransform="matrix(19.69 0 0 19.69 29593.5 140831.0781)">
-					<stop  offset="0" style="stop-color:#952BDC"/>
-					<stop  offset="5.000000e-02" style="stop-color:#952BDC"/>
-					<stop  offset="0.54" style="stop-color:#8B17FF"/>
-					<stop  offset="1" style="stop-color:#4100D7"/>
+					<stop  offset="0" style="stop-color:%23952BDC"/>
+					<stop  offset="5.000000e-02" style="stop-color:%23952BDC"/>
+					<stop  offset="0.54" style="stop-color:%238B17FF"/>
+					<stop  offset="1" style="stop-color:%234100D7"/>
 				</linearGradient>
-				<rect fill="url(#SVGID_3_)" width="19.7" height="19.7"/>
+				<rect fill="url(%23SVGID_3_)" width="19.7" height="19.7"/>
 			</g>
 		</g>
 		<g>
@@ -51,17 +51,17 @@
 				<polygon id="SVGID_4_" points="7.6,5.1 12.4,9.8 7.6,14.6 8,15 13.2,9.8 8,4.7 				"/>
 			</defs>
 			<clipPath id="SVGID_5_">
-				<use xlink:href="#SVGID_4_"  overflow="visible"/>
+				<use xlink:href="%23SVGID_4_"  overflow="visible"/>
 			</clipPath>
-			<g clip-path="url(#SVGID_5_)">
+			<g clip-path="url(%23SVGID_5_)">
 				
 					<linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="-1472.3644" y1="-7122.8066" x2="-1471.3644" y2="-7122.8066" gradientTransform="matrix(5.56 0 0 5.56 8194.2705 39612.6484)">
-					<stop  offset="0" style="stop-color:#952BDC"/>
-					<stop  offset="5.000000e-02" style="stop-color:#952BDC"/>
-					<stop  offset="0.54" style="stop-color:#8B17FF"/>
-					<stop  offset="1" style="stop-color:#4100D7"/>
+					<stop  offset="0" style="stop-color:%23952BDC"/>
+					<stop  offset="5.000000e-02" style="stop-color:%23952BDC"/>
+					<stop  offset="0.54" style="stop-color:%238B17FF"/>
+					<stop  offset="1" style="stop-color:%234100D7"/>
 				</linearGradient>
-				<rect x="7.6" y="4.7" fill="url(#SVGID_6_)" width="5.6" height="10.3"/>
+				<rect x="7.6" y="4.7" fill="url(%23SVGID_6_)" width="5.6" height="10.3"/>
 			</g>
 		</g>
 	</g>
@@ -72,13 +72,12 @@
 }
 
 @mixin svg-arrow-2($color) {
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 27.39 27.39"><defs><clipPath id="64fd24c5-7abb-41d9-a585-6be95a1c0acb"><path d="M1.16,13.69A12.53,12.53,0,1,1,13.69,26.22,12.54,12.54,0,0,1,1.16,13.69m-1,0A13.48,13.48,0,1,0,13.69.21,13.5,13.5,0,0,0,.21,13.69" fill="none"/></clipPath><linearGradient id="83527de6-cc05-4b2a-9206-dd564f8a6d78" x1="-1518.23" y1="8412.13" x2="-1517.23" y2="8412.13" gradientTransform="matrix(26.97, 0, 0, -26.97, 40942.81, 226866.63)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#952bdc"/><stop offset="0.05" stop-color="#952bdc"/><stop offset="0.54" stop-color="#8b17ff"/><stop offset="1" stop-color="#4100d7"/></linearGradient><clipPath id="2a412e56-5fdf-4cd7-86ab-94cf3d69ae67"><path d="M1.37,13.69A12.32,12.32,0,1,1,13.69,26,12.33,12.33,0,0,1,1.37,13.69m-.42,0A12.74,12.74,0,1,0,13.69,1,12.75,12.75,0,0,0,1,13.69m-.53,0A13.27,13.27,0,1,1,13.69,27,13.29,13.29,0,0,1,.42,13.69m-.42,0A13.69,13.69,0,1,0,13.69,0,13.71,13.71,0,0,0,0,13.69" fill="none"/></clipPath><linearGradient id="3609462c-658d-4d4b-ac6d-c0ebb48c9417" x1="-1518.23" y1="8412.13" x2="-1517.23" y2="8412.13" gradientTransform="matrix(27.39, 0, 0, -27.39, 41579.67, 230396.48)" xlink:href="#83527de6-cc05-4b2a-9206-dd564f8a6d78"/><clipPath id="30418023-c421-40b8-b643-935e76b551c7"><polygon points="10.63 7.19 17.13 13.69 10.63 20.2 11.18 20.76 18.24 13.69 11.18 6.63 10.63 7.19" fill="none"/></clipPath><linearGradient id="76415be5-de70-41a2-bd69-253796fc24fe" x1="-1518.23" y1="8412.13" x2="-1517.23" y2="8412.13" gradientTransform="matrix(7.62, 0, 0, -7.62, 11574.58, 64086.71)" xlink:href="#83527de6-cc05-4b2a-9206-dd564f8a6d78"/><clipPath id="14538587-7081-4d70-abea-f31835a7c4b6"><path d="M10.92,20.2l6.51-6.51-6.51-6.5.26-.26,6.77,6.76-6.77,6.77Zm-.59-13,6.51,6.5L10.33,20.2l.85.85,7.36-7.36L11.18,6.33Z" fill="none"/></clipPath><linearGradient id="84410435-51f2-48e3-89f8-f840d09164c5" x1="-1518.23" y1="8412.13" x2="-1517.23" y2="8412.13" gradientTransform="matrix(8.21, 0, 0, -8.21, 12475.52, 69080.27)" xlink:href="#83527de6-cc05-4b2a-9206-dd564f8a6d78"/></defs><title>Asset 1</title><g id="a3ae09ac-47c1-4ec0-92b4-1370e2e58687" data-name="Layer 2"><g id="5887034a-6bbe-4317-a634-679fbe083278" data-name="Layer 1"><g clip-path="url(#64fd24c5-7abb-41d9-a585-6be95a1c0acb)"><rect x="0.21" y="0.21" width="26.97" height="26.97" fill="url(#83527de6-cc05-4b2a-9206-dd564f8a6d78)"/></g><g clip-path="url(#2a412e56-5fdf-4cd7-86ab-94cf3d69ae67)"><rect width="27.39" height="27.39" fill="url(#3609462c-658d-4d4b-ac6d-c0ebb48c9417)"/></g><g clip-path="url(#30418023-c421-40b8-b643-935e76b551c7)"><rect x="10.63" y="6.63" width="7.62" height="14.12" fill="url(#76415be5-de70-41a2-bd69-253796fc24fe)"/></g><g clip-path="url(#14538587-7081-4d70-abea-f31835a7c4b6)"><rect x="10.33" y="6.33" width="8.21" height="14.72" fill="url(#84410435-51f2-48e3-89f8-f840d09164c5)"/></g></g></g></svg>
-');
+  background-image: url('data:image/svg+xml;utf8,<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"\a viewBox="0 0 19.7 19.7" enable-background="new 0 0 19.7 19.7" xml:space="preserve">\a<g id="_x39_1d912bf-4d4d-47ec-a2ce-658329a2109f">\a <g id="_x31_5ee2235-eb4f-4f31-bec1-19d239ce09ca">\a <g>\a <defs>\a <path id="SVGID_1_" d="M0.7,9.8c0-5.1,4.1-9.1,9.2-9.1S19,4.8,19,9.9c0,5-4.1,9.1-9.1,9.1C4.8,19,0.7,14.9,0.7,9.8 M0,9.8\a c0,5.4,4.4,9.8,9.8,9.8s9.8-4.4,9.8-9.8S15.3,0,9.8,0C4.4,0,0,4.4,0,9.8"/>\a </defs>\a <clipPath id="SVGID_2_">\a <use xlink:href="%23SVGID_1_" overflow="visible"/>\a </clipPath>\a <g clip-path="url(%23SVGID_2_)">\a \a <linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="-1503.2118" y1="-7151.9165" x2="-1502.2118" y2="-7151.9165" gradientTransform="matrix(19.69 0 0 19.69 29593.5 140831.0781)">\a <stop offset="0" style="stop-color:%23952BDC"/>\a <stop offset="5.000000e-02" style="stop-color:%23952BDC"/>\a <stop offset="0.54" style="stop-color:%238B17FF"/>\a <stop offset="1" style="stop-color:%234100D7"/>\a </linearGradient>\a <rect fill="url(%23SVGID_3_)" width="19.7" height="19.7"/>\a </g>\a </g>\a <g>\a <defs>\a <polygon id="SVGID_4_" points="7.6,5.1 12.4,9.8 7.6,14.6 8,15 13.2,9.8 8,4.7 "/>\a </defs>\a <clipPath id="SVGID_5_">\a <use xlink:href="%23SVGID_4_" overflow="visible"/>\a </clipPath>\a <g clip-path="url(%23SVGID_5_)">\a \a <linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="-1472.3644" y1="-7122.8066" x2="-1471.3644" y2="-7122.8066" gradientTransform="matrix(5.56 0 0 5.56 8194.2705 39612.6484)">\a <stop offset="0" style="stop-color:%23952BDC"/>\a <stop offset="5.000000e-02" style="stop-color:%23952BDC"/>\a <stop offset="0.54" style="stop-color:%238B17FF"/>\a <stop offset="1" style="stop-color:%234100D7"/>\a </linearGradient>\a <rect x="7.6" y="4.7" fill="url(%23SVGID_6_)" width="5.6" height="10.3"/>\a </g>\a </g>\a </g>\a</g>\a</svg>\a');
   background-repeat: no-repeat;
 }
 
 @mixin svg-arrow-3($color) {
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27.39 27.39"><title>Asset 2</title><g id="eb666741-a4d3-4187-8c33-009fdae44f8a" data-name="Layer 2"><g id="434af5fc-6a91-44c1-8fd4-9e5bce2eed7e" data-name="Layer 1"><path d="M13.69,27.18A13.48,13.48,0,1,1,27.18,13.69,13.5,13.5,0,0,1,13.69,27.18m0-26A12.53,12.53,0,1,0,26.22,13.69,12.54,12.54,0,0,0,13.69,1.16" fill="#fff"/><path d="M13.69,27.39A13.69,13.69,0,1,1,27.39,13.69,13.71,13.71,0,0,1,13.69,27.39m0-27A13.27,13.27,0,1,0,27,13.69,13.29,13.29,0,0,0,13.69.42m0,26A12.74,12.74,0,1,1,26.43,13.69,12.75,12.75,0,0,1,13.69,26.43m0-25.06A12.32,12.32,0,1,0,26,13.69,12.33,12.33,0,0,0,13.69,1.37" fill="#fff"/><polygon points="18.24 13.69 11.18 6.63 10.62 7.19 17.13 13.69 10.62 20.2 11.18 20.76 18.24 13.69" fill="#fff"/><path d="M11.18,21.05l-.85-.85,6.51-6.51L10.33,7.19l.85-.85,7.36,7.36Zm-.26-.85.26.26,6.77-6.77L11.18,6.93l-.26.26,6.51,6.51Z" fill="#fff"/></g></g></svg>
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27.39 27.39"><title>Asset 2</title><g id="eb666741-a4d3-4187-8c33-009fdae44f8a" data-name="Layer 2"><g id="434af5fc-6a91-44c1-8fd4-9e5bce2eed7e" data-name="Layer 1"><path d="M13.69,27.18A13.48,13.48,0,1,1,27.18,13.69,13.5,13.5,0,0,1,13.69,27.18m0-26A12.53,12.53,0,1,0,26.22,13.69,12.54,12.54,0,0,0,13.69,1.16" fill="%23fff"/><path d="M13.69,27.39A13.69,13.69,0,1,1,27.39,13.69,13.71,13.71,0,0,1,13.69,27.39m0-27A13.27,13.27,0,1,0,27,13.69,13.29,13.29,0,0,0,13.69.42m0,26A12.74,12.74,0,1,1,26.43,13.69,12.75,12.75,0,0,1,13.69,26.43m0-25.06A12.32,12.32,0,1,0,26,13.69,12.33,12.33,0,0,0,13.69,1.37" fill="%23fff"/><polygon points="18.24 13.69 11.18 6.63 10.62 7.19 17.13 13.69 10.62 20.2 11.18 20.76 18.24 13.69" fill="%23fff"/><path d="M11.18,21.05l-.85-.85,6.51-6.51L10.33,7.19l.85-.85,7.36,7.36Zm-.26-.85.26.26,6.77-6.77L11.18,6.93l-.26.26,6.51,6.51Z" fill="%23fff"/></g></g></svg>
 ');
   background-repeat: no-repeat;
 }
@@ -105,7 +104,7 @@
 }
 
 @mixin svg-chevron($color) {
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.82 8.67"><title>Asset 1</title><g id="33837ecc-cd43-422d-b830-156da8dec3e1" data-name="Layer 2"><g id="2b94c75f-9e37-4a6c-abc2-c4aead10e343" data-name="Layer 1"><polygon points="8.82 4.33 4.48 0 3.52 0.96 6.89 4.33 3.52 7.7 4.48 8.67 8.82 4.33" fill="#fff"/><polygon points="5.3 4.33 0.96 0 0 0.96 3.37 4.33 0 7.7 0.96 8.67 5.3 4.33" fill="#fff"/></g></g></svg>');
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.82 8.67"><title>Asset 1</title><g id="33837ecc-cd43-422d-b830-156da8dec3e1" data-name="Layer 2"><g id="2b94c75f-9e37-4a6c-abc2-c4aead10e343" data-name="Layer 1"><polygon points="8.82 4.33 4.48 0 3.52 0.96 6.89 4.33 3.52 7.7 4.48 8.67 8.82 4.33" fill="%23fff"/><polygon points="5.3 4.33 0.96 0 0 0.96 3.37 4.33 0 7.7 0.96 8.67 5.3 4.33" fill="%23fff"/></g></g></svg>');
 }
 
 @mixin svg-filled-arrow($color) {

@@ -25,7 +25,7 @@
     <div class="jumbotron">
         <div class="jumbo-content">
             <h1>
-                <span class="brand">Bob  O’s</span> Family Fun Center
+                <span class="brand">Bob<span class="dash">-</span>O’s</span> Family Fun Center
                 <span class="br-md">in El Paso</span>
             </h1>
 
@@ -146,8 +146,8 @@
     <div class="container">
         <div class="row flex-row">
             <div class="col-md-6 flex-col">
-                <h2>Bob-O’s Family Fun Center in El Paso | Non-Stop Fun for the Whole Family!</h2>
-                <p class="blurb">We are located on El Paso’s Westside, off Sunland Park Drive. We first opened our doors on the Fourth of July in 2002.</p>
+                <h2>Bob-O’s Family Fun Center in <span class="br-md">El Paso | Non-Stop Fun for the </span><span class="br-md">Whole Family!</span></h2>
+                <p class="blurb">We are located on El Paso’s Westside, off <span class="br-md">Sunland Park Drive. We first opened our doors on </span><span class="br-md">the Fourth of July in 2002.</span></p>
                 <p>From that day on, we’ve made it our goal to become the Sun City’s premier family fun center. We’ve achieved this distinction by offering a variety of entertaining options that are proven to bring joy to the entire family. From Laser Odyssey, our legendary laser tag arena, to the city’s most exciting go-kart track and our state-of-the-art arcade, El Paso families never run out of things to do when they visit Bob-O’s Family Fun Center!
                 </p>
             </div>
@@ -163,21 +163,21 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 text-center">
-                <h2>Birthday Parties, Group Rates, School Events, Military Discounts, and More!</h2>
+                <h2>Birthday Parties, Group Rates, School Events, <span class="br-md">Military Discounts, and More!</span></h2>
             </div>
         </div>
         <div class="row flex-row">
-            <div class="col-md-6">
-                <h3>Birthday Parties at Bob-O’s
+            <div class="col-md-6 flex-col">
+                <div class="extra-padding"><h3>Birthday Parties at Bob-O’s
                 </h3>
                 <p>Tired of the same old birthday party? Book your next birthday celebration at Bob-O’s Family Fun Center! We have great packages from which to choose. We take care of everything, from the setup to the cleanup, so you’ll be able to relax and have as much fun as possible. Let us take care of all the details!
                 </p>
 
                 <h3>Group Rates</h3>
                 <p>Who said laser tag and go-karts are exclusively for children? At Bob-O's Family Fun Center, we believe people of all ages have a right to have fun! For this reason, we offer corporate rates for professional groups who are looking for great team building exercises. Give us a call today to learn more about our corporate event options!
-                </p>
+                </p></div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 flex-col">
                 <img src="<?=IMGURL?>pinball.jpg" alt="Pinball" class="hidden-sm hidden-xs" />
             </div>
         </div>
@@ -191,12 +191,12 @@
                 <img src="<?=IMGURL?>bg-train.jpg" alt="Train" />
             </div>
             <div class="col-md-6">
-                <h3>School Events</h3>
+                <div class="extra-padding"><h3>School Events</h3>
                 <p>Bob-O's Family Fun Center is a great place to host school events. We offer school field trips at discounted rates as well as End of the Year parties and Project Celebrations. We also offer educational materials upon request.</p>
 
                 <h3>Military Discounts</h3>
 
-                <p>Bob-O's Family Fun Center offers military discounts on attractions and birthday parties. Contact us today to find out more about our discounts. Remember, discounts cannot be combined!</p>
+                <p>Bob-O's Family Fun Center offers military discounts on attractions and birthday parties. Contact us today to find out more about our discounts. Remember, discounts cannot be combined!</p></div>
             </div>
         </div>
     </div>

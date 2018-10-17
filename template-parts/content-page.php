@@ -39,12 +39,6 @@
                 echo the_post_thumbnail(array(1060,209));
             else:
                 ?>
-
-            <div class="banner-text">
-                <p>We Provide at<br />
-                    <strong>Home Care</strong> Focused<br />
-                    on Patient Needs</p>
-            </div>
                 <img class="visible-xs" src="<?= IMGURL ?>banner-bottom.jpg" alt="<?php echo get_bloginfo( 'name' ); ?>" />
             <?php
             endif; ?>

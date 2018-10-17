@@ -70,6 +70,10 @@
       margin-bottom: 0;
       overflow: auto !important;
     }
+
+    h3 {
+      cursor: default !important;
+    }
   }
 
   @media screen and (max-width: $screen-sm-max) {
