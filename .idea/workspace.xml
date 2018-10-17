@@ -5,10 +5,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page-home.php" beforeDir="false" afterPath="$PROJECT_DIR$/page-home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/_icons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_icons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/_sherpa-footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_sherpa-footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/_sherpa-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_sherpa-header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/_sherpa-home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_sherpa-home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/_sherpa-main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_sherpa-main.scss" afterDir="false" />
@@ -658,7 +658,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="726" />
     <option name="y" value="41" />
     <option name="width" value="1775" />
@@ -877,18 +877,17 @@
       <workItem from="1537890709976" duration="77826000" />
       <workItem from="1538513266079" duration="61193000" />
       <workItem from="1539191022878" duration="29366000" />
-      <workItem from="1539644335092" duration="14902000" />
+      <workItem from="1539644335092" duration="15433000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1368442000" />
+    <option name="totallyTimeSpent" value="1368973000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="726" y="41" width="1775" height="1178" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994012" visible="true" weight="0.186382" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994012" visible="true" weight="0.186382" />
       <window_info id="Structure" order="1" sideWeight="0.5005988" side_tool="true" weight="0.23852521" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -902,7 +901,7 @@
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5048909" side_tool="true" weight="0.21962617" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4951091" visible="true" weight="0.21962617" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4951091" visible="true" weight="0.21962617" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
