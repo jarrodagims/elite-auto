@@ -39,6 +39,27 @@
   @media screen and (max-width: $screen-sm-max) {
     background: url('../img/bg-hero-mobile.jpg') 0 0 no-repeat;
     background-size: cover;
+
+    .br-xs {
+      display: block;
+    }
+
+    .jumbo-content {
+
+      h1 {
+        letter-spacing: -1px;
+
+        span.dash {
+          width: 10px;
+          margin-left: 3px;
+
+          &::before {
+            width: 5px;
+            height: 3px;
+          }
+        }
+      }
+    }
     
     &::after {
       content: '';
@@ -52,11 +73,10 @@
       height: 100%;
 
 
-
       .jumbotron {
         height: 100%;
 
-        padding: 90px 15px;
+        padding: 80px 15px 100px;
       }
 
       

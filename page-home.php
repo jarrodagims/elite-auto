@@ -25,8 +25,8 @@
     <div class="jumbotron">
         <div class="jumbo-content">
             <h1>
-                <span class="brand">Bob<span class="dash">-</span>O’s</span> Family Fun Center
-                <span class="br-md">in El Paso</span>
+                <span class="brand">Bob<span class="dash">-</span>O’s</span> Family <span class="br-xs">Fun Center</span>
+                <span class="br-md br-xs">in El Paso</span>
             </h1>
 
             <h2>Non-Stop Fun for the Whole Family!</h2>
@@ -41,6 +41,22 @@
 </div>
 </section>
     </div> <!-- end home-bg -->
+<div class="logo-section visible-xs visible-sm">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="border-left"><span class="title">OPERATION HOURS</span>
+                    <p>Sunday - Thursday: <strong>12pm – 9pm</strong><br />
+                        Friday - Saturday:  <strong>10am – 11pm</strong></p>
+                </div>
+                <div><span class="title">BOOK YOUR EVENT</span>
+                    <p><strong>PH.</strong> <?php printPhone(); ?><br />
+                        3851 Constitution Dr. El Paso, TX 79922</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <section class="home-module-2">
     <div class="container">
         <div class="row">
@@ -54,7 +70,7 @@
     <div class="container">
         <div class="row flex-row">
             <div class="col-md-6 flex-col">
-                <div><h4>What Bob-O's Family Fun Center Has to Offer</h4>
+                <div class="extra-padding"><h4>What Bob-O's Family <span class="br-xs">Fun Center Has to Offer</span></h4>
                 <p class="blurb">
                     At Bob-O’s Family Fun Center, we are completely devoted to providing the highest level of fun and excitement to people of all ages.
                 </p>
@@ -123,7 +139,7 @@
                     <li>Miniature Train (Ages 2 and up, not intended for adults)</li>
                 </ul></div>
 
-                <div class="blox"><h3 class="expander">Bumper Boats (Driver 45”, Passenger 40”)</h3>
+                <div class="blox"><h3 class="expander">Bumper Boats <span class="br-xs">(Driver 45”, Passenger 40”)</span></h3>
                 <ul class="expand">
                     <li>Equipped with water guns and electrical motors</li>
                     <li>Beware of the waterfall, guaranteed to soak you</li>
@@ -146,10 +162,10 @@
     <div class="container">
         <div class="row flex-row">
             <div class="col-md-6 flex-col">
-                <h2>Bob-O’s Family Fun Center in <span class="br-md">El Paso | Non-Stop Fun for the </span><span class="br-md">Whole Family!</span></h2>
+                <div class="extra-padding"><h2>Bob-O’s Family Fun Center in <span class="br-md">El Paso | Non-Stop Fun for the </span><span class="br-md">Whole Family!</span></h2>
                 <p class="blurb">We are located on El Paso’s Westside, off <span class="br-md">Sunland Park Drive. We first opened our doors on </span><span class="br-md">the Fourth of July in 2002.</span></p>
                 <p>From that day on, we’ve made it our goal to become the Sun City’s premier family fun center. We’ve achieved this distinction by offering a variety of entertaining options that are proven to bring joy to the entire family. From Laser Odyssey, our legendary laser tag arena, to the city’s most exciting go-kart track and our state-of-the-art arcade, El Paso families never run out of things to do when they visit Bob-O’s Family Fun Center!
-                </p>
+                </p></div>
             </div>
             <div class="col-md-6 flex-col">
                 <div class="circle"><img src="<?=IMGURL?>carts.jpg"  alt="Go Karts" /></div>
@@ -157,7 +173,10 @@
         </div>
     </div>
 </section>
-<img src="<?=IMGURL ?>bg-party.jpg" alt="Party" class="full-size" />
+    <picture>
+        <source media="(min-width: 992px)" srcset="<?=IMGURL ?>bg-party.jpg" alt="Party" class="full-size">
+        <img src="<?=IMGURL ?>bg-party-small.jpg" alt="Party" class="full-size">
+    </picture>
 
 <section class="home-module-8">
     <div class="container">
@@ -212,8 +231,9 @@
         <div class="row">
             <div class="col-md-12">
                 <h2>The Bob-O’s Team is Ready to Help!</h2>
+                <div class="extra-padding">
                 <p>Whether you’re looking for some spontaneous fun or you’re stressing out because your child’s birthday party is fast approaching and you still haven’t planned anything, Bob-O's Family Fun Center can help! Give us a call today and we’ll take care of everything for you. Nothing should stand in your way when it comes to having fun.
-                </p>
+                </p></div>
             </div>
         </div>
     </div>

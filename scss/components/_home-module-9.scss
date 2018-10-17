@@ -45,6 +45,19 @@
     margin: 1em 0;
     text-align: center;
     background: none;
+    padding-bottom: 0;
+
+    img {
+      margin: 0 auto;
+    }
+
+    h2 {
+      margin-bottom: 2em;
+    }
+
+    p {
+      font-size: 14px;
+    }
 
     &::after {
       display: none;
@@ -54,4 +67,8 @@
       font-size: 18px;
     }
   }
+}
+
+img.visible-sm {
+  margin: 0 auto;
 }

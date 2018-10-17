@@ -125,6 +125,10 @@
       &.no-margin {
         margin: 0 0;
       }
+      
+      &:after {
+        margin-right: 1em;
+      }
 
       &.expanded::after {
         transform: rotate(90deg) translateX(-50%);

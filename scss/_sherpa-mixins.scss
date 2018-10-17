@@ -27,25 +27,27 @@
 
 @mixin expander($background) {
 	cursor: pointer;
-	span {
-		position: relative;
-		padding-right: calc(20px + .25em);
-		&::after {
-			@include svg-filled-arrow(137CCD);
-			content: '';
-			display: block;
-			height: 20px;
-			width: 20px;
-			position: absolute;
-			right: 0;
-			top: 50%;
-			transform: translateY(-50%);
-			transition: transform ease-in-out 300ms;
-			background-repeat: no-repeat;
-		}
+
+	
+// 	span {
+// 		position: relative;
+// 		padding-right: calc(20px + .25em);
+// 		&::after {
+// 			@include svg-filled-arrow(137CCD);
+// 			content: '';
+// 			display: block;
+// 			height: 20px;
+// 			width: 20px;
+// 			position: absolute;
+// 			right: 0;
+// 			top: 50%;
+// 			transform: translateY(-50%);
+// 			transition: transform ease-in-out 300ms;
+// 			background-repeat: no-repeat;
+// 		}
 
 		
-	}
+// 	}
 
 	&:hover span::after {
 			@include svg-filled-arrow(F25F2B);
@@ -62,6 +64,12 @@
 
 	span {
 		display: inline-block;
+	}
+
+	@media screen and (max-width: $screen-sm-max) {
+		.br-xs {
+			display: block;
+		}
 	}
 }
 

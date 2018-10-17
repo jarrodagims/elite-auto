@@ -9,7 +9,7 @@
 
       .card-title {
         font-size: 16px;
-        padding: .5em 0;
+        padding: .75em 0;
       }
 
       .card-img {
@@ -32,15 +32,20 @@
           font-size: .75em;
           font-weight: 700;
           color: $white;
+
+          &:after {
+            width: 18px;
+            height: 18px;
+          }
         }
 
         .big {
-          font-size: 4em;
+          font-size: 3.35em;
           color: $white;
         }
 
         .small {
-          font-size: 2em;
+          font-size: 1.75em;
           letter-spacing: 4px;
           color: $white;
         }

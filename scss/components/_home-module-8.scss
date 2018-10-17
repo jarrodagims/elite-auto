@@ -26,14 +26,25 @@
 
   @media screen and (max-width: $screen-sm-max) {
     text-align: center;
+    background: none;
+    padding-top: 1em;
+    padding-bottom: 0;
+
+    img {
+      margin: 0 auto;
+    }
 
     h2 {
       font-size: 21px;
+      margin-bottom: 1em;
     }
 
     h3 {
       font-size: 18px;
-      margin-bottom: 1em;
+    }
+
+    p {
+      font-size: 14px;
     }
   }
 

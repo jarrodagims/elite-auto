@@ -26,8 +26,13 @@
                 <div class="col-xs-12 flex-col">
                     <div class="footer-blocks"><div class="contact-footer phone-footer">
                         <div><span class="title">Address</span>
-                            <p>3851 Constitution Dr, <span class="br-xs">El Paso, TX 79922</span><br />
+                            <p class="hidden-xs">3851 Constitution Dr, <span class="br-xs">El Paso, TX 79922</span><br />
                                 <strong>PH</strong>.  <?php printPhone(); ?>
+                            </p>
+                            <p class="visible-xs">
+                                <strong>PH</strong>.  <?php printPhone(); ?>
+                                <span class="br-xs">3851 Constitution Dr, El Paso, TX 79922</span>
+
                             </p>
                             <a href="<?= SITEURL ?>/contact-us/">
                                 <button class="btn btn-primary">
@@ -39,8 +44,12 @@
                     <div class="hours-footer">
                         <div>
                             <span class="title">OPERATION HOURS</span>
-                            <p>Sunday - Thursday: <strong>12:00pm - 9:00pm</strong><br />
+                            <p class="hidden-xs">Sunday - Thursday: <strong>12:00pm - 9:00pm</strong><br />
                             Friday - Saturday: <strong>10:00am - 11:00pm</strong>
+                            </p>
+
+                            <p class="visible-xs">Sunday - Thursday: <strong>12pm - 9pm</strong><br />
+                                <span class="br-xs">Friday - Saturday: <strong>10am - 11pm</strong></span>
                             </p>
                         </div>
                     </div>

@@ -376,12 +376,12 @@
       padding: 20px 32px;
       transition: all 0.3s ease-in-out; 
       border: 0;
-      background: $sherpa-brand-primary;
+      background: rgb(255,212,23);
+      background: linear-gradient(90deg, rgba(255,212,23,0.75) 0%, rgba(255,0,0,1) 100%);
       color: $white;
 
       &:hover {
         color: $white;
-        background: darken($sherpa-brand-primary, 10%);
         transform: scale(1.25);
       }
     }

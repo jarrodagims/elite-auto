@@ -35,11 +35,19 @@
         display: flex;
         padding: 1.5em 2em;
         margin: 0 auto;
-            
     }
 
     @media screen and (max-width: $screen-sm-max) {
         height: 100%;
+
+        h2 {
+            margin-bottom: 1.5em;
+        }
+
+        button {
+            width: auto;
+            font-size: 9px;
+        }
 
         h1 {
             font-size: 28px;
@@ -47,6 +55,7 @@
 
         h2 {
             font-size: 16px;
+            letter-spacing: 0px;
         }
     }
 }

@@ -257,7 +257,7 @@
   }
 
   p {
-    font-size: 20px;
+    font-size: 12px;
     line-height: 1.75;
     font-weight: 300;
     color: #29292C;
@@ -384,6 +384,16 @@
   
 
   @media screen and (max-width: $screen-sm-max) {
+
+    .footer-blocks {
+      display: flex;
+      flex-direction: column;
+
+      .hours-footer {
+        order: -1;
+      } 
+
+    }
 
     .button-footer {
       flex: 1;
@@ -533,6 +543,7 @@
        a {
          text-transform: uppercase;
          padding-right: 1.5em;
+         padding-right: 30px;
 
          &::after {
           @include svg-arrow-2($white);
@@ -598,10 +609,16 @@
     color: #606060;
     font-family: 'Poppins', sans-serif;
     text-transform: none;
-    font-size: 17px;
+    font-size: 12px;
 
     &:hover {
       color: $sherpa-secondary-color;
+    }
+  }
+
+  @media screen and (min-width: $screen-lg-min) {
+    .navbar-sherpa .navbar-nav > li > a {
+      font-size: 17px;
     }
   }
 
@@ -748,7 +765,7 @@
     
 
     .social-media-button {
-      color: #918F8D;
+      color: #606060;
 
       &:hover {
         color: $sherpa-brand-primary !important;
@@ -763,3 +780,9 @@
   }
 }
  
+@media screen and (min-width: $screen-lg-min) {
+
+  #footer p {
+    font-size: 20px;
+  }
+}
