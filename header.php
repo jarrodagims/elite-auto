@@ -55,7 +55,7 @@
         <div class="container">
             <div class="row flex-row">
                 <div class="col-xs-12 flex-col">
-                    <a href="<?= SITEURL ?>/contact-us/" class="arrow">Birthday Booking</a>
+                    <a href="https://bobosfun.a.pcsparty.com/bookings/?_ga=2.117101574.1839719463.1539814279-1322542885.1535553428" target="_blank" class="arrow">Birthday Booking</a>
                 </div>
             </div>
         </div>

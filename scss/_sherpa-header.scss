@@ -148,6 +148,8 @@
   @media screen and (max-width: $grid-float-breakpoint-max) {
     padding: 0 0;
 
+    
+
     .sub-header.top-header {
       background: $sherpa-dark-color;
     }
@@ -181,21 +183,25 @@
 
 
 
-  @media screen and (max-width: $screen-sm-max) {
+
+  @media screen and (max-width: $grid-float-breakpoint-max) {
+
+
+    .top-header a.arrow {
+      color: #606060;
+    }
 
       .navbar-sherpa .navbar-toggle {
       
 
         .icon-bar {
-          background: #474747;
+          background: #FFFFFF;
         }
       }
-
-      .navbar-collapse.in,
-      .navbar-collapse {
-        top: 50px;
-      }
   }
+
+
+
 }
 
 #header {

@@ -3,7 +3,7 @@
 
   h3 {
     font-family: 'Poppins', sans-serif;
-    font-size: 31px;
+    font-size: 23px;
     color: #1A1A1A;
     align-items: center;
     position: relative;
@@ -21,11 +21,11 @@
       display: inline-block;
       float: left;
       overflow: hidden;
-      margin-top: 8px;
       margin-bottom: 1em;
       width: 20px;
       height: 20px;
       margin-right: 10px;
+      margin-top: 2px;
     }
 
     &::after {
@@ -36,12 +36,16 @@
       content: '';
       position: absolute;
       left: 2px;
-      top: 10px;
+      top: 4px;
+    }
+
+    strong {
+      font-size: 16px;
+      color: #606060;
     }
   }
 
   ul {
-    font-size: 21px;
 
     li {
       margin-bottom: 1em;

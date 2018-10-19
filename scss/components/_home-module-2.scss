@@ -13,6 +13,9 @@
           font-size: 600 !important;
         }
         margin: 0 auto;
+        position: relative;
+
+       
 
         &:first-child {
           margin-left: 0;
@@ -21,6 +24,32 @@
         &:last-child {
           margin-left: auto;
           margin-right: 0;
+
+          &::after {
+            display: none;
+          }
+        }
+
+        @media screen and (min-width: $screen-lg-min) {
+           &::after {
+            @include svg-slant();
+            content: '';
+            display: block;
+            position: absolute;
+            right: -40%;
+            height: 33px;
+            width: 28px;
+            transform: translateY(-50%) translateX(-5px);
+            z-index: 999;
+            top: 50%;
+          } 
+ 
+          &:nth-child(2) {
+            &::after {
+              right: -35%;
+              transform: translateY(-50%) translateX(-10px);
+            }
+          }
         }
     }
   }

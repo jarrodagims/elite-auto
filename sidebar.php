@@ -19,7 +19,7 @@
                     <p><span class="big">Birthday</span>
                         <span class="small">Celebration</span></p>
 
-                    <a class="arrow" href="<?= SITEURL ?>/contact-us/">Birthday Booking</a>
+                    <a class="arrow" href="https://bobosfun.a.pcsparty.com/bookings/?_ga=2.117101574.1839719463.1539814279-1322542885.1535553428" target="_blank">Birthday Booking</a>
                 </div>
                 <div class="card-img">
 

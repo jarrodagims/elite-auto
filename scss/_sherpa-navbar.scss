@@ -194,6 +194,7 @@
     &.directions,
     &.contact {
       display: inline-block;
+      float: left;
 
       a {
         margin: 0 10px; 
@@ -584,6 +585,8 @@
 
   a.arrow {
     margin-left: auto;
+
+
   }
   
   .navbar-button {
@@ -998,6 +1001,32 @@
     }
   }
 }
+
+.page-template-default, .blog, .error404, .post-template-default {
+  .navbar-right {
+
+    li.menu-item {
+
+      &.directions a {
+        @include svg-map(_trim($sherpa-secondary-color));
+
+        &:hover {
+          @include svg-map(_trim($sherpa-brand-primary));
+        }
+      }
+
+      &.contact a {
+        @include svg-contact(_trim($sherpa-secondary-color));
+
+        &:hover {
+          @include svg-contact(_trim($sherpa-brand-primary));
+        }
+      }
+    }
+  }
+}
+
+
 
 
 .sub-header.top-header {

@@ -111,6 +111,10 @@
   background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.79 24.52"><title>Asset 3</title><g id="21551a7e-5e20-4ce0-904a-0da606fb6d5c" data-name="Layer 2"><g id="4a72d9a2-7399-49c4-82a1-d4c429a9c56c" data-name="Layer 1"><path d="M23.79,12.26A12.08,12.08,0,0,1,11.9,24.52,12.08,12.08,0,0,1,0,12.26,12.08,12.08,0,0,1,11.9,0a12.08,12.08,0,0,1,11.9,12.26" fill="%23#{$color}"/><g opacity="0.94"><polygon points="11.9 15.56 17.37 9.91 16.45 8.97 11.9 13.66 7.34 8.97 6.42 9.91 11.9 15.56" fill="%23fff"/></g></g></g></svg>');
 }
 
+@mixin svg-slant($color: e6e6e6) {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.86 33.54"><g id="c1655976-7f99-4711-8016-2cb8ada1c097" data-name="Layer 2"><g id="82f62e71-2a1e-45c2-9786-e8197d795a17" data-name="Layer 1"><rect x="-7.83" y="15.91" width="39.74" height="1.08" transform="translate(-8.35 16.64) rotate(-54.33)" fill="%23e6e6e6"/><rect x="-2.05" y="16.55" width="39.74" height="1.08" transform="translate(-6.46 21.59) rotate(-54.29)" fill="%23e6e6e6"/></g></g></svg>');
+}
+
 @keyframes hover-icon-up {
   0%,
   50%,

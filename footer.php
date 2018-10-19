@@ -1,6 +1,6 @@
     <div id="map-section">
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108565.88500351862!2d-106.42039733723674!3d31.751827843456436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e75b3fc839bcf9%3A0x58bacf556c352b04!2sEl+Paso+Community+Home+Health+Inc!5e0!3m2!1sen!2sus!4v1538585730434" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3390.457790655903!2d-106.55649168484219!3d31.812523981273937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ddf819c39ce66b%3A0xfc1ae623e6635fdb!2sBob-O&#39;s+Family+Fun+Center!5e0!3m2!1sen!2sus!4v1539873706024" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
 <section id="footer">
 <div class="top-footer">
@@ -72,6 +72,9 @@
             </div>
     </div>
 </section>
+    <section class="contact-button-footer visible-xs">
+        <a href="https://bobosfun.a.pcsparty.com/bookings/?_ga=2.117101574.1839719463.1539814279-1322542885.1535553428" class="arrow" target="_blank">Birthday Booking</a> <a href="https://bobosfun.a.pcsparty.com/bookings/?_ga=2.117101574.1839719463.1539814279-1322542885.1535553428" target="_blank"><button class="btn btn-primary">Contact Us Today</button></a>
+    </section>
 <section class="footer-nav hidden-xs hidden-sm">
     <div class="container">
         <div class="row flex-row">

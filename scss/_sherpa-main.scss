@@ -118,7 +118,6 @@ body {
         .columns {
           display: flex;
           flex-direction: row;
-          flex-wrap: wrap;
 
           > div {
             width: 50%;
@@ -189,6 +188,10 @@ body {
             .columns {
               flex-direction: column;
               display: flex;
+
+              > div {
+                width: 100%;
+              }
             }
         }
 
@@ -448,7 +451,6 @@ body {
       }
 
       h2, h3 {
-        color: $sherpa-brand-primary;
 
         font-size: 16px;
         font-weight: 400; 

@@ -208,6 +208,8 @@
 
   @media screen and (max-width: $screen-sm-max) {
 
+
+
     .top-footer {
       background: transparent;
 
@@ -423,7 +425,7 @@
     }
 
     .contact-footer, .hours-footer {
-      margin-top: 2em;
+      margin-top: 1em;
     }
 
     .phone-footer {
@@ -660,7 +662,7 @@
         flex-direction: column;
       }
 
-      background: #29292C;
+      background: #050505;
       color: $white;
    }
 }
@@ -784,5 +786,41 @@
 
   #footer p {
     font-size: 20px;
+  }
+}
+
+@media screen and (max-width: $screen-sm-max) {
+  .contact-button-footer {
+    background: #F2F2F2;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+
+    a.arrow {
+      margin-right: 1em;
+      display: block;
+      color: $white;
+      font-weight: 700;
+      font-family: 'Poppins', sans-serif;
+      text-transform: uppercase;
+      font-size: 14px;
+      position: relative; 
+      padding-right: 30px;
+      color: #606060;
+
+      &::after {
+        @include svg-arrow($white);
+        width: 20px;
+        height: 20px;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        display: block;
+        content: '';
+        margin-left: 10px;
+        position: absolute;
+      }
+    }
   }
 }
