@@ -283,6 +283,52 @@ get_header(); ?>
 
             </div>
         </div>
+</section>
+
+<section class="landing-module-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>
+                    What You Should Know Before Booking
+                </h2>
+
+                <p>All parties must be booked 72 hours in advance with a $25, NON-REFUNDABLE <br />
+                    deposit. If you need to cancel your party, you will forfeit your deposit.<br />
+                    We accept cash, Visa, MasterCard, American Express & Discover only.<br />
+                    No personal checks!<br />
+                    Party space is reserved for 2 hours from reserved time; please stress<br />
+                    promptness to your guests.<br />
+                    Each child will receive one cup for unlimited fountain drinks.<br />
+                    Reserved seating is for children. We are unable to accommodate overflow from<br />
+                    unexpected guests.
+                </p>
+
+                <h2>
+                    Party Tips for the Parents | Survival Guide & Invitations
+                </h2>
+
+                <p>
+                    <a href="">Click Here</a> to view/print the Party Parent Survival Guide<br />
+                    <a href="">Click Here</a> to view/print Birthday Party Invitations
+                </p>
+
+                <h2>All Children Must Meet Minimum Height and Age Requirements</h2>
+
+                <ul>
+                    <li><strong>Go-Karts</strong> drivers must be at least 58"</li>
+                    <li><strong>Double Go-Karts:</strong> drivers must be at least 58" and 18-years-old; passengers must be at least 40" Two adults may not ride together on the double go-karts or bumper boats
+                    </li>
+                    <li><strong>Mini Go-Karts:</strong> drivers must be at least 45"</li>
+                    <li><strong>Dizzy Drums:</strong> must be at least 35'' (Between 35" and 44" must ride with an adult)</li>
+                    <li><strong>Bumper Boats:</strong> drivers must be at least 45"; passengers must be at least 40" with an
+                        18-year-old driver
+                    </li>
+                    <li><strong>Flying Banana:</strong> must be between 30" and 58" Train: must be between 30" and 58"</li>
+                    <li><strong>Laser Tag:</strong> players must be at least 6 years old</li>
+                </ul>
+            </div>
+        </div>
     </div>
 </section>
 <?php get_footer(); ?>
