@@ -119,7 +119,6 @@ get_header(); ?>
 
                             <div class="bottom-section">
                                 <strong class="header">An attraction includes:</strong>
-
                                 <ul>
                                     <li>Go-Karts, Mini Go-Karts, Bumper</li>
                                     <li>Boats, Mini Golf, Dizzy Drums,</li>
@@ -166,48 +165,124 @@ get_header(); ?>
 <section class="landing-module-2">
     <div class="container">
         <div class="row">
-            <div class="col">
-                <p><strong>3 XL One Topping Pizzas</strong>
-                <span>(For Paid Party Guests)</span></p>
+            <div class="col-md-12">
+                <div class="flex-row">
+                    <div class="col side">
+                        <p><strong class="header">3 XL One Topping Pizzas</strong>
+                            <span>(For Paid Party Guests)</span></p>
 
-                <p><strong>Unlimited Fountain Drinks</strong><br />
-                <span>(For Paid Party Guests)</span></p>
+                        <p><strong class="header">Unlimited Fountain Drinks</strong>
+                            <span>(For Paid Party Guests)</span></p>
 
-                <strong>A Party Host To Serve & Assist <br />Space Reserved For 2 Hours</strong>
+                        <strong class="header">A Party Host To Serve & Assist <br />Space Reserved For 2 Hours</strong>
 
-                <strong>$25 Non-refundable Deposit Required</strong>
-                <p>All Prices Subject To Change / Sales Tax<br />
-                Included In All Prices</p>
+                        <strong>$25 Non-refundable Deposit Required</strong>
+                        <p>All Prices Subject To Change / Sales Tax<br />
+                            Included In All Prices</p>
 
+                    </div>
+                    <div class="col flex-row">
+                        <div class="col">
+                            <strong class="header line">With any birthday party package<br />you may add the following:</strong>
+
+                            <p>Autograph Birthday Cake w/Sharpie
+                                <span class="brand">$10.00 each</span></p>
+
+                            <p>Laser Odyssey Missions
+                                <span class="brand">$4.50 each</span></p>
+
+                            <p>Laser Odyssey T-Shirt
+                                <span class="brand">$13.00 each</span></p>
+                        </div>
+
+                        <div class="col">
+                            <strong class="header line"><br />For the Adults:</strong>
+                            <p>XL One Topping Pizzas
+                                <span class="brand">$14.00 each </span><br />
+                                <span class="brand">$1.00 each additional topping</span></p>
+
+                            <p>Large Cups (refillable)
+                                <span class="brand">$2.50 each </span></p>
+
+                            <p>Small Cups (refillable)
+                                <span class="brand">$2.00 each</span></p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <div class="col">
-                <strong>With any birthday party package<br />you may add the following:</strong>
+        </div>
+    </div>
+</section>
 
-                <p>Autograph Birthday Cake w/Sharpie
-                <span>$10.00 each</span></p>
 
-                <p>Laser Odyssey Missions
-                <span>$4.50 each</span></p>
+<section class="landing-module-3">
+    <div class="container">
+        <div class="row flex-row">
+            <div class="flex-col col-md-8">
+                <strong class="header">*All platter orders must be placed and/or cancelled 72 hours' in advance.</strong>
+                <p>If you fail to cancel your platters with 72 hours' notice, you will still be charged for them on your final bill.</p>
 
-                <p>Laser Odyssey T-Shirt
-                <span>$13.00 each</span></p>
+                <a href="#">
+                    <button class="btn btn-primary">BOOK ONLINE OR CALL 915-587-6070</button>
+                </a>
             </div>
 
-            <div class="col">
-                <strong>For the Adults:</strong>
-                <p>XL One Topping Pizzas
-                <span>$14.00 each </span><br />
-                <span>$1.00 each additional topping</span></p>
+            <div class="flex-col col-md-4">
+                <div class="box"><p><strong class="header">Veggie Platter</strong>
+                (serves 10-12) <span class="brand">$20.00 each</span></p>
 
-                <p>Large Cups (refillable)
-                <span>$2.50 each </span></p>
+                <p><strong class="header">Chips & Salsa Platter</strong>
+                (serves 10-12) <span class="brand">$15.00 each</span></p>
 
-                <p>Small Cups (refillable)
-                <span>$2.00 each</span></p>
+                <p><strong class="header">Salad Bowl</strong>
+                (2-3lbs. served w/dressing) <span class="brand">$20.00 each</span></p></div>
             </div>
         </div>
     </div>
 </section>
 
+<section class="landing-module-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="banner flex-row">
+                    <div class="banner-img flex-col">
+                        <img src="<?= IMGURL ?>bg-party-banner.jpg" alt="Party" />
+                        <span class="big">Birthday</span>
+                        <span class="small">Party Packages</span>
+                    </div>
+                    <div class="banner-side flex-col">
+                        <p><strong>Monday - Thursday</strong> Parties<br />
+                        <span class="red">get 10%</span> off any package*</p>
+
+                        <p class="smaller">*Excludes Holidays, Discounts<br />
+                            Cannot Be Combined</p>
+                    </div>
+                </div>
+
+                <div class="bottom-section"><p>You may bring the following:</p>
+
+                <ul class="flex-row">
+                    <li class="col">
+                        <span>Birthday Cake<br />
+                            (NO ICE CREAM CAKES)</span>
+                    </li>
+                    <li class="col">
+                        <span>Themed Decorations<br />
+                            & Goody Bags</span>
+                    </li>
+                    <li class="col">
+                        <span>*We <strong>DO NOT</strong> allow any<br />
+                            other outside food.</span>
+                    </li>
+                </ul>
+                </div>
+            </div>
+
+
+            </div>
+        </div>
+    </div>
+</section>
 <?php get_footer(); ?>

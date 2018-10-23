@@ -29,39 +29,6 @@
     }
   }
 
-  .landing-module-1 {
-    background: url('../img/bg-landing-triangles.png') right 0 no-repeat;
-    background-size: auto 100%;
-    overflow: hidden;
-    padding-bottom: 3em;
-
-    .cards-header {
-      position: relative;
-
-      &::before {
-        content: '';
-        background: #0093B0;
-        position: absolute;
-        width: 150vw;
-        z-index: -1;
-        left: -50vw;
-        top: 0;
-        height: 100%;
-      }
-
-      h2 {
-        color: $white;
-        margin: 0 0;
-        padding: 1em 0;
-      }
-    }
-
-    .btn {
-      @include red-gradient();
-      width: 330px;
-    }
-  }
-
   .column {
     width: 33.33%;
     margin-right: 18px;
@@ -167,7 +134,222 @@
     ul {
       list-style: none;
       padding-left: 0;
+
     }
   }
 
+}
+
+
+
+.landing-module-1 {
+  background: url('../img/bg-landing-triangles.png') right 0 no-repeat;
+  background-size: auto 100%;
+  overflow: hidden;
+  padding-bottom: 3em;
+
+  .cards-header {
+    position: relative;
+
+    &::before {
+      content: '';
+      background: #0093B0;
+      position: absolute;
+      width: 150vw;
+      z-index: -1;
+      left: -50vw;
+      top: 0;
+      height: 100%;
+    }
+
+    h2 {
+      color: $white;
+      margin: 0 0;
+      padding: 1em 0;
+    }
+  }
+
+  .btn {
+    @include red-gradient();
+    width: 330px;
+    @include dropshadow();
+  }
+}
+
+
+.landing-module-2 {
+  background: #F2F2F2;
+  padding: 91px 0;
+
+  .side {
+    margin-right: 6em;
+  }
+
+  strong.header {
+    font-size: 19px;
+  }
+
+  strong.header.line {
+    border-bottom: 1px solid rgba(96, 96, 96, 0.25);
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+  }
+
+
+  strong {
+    color: #1A1A1A;
+  }
+
+  p {
+    color: #606060;
+  }
+
+  .brand {
+    color: $sherpa-secondary-color;
+    display: block;
+  }
+
+  .col.flex-row {
+    flex: 1;
+    .col {
+      width: 50%;
+    }
+  }
+}
+
+.landing-module-3 {
+  padding: 57px 0;
+  
+  .brand {
+    color: $sherpa-secondary-color;
+  }
+
+  .btn {
+    @include red-gradient();
+  }
+
+  .box {
+    background: #F2F2F2;
+    padding: 3em;
+  }
+}
+
+.landing-module-4 {
+  background: url('../img/bg-landing-party.jpg') 0 162px no-repeat;
+  background-size: cover;
+  
+
+  .bottom-section {
+    color: $white;
+
+    p {
+      font-size: 24px;
+    }
+
+    ul li {
+      font-size: 19px;
+    }
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+
+    li {
+      border-right: 1px solid #F2F2F2;
+      width: 33.33%;
+      
+      &:nth-child(2) {
+        display: flex;
+        justify-content: center;
+      }
+
+
+      &:first-child span {
+        margin-left: 30px;
+      }
+
+
+      span {
+        position: relative;
+        text-align: left;
+        display: block;
+
+        &::before {
+          content: '';
+          border-radius: 100%;
+          @include svg-circle();
+          display: inline-block;
+          position: absolute;
+          left: -30px;
+          overflow: hidden;
+          margin-bottom: 1em;
+          width: 20px;
+          height: 20px;
+          margin-right: 10px;
+          margin-top: 2px;
+        }
+      }
+
+      &:last-child {
+        border-right: 0;
+        display: flex;
+        justify-content: flex-end;
+      }
+    }
+  }
+
+  .banner {
+    @include dropshadow();
+    font-family: 'Poppins', sans-serif;
+
+    .big {
+      font-size: 3.35em;
+      color: $white;
+      text-transform: uppercase;
+      font-weight: 700;
+      @include red-gradient();
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      padding-bottom: 0;
+      line-height: 1;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .small {
+      font-size: 1.75em;
+      letter-spacing: 3px;
+      color: #808080;
+      text-transform: uppercase;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .banner-img {
+      width: 66.66667%;
+      background: $white;
+      padding-bottom: 2em;
+
+      img {
+        max-width: 100%;
+        margin-bottom: 2em;
+      }
+    }
+
+    .banner-side {
+      width: 33.33333%;
+      background: #f8f8f8;
+      padding: 3em;
+
+      .red {
+        color: #FF0000;
+        font-weight: 700;
+      }
+    }
+
+    p.smaller {
+      font-family: 'Roboto', sans-serif;
+    }
+  }
 }

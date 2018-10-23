@@ -115,6 +115,10 @@
   background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29.86 33.54"><g id="c1655976-7f99-4711-8016-2cb8ada1c097" data-name="Layer 2"><g id="82f62e71-2a1e-45c2-9786-e8197d795a17" data-name="Layer 1"><rect x="-7.83" y="15.91" width="39.74" height="1.08" transform="translate(-8.35 16.64) rotate(-54.33)" fill="%23e6e6e6"/><rect x="-2.05" y="16.55" width="39.74" height="1.08" transform="translate(-6.46 21.59) rotate(-54.29)" fill="%23e6e6e6"/></g></g></svg>');
 }
 
+@mixin svg-circle() {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 19.84 19.84"><defs><clipPath id="941f9760-0e24-42b5-984a-8d43abe6a3e5" transform="translate(0 0)"><path d="M2.63,9.92a7.29,7.29,0,1,1,7.29,7.29A7.29,7.29,0,0,1,2.63,9.92M0,9.92A9.92,9.92,0,1,0,9.92,0,9.93,9.93,0,0,0,0,9.92" fill="none"/></clipPath><linearGradient id="29f11d43-3234-4c27-8943-b596d36b6b5e" x1="-842.24" y1="3353.51" x2="-841.24" y2="3353.51" gradientTransform="matrix(19.83, 0, 0, -19.83, 16705.79, 66526.35)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="%23952bdc"/><stop offset="0.05" stop-color="%23952bdc"/><stop offset="0.54" stop-color="%238b17ff"/><stop offset="1" stop-color="%234100d7"/></linearGradient></defs><title>Asset 3</title><g id="74ad801c-88f8-4d43-9cf0-277c6a19ac56" data-name="Layer 2"><g id="02ed7d92-a86f-44d3-9322-ccdaa8f41ff7" data-name="Layer 1"><g clip-path="url(#941f9760-0e24-42b5-984a-8d43abe6a3e5)"><rect width="19.84" height="19.84" fill="url(#29f11d43-3234-4c27-8943-b596d36b6b5e)"/></g></g></g></svg>');
+}
+
 @keyframes hover-icon-up {
   0%,
   50%,
