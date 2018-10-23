@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2eb721c2-176a-4b35-a1f8-3c3538869751" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/page-landing.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/components/_landing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_mixins.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_cards.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_home-module-4.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_home-module-4.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page-landing.php" beforeDir="false" afterPath="$PROJECT_DIR$/page-landing.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_landing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_landing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/components/_ribbon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_ribbon.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -359,8 +353,8 @@
           <entry key="html" value="196" />
           <entry key="js" value="242" />
           <entry key="json" value="10" />
-          <entry key="php" value="4980" />
-          <entry key="scss" value="5502" />
+          <entry key="php" value="5024" />
+          <entry key="scss" value="5576" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -368,8 +362,8 @@
           <entry key="CSS" value="5" />
           <entry key="JSON" value="10" />
           <entry key="JavaScript" value="242" />
-          <entry key="PHP" value="4980" />
-          <entry key="SCSS" value="5502" />
+          <entry key="PHP" value="5024" />
+          <entry key="SCSS" value="5576" />
           <entry key="Scratch" value="196" />
         </counts>
       </usages-collector>
@@ -377,11 +371,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page-landing.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="443">
-              <caret line="152" column="21" selection-start-line="152" selection-start-column="21" selection-end-line="152" selection-end-column="21" />
+            <state relative-caret-position="332">
+              <caret line="117" column="44" lean-forward="true" selection-start-line="117" selection-start-column="44" selection-end-line="117" selection-end-column="44" />
               <folding>
                 <element signature="e#1540#2484#0#HTML" />
                 <element signature="e#1591#1764#0#HTML" />
@@ -394,11 +388,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scss/components/_landing.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="758">
-              <caret line="84" column="18" lean-forward="true" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
+            <state relative-caret-position="438">
+              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -604,8 +598,8 @@
         <option value="$PROJECT_DIR$/scss/components/_index.scss" />
         <option value="$PROJECT_DIR$/scss/_mixins.scss" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/scss/components/_landing.scss" />
         <option value="$PROJECT_DIR$/page-landing.php" />
+        <option value="$PROJECT_DIR$/scss/components/_landing.scss" />
       </list>
     </option>
   </component>
@@ -630,8 +624,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="996" />
-    <option name="y" value="51" />
+    <option name="x" value="1088" />
+    <option name="y" value="23" />
     <option name="width" value="1368" />
     <option name="height" value="1417" />
   </component>
@@ -841,18 +835,18 @@
       <workItem from="1539958104792" duration="5660000" />
       <workItem from="1540221521680" duration="634000" />
       <workItem from="1540225621877" duration="444000" />
-      <workItem from="1540248638568" duration="8760000" />
+      <workItem from="1540248638568" duration="9455000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1395350000" />
+    <option name="totallyTimeSpent" value="1396045000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="996" y="51" width="1368" height="1417" extended-state="0" />
+    <frame x="1088" y="23" width="1368" height="1417" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994012" visible="true" weight="0.25339368" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994012" visible="true" weight="0.25339368" />
       <window_info id="Structure" order="1" sideWeight="0.5005988" side_tool="true" weight="0.23852521" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -866,7 +860,7 @@
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5048909" side_tool="true" weight="0.21962617" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4951091" visible="true" weight="0.21925133" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4951091" visible="true" weight="0.21925133" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -1224,17 +1218,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/components/_landing.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="758">
-          <caret line="84" column="18" lean-forward="true" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page-landing.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="152" column="21" selection-start-line="152" selection-start-column="21" selection-end-line="152" selection-end-column="21" />
+        <state relative-caret-position="332">
+          <caret line="117" column="44" lean-forward="true" selection-start-line="117" selection-start-column="44" selection-end-line="117" selection-end-column="44" />
           <folding>
             <element signature="e#1540#2484#0#HTML" />
             <element signature="e#1591#1764#0#HTML" />
@@ -1243,6 +1230,13 @@
             <element signature="e#2998#3939#0#HTML" />
             <element signature="e#4363#5367#0#HTML" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/components/_landing.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
         </state>
       </provider>
     </entry>

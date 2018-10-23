@@ -101,25 +101,32 @@ get_header(); ?>
 
                     <div class="row flex-row">
                         <div class="column">
-                            <strong class="header">An attraction includes:</strong><br />
-                            <ul>
-                                <li>Go-Karts, Mini Go-Karts, Bumper</li>
-                                <li>Boats, Mini Golf, Dizzy Drums,</li>
-                                <li>Flying Banana, & Train Ride.</li>
-                            </ul>
+
+                            <div class="bottom-section">
+                                <strong class="header">An attraction includes:</strong>
+                                <ul>
+                                    <li>Go-Karts, Mini Go-Karts, Bumper</li>
+                                    <li>Boats, Mini Golf, Dizzy Drums,</li>
+                                    <li>Flying Banana, & Train Ride.</li>
+                                </ul>
+                            </div>
 
                             <a href="#">
                                 <button class="btn btn-primary"> Book Now!</button>
                             </a>
                         </div>
                         <div class="column">
-                            <strong class="header">An attraction includes:</strong>
 
-                            <ul>
-                                <li>Go-Karts, Mini Go-Karts, Bumper</li>
-                                <li>Boats, Mini Golf, Dizzy Drums,</li>
-                                <li>Flying Banana, & Train Ride.</li>
-                            </ul>
+                            <div class="bottom-section">
+                                <strong class="header">An attraction includes:</strong>
+
+                                <ul>
+                                    <li>Go-Karts, Mini Go-Karts, Bumper</li>
+                                    <li>Boats, Mini Golf, Dizzy Drums,</li>
+                                    <li>Flying Banana, & Train Ride.</li>
+                                </ul>
+                            </div>
+
                         </div>
                         <div class="column">
                             <div class="card-bottom">

@@ -19,7 +19,7 @@
 
     a {
       display: block;
-      margin: 69px auto;
+      margin: 69px auto 0;
 
       .btn {
         width: 372px;
@@ -33,6 +33,7 @@
     background: url('../img/bg-landing-triangles.png') right 0 no-repeat;
     background-size: auto 100%;
     overflow: hidden;
+    padding-bottom: 3em;
 
     .cards-header {
       position: relative;
@@ -53,6 +54,11 @@
         margin: 0 0;
         padding: 1em 0;
       }
+    }
+
+    .btn {
+      @include red-gradient();
+      width: 330px;
     }
   }
 
@@ -147,6 +153,21 @@
     margin-bottom: .5em;
     color: #1A1A1A;
     display: block;
+  }
+
+  .bottom-section {
+    padding: 2em 0;
+    text-align: center;
+    flex: 1;
+
+    strong {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
   }
 
 }
