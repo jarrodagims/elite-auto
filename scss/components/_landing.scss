@@ -1,0 +1,152 @@
+.page-template-page-landing {
+
+  .jumbo {
+    text-align: center;
+    padding: 109px 0;
+
+    h1 span.red {
+      color: #EC1C24;
+      font-weight: 700;
+    }
+
+    span.br-md {
+      display: block;
+    }
+
+    h1 {
+      margin-bottom: 66px;
+    }
+
+    a {
+      display: block;
+      margin: 69px auto;
+
+      .btn {
+        width: 372px;
+        @include red-gradient();
+        @include dropshadow();
+      }
+    }
+  }
+
+  .landing-module-1 {
+    background: url('../img/bg-landing-triangles.png') right 0 no-repeat;
+    background-size: auto 100%;
+    overflow: hidden;
+
+    .cards-header {
+      position: relative;
+
+      &::before {
+        content: '';
+        background: #0093B0;
+        position: absolute;
+        width: 150vw;
+        z-index: -1;
+        left: -50vw;
+        top: 0;
+        height: 100%;
+      }
+
+      h2 {
+        color: $white;
+        margin: 0 0;
+        padding: 1em 0;
+      }
+    }
+  }
+
+  .column {
+    width: 33.33%;
+    margin-right: 18px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .shadow {
+    @include dropshadow();
+  }
+
+  .card {
+    width: auto;
+    @include dropshadow();
+    background: $white;
+  }
+
+  .card-title {
+    background: #1A1A1A;
+    color: $white;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+
+    &::before {
+      content: '';
+      background: #0093B0;
+      position: absolute;
+      width: 150vw;
+      z-index: -1;
+      left: -50vw;
+      top: 0;
+      height: 100%;
+    }
+
+    h3 {
+      font-weight: 700;
+      color: $white;
+      margin: 0 0;
+    }
+
+    p {
+      font-size: 19px;
+      font-weight: 300;
+      color: #E6E6E6;
+    }
+  }
+
+  .card-text {
+    background: #E6E6E6;
+    color: #1A1A1A;
+    font-family: 'Poppins', sans-serif;
+    padding: 2em 0;
+
+    .price {
+      color: $sherpa-secondary-color;
+      font-size: 29px;
+    }
+  }
+
+  .card-list {
+    padding: 2em;
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin-bottom: 0;
+      font-size: 19px;
+    }
+  }
+
+  .card-ribbon {
+    background: #9566df;
+    color: $white;
+    padding: 1em 0;
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .card-bottom {
+    background: #F2F2F2;
+    padding: 2em;
+    text-align: center;
+    @include dropshadow();
+  }
+
+  strong.header {
+    margin-bottom: .5em;
+    color: #1A1A1A;
+    display: block;
+  }
+
+}

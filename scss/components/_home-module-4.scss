@@ -53,9 +53,8 @@
 
     .btn {
       margin-bottom: 2em;
-      background: rgb(255,212,23);
+      @include red-gradient();
       transition: none;
-      background: linear-gradient(90deg, rgba(255,212,23,0.75) 0%, rgba(255,0,0,1) 100%);
 
       &:hover {
         transition: none;

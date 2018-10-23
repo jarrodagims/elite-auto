@@ -61,6 +61,11 @@ $transparency: 0.76;
   background: linear-gradient(90deg, rgba(149,43,220,$transparency) 0%, rgba(149,43,220,$transparency) 4%, rgba(139,23,255,$transparency) 53%, rgba(65,0,215,$transparency) 100%);
 }
 
+@mixin red-gradient() {
+  background: rgb(255,212,23);
+  background: linear-gradient(90deg, rgba(255,212,23,0.75) 0%, rgba(255,0,0,1) 100%);
+}
+
 @mixin gradient-line() {
   background: rgb(255,212,23);
   background: linear-gradient(90deg, rgba(255,212,23,1) 0%, rgba(255,0,0,1) 100%);
