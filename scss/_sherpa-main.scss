@@ -390,7 +390,7 @@ body {
       }
 
       .sidebar-content {
-        ul:not(.icon-list) {
+        ul:not(.list-unstyled) {
         list-style: none;
         padding-left: 1em;
  
@@ -555,67 +555,6 @@ body #main {
     .container {
       p.blurb {
         margin-bottom: 1em;
-      }
-    }
-  }
-}
-
-.page-template-page-landing {
-
-  .content {
-    padding: 5em 0 0;
-
-    p {
-      line-height: 1.75;
-      margin-bottom: 2em;
-    }
-
-    .col-md-6:first-child {
-      border-right: 1px solid #E6E6E6;
-    }
-  }
-
-  hr {
-    margin: 5em 0;
-  }
-
-  .jumbotron {
-
-    h2 {
-      margin-top: 0;
-    }
-
-    @media screen and (max-width: $grid-float-breakpoint-max) {
-      .floating-badge {
-        display: none;
-      }
-
-      .gradient-border {
-        h1 {
-          color: #fff;
-        }
-      }
-    }
-
-    @media screen and (min-width: $screen-sm-min) {
-      height: 500px;
-
-      .floating-badge {
-        float: left;
-        margin-bottom: 100px;
-      }
-
-      .gradient-border {
-        &::before {
-          height: 134px;
-          top: 50%;
-          transform: translateY(-50%);
-          margin-top: 20px;
-        }
-
-        h1 {
-          color: #fff;
-        }
       }
     }
   }

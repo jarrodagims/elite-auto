@@ -99,6 +99,7 @@
   flex-direction: column;
   width: 509px;
   margin-left: auto;
+  
 
 
   &.floating {
@@ -131,6 +132,8 @@
     padding: 24px;
     font-size: 28px;
     margin: 0 0;
+    padding: .5em 0;
+
   } 
 
   .card-text {

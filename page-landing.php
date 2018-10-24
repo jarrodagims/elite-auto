@@ -4,6 +4,7 @@
 */
 
 get_header(); ?>
+
 <div class="container">
     <div class="row">
         <div class="col-xs-12">
@@ -24,16 +25,39 @@ get_header(); ?>
                 <div class="cards-header"><h2>All packages are for <strong>10 CHILDREN</strong> and <br />one birthday child is <strong>FREE</strong></h2></div>
 
                 <div class="container">
+
                     <div class="row flex-row">
                         <div class="column">
                             <div class="card">
-                                <div class="card-title">
+                                <div class="card-title shadow">
                                     <h3>Package I</h3>
                                     <p>Basic Party</p>
                                 </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="card">
+                                <div class="card-title card-title-2 shadow">
+                                    <h3>Package II</h3>
+                                    <p>Do-it-all Party </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="card">
+                                <div class="card-title card-title-3 shadow">
+                                    <h3>Package III</h3>
+                                    <p>Ultimate Party</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row flex-row align-bottom">
+                        <div class="column">
+                            <div class="card shadow">
 
                                 <div class="card-text">
-                                    <p><strong class="price">$169.00</strong>  for the first 11<br />
+                                    <p><strong class="price">$169.00</strong>  <strong class="bigger">for the first 11</strong><br />
                                         <strong>$15 each</strong> additional guest</p>
                                 </div>
 
@@ -49,15 +73,12 @@ get_header(); ?>
                         </div>
 
                         <div class="column">
-                            <div class="card">
-                                <div class="card-title">
-                                    <h3>Package II</h3>
-                                    <p>Do-it-all Party</p>
-                                </div>
+                            <div class="card shadow">
+
 
                                 <div class="card-text">
-                                    <p><strong class="price">$169.00</strong>  for the first 11<br />
-                                        <strong>$15 each</strong> additional guest</p>
+                                    <p><strong class="price">$239.00</strong>  <strong class="bigger">for the first 11</strong><br />
+                                        <strong>$18 each</strong> additional guest</p>
                                 </div>
 
                                 <div class="card-ribbon">Each Guest Receives:</div>
@@ -74,14 +95,9 @@ get_header(); ?>
 
 
                         <div class="column">
-                            <div class="card">
-                                <div class="card-title">
-                                    <h3>Package III</h3>
-                                    <p>Ultimate Party</p>
-                                </div>
-
+                            <div class="card shadow">
                                 <div class="card-text">
-                                    <p><strong class="price">$299.00</strong>  for the first 11<br />
+                                    <p><strong class="price">$299.00</strong>  <strong class="bigger">for the first 11</strong><br />
                                         <strong>$21 each</strong> additional guest</p>
                                 </div>
 
@@ -109,11 +125,11 @@ get_header(); ?>
                                     <li>Boats, Mini Golf, Dizzy Drums,</li>
                                     <li>Flying Banana, & Train Ride.</li>
                                 </ul>
-                            </div>
 
-                            <a href="#">
-                                <button class="btn btn-primary"> Book Now!</button>
-                            </a>
+                                <a href="#">
+                                    <button class="btn btn-primary"> Book Now!</button>
+                                </a>
+                            </div>
                         </div>
                         <div class="column">
 
@@ -284,51 +300,109 @@ get_header(); ?>
             </div>
         </div>
 </section>
-
+    <div id="main">
 <section class="landing-module-5">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2>
-                    What You Should Know Before Booking
-                </h2>
+                <article>
+                    <div class="sidebar-content">
+                        <div id="sidebar">
+                            <section class="home-module-4">
+                                <div class="top">
+                                    <img src="<?=IMGURL?>play.png" alt="El Paso's Place to Play" class="play-logo" />
+                                </div>
+                                <div class="bottom">
+                                    <h2>Visit us today for a safe, wholesome day of fun for the entire family!</h2>
+                                    <a href="<?= SITEURL ?>/contact-us/"><button class="btn btn-primary">
+                                            Contact Us Today
+                                        </button></a>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="content page-content">
+                            <h2>
+                                What You Should Know Before Booking
+                            </h2>
 
-                <p>All parties must be booked 72 hours in advance with a $25, NON-REFUNDABLE <br />
-                    deposit. If you need to cancel your party, you will forfeit your deposit.<br />
-                    We accept cash, Visa, MasterCard, American Express & Discover only.<br />
-                    No personal checks!<br />
-                    Party space is reserved for 2 hours from reserved time; please stress<br />
-                    promptness to your guests.<br />
-                    Each child will receive one cup for unlimited fountain drinks.<br />
-                    Reserved seating is for children. We are unable to accommodate overflow from<br />
-                    unexpected guests.
-                </p>
+                            <p>All parties must be booked 72 hours in advance with a $25, NON-REFUNDABLE <br />
+                                deposit. If you need to cancel your party, you will forfeit your deposit.<br />
+                                We accept cash, Visa, MasterCard, American Express & Discover only.<br />
+                                No personal checks!<br />
+                                Party space is reserved for 2 hours from reserved time; please stress<br />
+                                promptness to your guests.<br />
+                                Each child will receive one cup for unlimited fountain drinks.<br />
+                                Reserved seating is for children. We are unable to accommodate overflow from<br />
+                                unexpected guests.
+                            </p>
 
-                <h2>
-                    Party Tips for the Parents | Survival Guide & Invitations
-                </h2>
+                            <h2>
+                                Party Tips for the Parents | Survival Guide & Invitations
+                            </h2>
 
-                <p>
-                    <a href="">Click Here</a> to view/print the Party Parent Survival Guide<br />
-                    <a href="">Click Here</a> to view/print Birthday Party Invitations
-                </p>
+                            <p>
+                                <a href="">Click Here</a> to view/print the Party Parent Survival Guide<br />
+                                <a href="">Click Here</a> to view/print Birthday Party Invitations
+                            </p>
 
-                <h2>All Children Must Meet Minimum Height and Age Requirements</h2>
+                            <h2>All Children Must Meet Minimum Height and Age Requirements</h2>
 
-                <ul>
-                    <li><strong>Go-Karts</strong> drivers must be at least 58"</li>
-                    <li><strong>Double Go-Karts:</strong> drivers must be at least 58" and 18-years-old; passengers must be at least 40" Two adults may not ride together on the double go-karts or bumper boats
-                    </li>
-                    <li><strong>Mini Go-Karts:</strong> drivers must be at least 45"</li>
-                    <li><strong>Dizzy Drums:</strong> must be at least 35'' (Between 35" and 44" must ride with an adult)</li>
-                    <li><strong>Bumper Boats:</strong> drivers must be at least 45"; passengers must be at least 40" with an
-                        18-year-old driver
-                    </li>
-                    <li><strong>Flying Banana:</strong> must be between 30" and 58" Train: must be between 30" and 58"</li>
-                    <li><strong>Laser Tag:</strong> players must be at least 6 years old</li>
-                </ul>
+                            <ul>
+                                <li><strong>Go-Karts</strong> drivers must be at least 58"</li>
+                                <li><strong>Double Go-Karts:</strong> drivers must be at least 58" and 18-years-old; passengers must be at least 40" Two adults may not ride together on the double go-karts or bumper boats
+                                </li>
+                                <li><strong>Mini Go-Karts:</strong> drivers must be at least 45"</li>
+                                <li><strong>Dizzy Drums:</strong> must be at least 35'' (Between 35" and 44" must ride with an adult)</li>
+                                <li><strong>Bumper Boats:</strong> drivers must be at least 45"; passengers must be at least 40" with an
+                                    18-year-old driver
+                                </li>
+                                <li><strong>Flying Banana:</strong> must be between 30" and 58" Train: must be between 30" and 58"</li>
+                                <li><strong>Laser Tag:</strong> players must be at least 6 years old</li>
+                            </ul>
+
+                            <div class="banner banner-bottom">
+                                <?php if (has_post_thumbnail( $post->ID ) ):
+                                    echo the_post_thumbnail(array(1060,209));
+                                else:
+                                    ?>
+                                    <img class="visible-xs" src="<?= IMGURL ?>banner-bottom.jpg" alt="<?php echo get_bloginfo( 'name' ); ?>" />
+                                <?php
+                                endif; ?>
+                            </div>
+
+                            <h2>Book Your Next Birthday Party at Bob-O's!</h2>
+
+                            <p>If you're ready for a truly memorable birthday party, give us a call! We are proud to be El Paso's best party venue. Bob-O's Family Fun Center guarantees memorable and exciting birthday parties.</p>
+
+
+                            <h2>Birthday Parties at Bob-O's: Fun Games, Delicious Pizza, and Much More!</h2>
+
+                            <p>Bob-O's Family Fun Center stands apart from the rest in a myriad of ways. With our birthday party packages, all those invited will receive game tokens. They can partake in the outside attractions, such as mini golf or go-karts. Package II and III include two or one Laser Odyssey missions, respectively, in addition to game tokens and outside attractions. We have a birthday party package that will perfectly suit whatever the birthday boy or girl wants.</p>
+
+
+                            <h2>Outside Attractions:</h2>
+
+                            <ul class="list-inline list-unstyled">
+                                <li>Go-Karts</li>
+                                <li>Mini Go-Karts</li>
+                                <li>Bumper Boats</li>
+                                <li>Mini Golf</li>
+                                <li>Dizzy Drums</li>
+                                <li>Flying Banana</li>
+                                <li>Train Ride</li>
+                            </ul>
+
+                            <a href="#">
+                                <button class="btn btn-primary">BOOK ONLINE NOW</button>
+                            </a>
+
+                        </div>
+                    </div>
+                </article>
             </div>
         </div>
     </div>
 </section>
+    </div>
+
 <?php get_footer(); ?>

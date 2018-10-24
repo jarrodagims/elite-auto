@@ -18,6 +18,8 @@
       top: auto;
       height: 113px;
       margin: 0 auto;
+      transition: none;
+      transform: none;
     }
   }
 
@@ -54,12 +56,12 @@
     .btn {
       margin-bottom: 2em;
       @include red-gradient();
-      transition: none;
+//       transition: none;
 
-      &:hover {
-        transition: none;
-        transform: none;
-      }
+//       &:hover {
+//         transition: none;
+//         transform: none;
+//       }
     }
   }
 }
