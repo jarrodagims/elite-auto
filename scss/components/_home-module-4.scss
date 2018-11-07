@@ -70,6 +70,28 @@
   background-size: cover;
   text-align: center;
 
+  ul.logos {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 0;
+    padding-left: 0;
+
+    li {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      padding: 20px;
+
+
+      img {
+        max-height: 88px;
+      }
+    }
+  }
+
   .top {
     position: relative;
     img.play-bg {

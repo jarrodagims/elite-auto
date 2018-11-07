@@ -68,6 +68,32 @@
 </section>
 
 
+<section class="home-module-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <ul class="logos">
+                    <li>
+                        <img src="<?=IMGURL?>geico.svg" alt="Geico" />
+                    </li>
+                    <li>
+                        <img src="<?=IMGURL?>progressive.svg" alt="Progressive" />
+                    </li>
+                    <li>
+                        <img src="<?=IMGURL?>allstate.svg" alt="AllState" />
+                    </li>
+                    <li>
+                        <img src="<?=IMGURL?>state-farm.svg" alt="State Farm" />
+                    </li>
+                    <li>
+                        <img src="<?=IMGURL?>usaa.svg" alt="USAA" />
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="home-module-10">
     <div class="container">
 
