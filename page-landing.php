@@ -26,7 +26,7 @@ get_header(); ?>
 
                 <div class="container">
 
-                    <div class="row flex-row">
+                    <div class="row flex-row hidden-xs hidden-sm">
                         <div class="column">
                             <div class="card">
                                 <div class="card-title shadow">
@@ -55,7 +55,10 @@ get_header(); ?>
                     <div class="row flex-row align-bottom">
                         <div class="column">
                             <div class="card shadow">
-
+                                <div class="card-title visible-xs visible-sm">
+                                    <h3>Package I</h3>
+                                    <p>Basic Party</p>
+                                </div>
                                 <div class="card-text">
                                     <p><strong class="price">$169.00</strong>  <strong class="bigger">for the first 11</strong><br />
                                         <strong>$15 each</strong> additional guest</p>
@@ -74,7 +77,10 @@ get_header(); ?>
 
                         <div class="column">
                             <div class="card shadow">
-
+                                <div class="card-title card-title-2 visible-xs visible-sm">
+                                    <h3>Package II</h3>
+                                    <p>Do-it-all Party </p>
+                                </div>
 
                                 <div class="card-text">
                                     <p><strong class="price">$239.00</strong>  <strong class="bigger">for the first 11</strong><br />
@@ -96,6 +102,10 @@ get_header(); ?>
 
                         <div class="column">
                             <div class="card shadow">
+                                <div class="card-title card-title-3 visible-sm visible-xs">
+                                    <h3>Package III</h3>
+                                    <p>Ultimate Party</p>
+                                </div>
                                 <div class="card-text">
                                     <p><strong class="price">$299.00</strong>  <strong class="bigger">for the first 11</strong><br />
                                         <strong>$21 each</strong> additional guest</p>
@@ -126,7 +136,7 @@ get_header(); ?>
                                     <li>Flying Banana, & Train Ride.</li>
                                 </ul>
 
-                                <a href="#">
+                                <a href="https://bobosfun.a.pcsparty.com/bookings/?_ga=2.117101574.1839719463.1539814279-1322542885.1535553428"  target="_blank">
                                     <button class="btn btn-primary"> Book Now!</button>
                                 </a>
                             </div>
@@ -181,9 +191,7 @@ get_header(); ?>
 <section class="landing-module-2">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
-                <div class="flex-row">
-                    <div class="col side">
+                    <div class="col-md-4 col side">
                         <p><strong class="header">3 XL One Topping Pizzas</strong>
                             <span>(For Paid Party Guests)</span></p>
 
@@ -193,11 +201,11 @@ get_header(); ?>
                         <strong class="header">A Party Host To Serve & Assist <br />Space Reserved For 2 Hours</strong>
 
                         <strong>$25 Non-refundable Deposit Required</strong>
-                        <p>All Prices Subject To Change / Sales Tax<br />
-                            Included In All Prices</p>
+                        <p><span>All Prices Subject To Change / Sales Tax<br />
+                                Included In All Prices</span></p>
 
                     </div>
-                    <div class="col flex-row">
+                    <div class="col-md-8 col flex-row">
                         <div class="col">
                             <strong class="header line">With any birthday party package<br />you may add the following:</strong>
 
@@ -214,7 +222,7 @@ get_header(); ?>
                         <div class="col">
                             <strong class="header line"><br />For the Adults:</strong>
                             <p>XL One Topping Pizzas
-                                <span class="brand">$14.00 each </span><br />
+                                <span class="brand">$14.00 each </span>
                                 <span class="brand">$1.00 each additional topping</span></p>
 
                             <p>Large Cups (refillable)
@@ -226,32 +234,29 @@ get_header(); ?>
                     </div>
                 </div>
             </div>
-
-        </div>
-    </div>
 </section>
 
 
 <section class="landing-module-3">
     <div class="container">
         <div class="row flex-row">
-            <div class="flex-col col-md-8">
+            <div class="flex-col col-sm-6 col-md-8">
                 <strong class="header">*All platter orders must be placed and/or cancelled 72 hours' in advance.</strong>
                 <p>If you fail to cancel your platters with 72 hours' notice, you will still be charged for them on your final bill.</p>
 
-                <a href="#">
+                <a href="https://bobosfun.a.pcsparty.com/bookings/?_ga=2.117101574.1839719463.1539814279-1322542885.1535553428" target="_blank">
                     <button class="btn btn-primary">BOOK ONLINE OR CALL 915-587-6070</button>
                 </a>
             </div>
 
-            <div class="flex-col col-md-4">
-                <div class="box"><p><strong class="header">Veggie Platter</strong>
+            <div class="flex-col col-sm-6 col-md-4">
+                <div class="box"><p><strong class="header arrow">Veggie Platter</strong>
                 (serves 10-12) <span class="brand">$20.00 each</span></p>
 
-                <p><strong class="header">Chips & Salsa Platter</strong>
+                <p><strong class="header arrow">Chips & Salsa Platter</strong>
                 (serves 10-12) <span class="brand">$15.00 each</span></p>
 
-                <p><strong class="header">Salad Bowl</strong>
+                <p><strong class="header arrow">Salad Bowl</strong>
                 (2-3lbs. served w/dressing) <span class="brand">$20.00 each</span></p></div>
             </div>
         </div>
@@ -269,7 +274,7 @@ get_header(); ?>
                         <span class="small">Party Packages</span>
                     </div>
                     <div class="banner-side flex-col">
-                        <p><strong>Monday - Thursday</strong> Parties<br />
+                        <p class="header"><strong>Monday - Thursday</strong> Parties<br />
                         <span class="red">get 10%</span> off any package*</p>
 
                         <p class="smaller">*Excludes Holidays, Discounts<br />
@@ -313,7 +318,7 @@ get_header(); ?>
                                     <img src="<?=IMGURL?>play.png" alt="El Paso's Place to Play" class="play-logo" />
                                 </div>
                                 <div class="bottom">
-                                    <h2>Visit us today for a safe, wholesome day of fun for the entire family!</h2>
+                                    <h2>Visit us today for a safe, wholesome day<br /> of fun for the entire family!</h2>
                                     <a href="<?= SITEURL ?>/contact-us/"><button class="btn btn-primary">
                                             Contact Us Today
                                         </button></a>
@@ -341,13 +346,13 @@ get_header(); ?>
                             </h2>
 
                             <p>
-                                <a href="">Click Here</a> to view/print the Party Parent Survival Guide<br />
-                                <a href="">Click Here</a> to view/print Birthday Party Invitations
+                                <a href="http://bobos.agimsweb.com/wp-content/uploads/2018/10/ParentSurvivalGuide.April2018.pdf" target="_blank">Click Here</a> to view/print the Party Parent Survival Guide<br />
+                                <a href="http://bobos.agimsweb.com/wp-content/uploads/2018/10/Birthday.Invite.pdf" target="_blank">Click Here</a> to view/print Birthday Party Invitations
                             </p>
 
                             <h2>All Children Must Meet Minimum Height and Age Requirements</h2>
 
-                            <ul>
+                            <ul class="list-unstyled">
                                 <li><strong>Go-Karts</strong> drivers must be at least 58"</li>
                                 <li><strong>Double Go-Karts:</strong> drivers must be at least 58" and 18-years-old; passengers must be at least 40" Two adults may not ride together on the double go-karts or bumper boats
                                 </li>
@@ -392,7 +397,7 @@ get_header(); ?>
                                 <li>Train Ride</li>
                             </ul>
 
-                            <a href="#">
+                            <a href="https://bobosfun.a.pcsparty.com/bookings/?_ga=2.117101574.1839719463.1539814279-1322542885.1535553428"  target="_blank">
                                 <button class="btn btn-primary">BOOK ONLINE NOW</button>
                             </a>
 

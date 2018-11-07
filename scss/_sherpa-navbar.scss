@@ -185,10 +185,7 @@
 }
 
 .navbar-right {
-  position: absolute;
-  top: 30px;
-  left: 0;
-
+ 
   li.menu-item {
     line-height: 16px;
     &.directions,
@@ -197,7 +194,13 @@
       float: left;
 
       a {
-        margin: 0 10px; 
+        color: $white;
+
+        &::before {
+          margin-right: 10px;
+        }
+
+        margin: 0 20px; 
       }
     }
 
@@ -214,8 +217,6 @@
 
     &.directions a,
     &.contact a {
-      width: 16px;
-      height: 16px;
       text-align: center;
       padding: 0;
 
@@ -599,9 +600,10 @@
   .navbar-brand {
     z-index: 99;
     left: 0;
-    top: -60px;
+    top: 0px;
     height: auto;
     position: absolute;
+    left: 0;
 
     img {
       height: 245px;
@@ -691,6 +693,7 @@
 
     .nav > li > a {
       padding: 0 0;
+      text-transform: uppercase;
     }
 
 
@@ -728,7 +731,7 @@
 @media screen and (min-width: $screen-lg-min) {
 
   .navbar-sherpa {
-    margin: 0 auto;
+    margin: 0;
 
     .navbar-collapse {
       padding-left: 0;
@@ -944,7 +947,6 @@
   .navbar-sherpa li.menu-item {
     font-size: 11px;
     letter-spacing: 1px;
-    font-weight: 300;
 
     &.logo-menu {
       text-indent: -9999px;

@@ -8,11 +8,8 @@
     h1 {
         font-size: 65px;
         font-family: 'Poppins', sans-serif;
-        @include textshadow();
     }
 
-    .brand {
-    }
 
     h2 {
         font-size: 31px;
@@ -20,7 +17,6 @@
         margin-top: 0;
         color: $white;
         font-family: 'Poppins', sans-serif;
-        @include textshadow();
         margin-bottom: 40px;
     }
 
@@ -30,7 +26,6 @@
     }
 
     button {
-        width: 255px;
         font-size: 17px;
         display: flex;
         padding: 1.5em 2em;

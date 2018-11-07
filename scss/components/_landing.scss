@@ -2,7 +2,7 @@
 
   .jumbo {
     text-align: center;
-    padding: 76px 0 102px;
+    padding: 2em 0 4em;
 
     h1 span.red {
       color: #EC1C24;
@@ -28,6 +28,10 @@
       width: 372px;
       @include red-gradient();
       @include dropshadow();
+
+      &:hover {
+        @include red-gradient();
+      }
     }
 
       p {
@@ -39,6 +43,7 @@
   .column {
     width: 33.33%;
     margin-right: 18px;
+
 
     &:last-child {
       margin-right: 0;
@@ -124,15 +129,17 @@
 
   .card-bottom {
     background: #F2F2F2;
-    padding: 2em;
+    padding: 4.5em 3em;
     text-align: center;
-    @include dropshadow();
+    @include dropshadow(); 
   }
 
   strong.header {
     margin-bottom: .5em;
     color: #1A1A1A;
     display: block;
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
   }
 
   .bottom-section {
@@ -147,11 +154,30 @@
     ul {
       list-style: none;
       padding-left: 0;
-
+      line-height: 1.5;
     }
   }
 
   @media screen and (min-width: $screen-md-min) {
+
+    .bottom-section {
+      flex: 1;
+      height: 100%;
+      padding: 4.5em 0 5em;
+      display: flex;
+      flex-direction: column;
+
+      a {
+        margin-top: auto;
+        display: block;
+      }
+
+       ul {
+        padding: 0 0 2em;
+      }
+    }
+
+   
 
     .card-text .bigger {
       font-size: 21px;
@@ -259,8 +285,7 @@
 
 
 .landing-module-1 {
-  background: url('../img/bg-landing-triangles.png') right 0 no-repeat;
-  background-size: auto 100%;
+  
   overflow: hidden;
   padding-bottom: 3em;
 
@@ -302,10 +327,22 @@
     @include red-gradient();
     width: 330px;
     @include dropshadow();
+
+
+    &:hover {
+      @include red-gradient();
+    }
+
+  }
+
+  @media screen and (min-width: $screen-lg-min) {
+    background: url('../img/bg-landing-triangles.png') right 0 no-repeat;
+    background-size: auto 100%;
   }
 
   @media screen and (min-width: $screen-md-min) {
-    
+  
+
    .cards-header {
      padding-top: 1em;
      padding-bottom: 5em;
@@ -328,11 +365,12 @@
   }
 
   @media screen and (max-width: $screen-sm-max) {
+
+   
    
 
     .cards-header {
-     
-      margin-bottom: 0;
+      margin-bottom: 2em;
 
       h2 {
         font-size: 1.5em;
@@ -346,10 +384,6 @@
 .landing-module-2 {
   background: #F2F2F2;
   padding: 91px 0;
-
-  .side {
-    margin-right: 6em;
-  }
 
   strong.header {
     font-size: 19px;
@@ -368,11 +402,17 @@
 
   p {
     color: #606060;
+    font-size: 19px;
+
+    span {
+      font-size: 16px;
+    }
   }
 
   .brand {
     color: $sherpa-secondary-color;
     display: block;
+    font-size: 16px;
   }
 
   .col.flex-row {
@@ -406,6 +446,10 @@
 
 .landing-module-3 {
   padding: 57px 0;
+
+  strong.header {
+    color: #606060;
+  }
   
   .brand {
     color: $sherpa-secondary-color;
@@ -413,11 +457,31 @@
 
   .btn {
     @include red-gradient();
+
+
+    &:hover {
+      @include red-gradient();
+    }
   }
 
   .box {
     background: #F2F2F2;
     padding: 3em;
+  }
+
+  strong.header {
+
+    &.arrow {
+      &::before {
+        content: '';
+        @include svg-arrow($white);
+        width: 20px;
+        height: 20px;
+        display: inline-block;
+        padding-left: 30px;
+        vertical-align: middle;
+      }
+    }
   }
 
   @media screen and (max-width: $screen-sm-max) {
@@ -513,7 +577,7 @@
     font-family: 'Poppins', sans-serif;
 
     .big {
-      font-size: 3.35em;
+      font-size: 3.9em;
       color: $white;
       text-transform: uppercase;
       font-weight: 700;
@@ -524,11 +588,12 @@
       line-height: 1;
       display: block;
       margin: 0 auto;
+      letter-spacing: -2px;
     }
 
     .small {
       font-size: 1.75em;
-      letter-spacing: 3px;
+      letter-spacing: 4px;
       color: #808080;
       text-transform: uppercase;
       display: block;
@@ -536,7 +601,7 @@
     }
 
     .banner-img {
-      width: 66.66667%;
+      width: 62%;
       background: $white;
       padding-bottom: 2em;
 
@@ -547,9 +612,13 @@
     }
 
     .banner-side {
-      width: 33.33333%;
+      flex: 1;
       background: #f8f8f8;
-      padding: 3em;
+      padding: 5em 3em;
+
+      .header {
+        font-size: 24px;
+      }
 
       .red {
         color: #FF0000;
@@ -562,12 +631,25 @@
     }
   }
 
+  @media screen and (max-width: $screen-md-max) {
+    .banner {
+      flex-direction: column;
+
+    }
+    .banner .banner-img, .banner .banner-side {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
 
   @media screen and (max-width: $screen-sm-max) {
+
     .bottom-section {
       display: flex;
       flex-direction: column;
       justify-content: center;
+      background: none;
 
       p {
         margin-bottom: 1em;
@@ -599,12 +681,6 @@
       }
     }
 
-
-    .banner .banner-img, .banner .banner-side {
-      width: 100%;
-      text-align: center;
-    }
-
     .banner .banner-side {
       padding: 2em;
 
@@ -617,19 +693,27 @@
 
 body #main .landing-module-5 {
 
+  h2 {
+    font-size: 25px !important;
+  }
+
   .banner.banner-bottom {
-    margin-bottom: 2em;
+    margin-bottom: 5em;
   }
 
   .btn {
     @include red-gradient();
+
+    &:hover {
+      @include red-gradient();
+    }
   }
 
   ul {
     list-style: none;
   } 
 
-  .list-unstyled li {
+  .list-unstyled.list-inline li {
     color: #000000;
     padding-right: 1em;
     font-weight: 700;
@@ -650,11 +734,28 @@ body #main .landing-module-5 {
     margin-top: 0;
 
     .sidebar-content {
-      margin-top: 2em;
+      margin-top: 6em;
+    }
+  }
+
+  .page-content ul {
+    padding-left: 0;
+
+    strong {
+      font-size: 19px;
+      font-family: 'Poppins', sans-serif;
     }
   }
 
   @media screen and (max-width: $screen-sm-max) {
+
+    .container {
+
+    .sidebar-content {
+      margin-top: 2em;
+    }
+  }
+  
     h2 {
       font-size: 21px !important;
     }

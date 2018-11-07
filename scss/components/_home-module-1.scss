@@ -1,7 +1,8 @@
 .home-module-1 {
   background: url('../img/bg-hero.jpg') 0 0 no-repeat;
   background-size: cover;
-  text-align: center;
+  text-align: center; 
+  position: relative;
 
   .jumbotron {
     margin-bottom: 0;
@@ -10,6 +11,10 @@
   .jumbo-content {
     color: $white;
 
+    .navbar-brand {
+      top: 50px;
+    }
+ 
     h1 {
       margin-top: 0;
       letter-spacing: -2px;
@@ -20,7 +25,7 @@
         display: inline-block;
         position: relative;
         width: 28px;
-
+ 
         &::before {
           content: '';
           width: 12px;

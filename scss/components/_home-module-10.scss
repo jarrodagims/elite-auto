@@ -2,13 +2,12 @@
   color: $white;
   text-align: center;
   padding: 4em 0;
+  background: #FF0008;
 
   h2 {
     color: $white;
     margin-top: 0;
   }
-  
-  @include gradient-btn(1);
 
   @media screen and (max-width: $screen-sm-max) {
     padding: 2em 0 3em;

@@ -84,19 +84,7 @@
         </div>
     </div>
 </section>
-<section id="sub-footer">
-    <div class="container">
-        <div class="flex-row row">
-            <div class="flex-col col-md-12 col-xs-12">
-                <div class="hidden-xs hidden-sm"><?php $sm = new SocialMedia(array('facebook', 'twitter'));
-                    $sm->setSize('sm');
-                    $sm->showNetworkButtons();
-                    $sm->setColorType('singleColor');
-                    ?></div>
-                <div>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?> | All Rights Reserved</div>
-            </div>
-        </div>
-</section>
+
 <?php wp_footer(); ?>
 </body>
 </html>

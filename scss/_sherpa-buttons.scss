@@ -11,12 +11,10 @@
   font-weight: 600;
   color: $white;
   transition: transform 300ms ease-in-out;
-  @include gradient-btn();
   border: 0;
-  border-radius: 4px;
+  background: #FF0008;
 
    &:hover {
-    background: #7935DA;
     transform: scale(1.15);
   }
 
