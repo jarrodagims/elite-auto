@@ -1,5 +1,6 @@
 .home-module-3 {
-
+  
+  overflow: hidden;
 
   h4 {
     font-size: 25px;
@@ -18,7 +19,7 @@
   }
 
   @media screen and (min-width: $screen-md-min) {
-
+      
     .col-md-6 {
       padding-top: 10em;
       padding-bottom: 10em;
@@ -26,7 +27,7 @@
 
     .bg-side {
       overflow: visible;
-     
+      
 
       
       &::after {
@@ -39,6 +40,7 @@
         top: 0;
         right: -25vw;
         position: absolute;
+        z-index: -1;
       }
     }
   }
