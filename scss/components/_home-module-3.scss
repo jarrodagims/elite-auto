@@ -1,6 +1,5 @@
 .home-module-3 {
 
-  padding: 71px 0;
 
   h4 {
     font-size: 25px;
@@ -16,6 +15,32 @@
     line-height: 1.5;
     font-weight: 300;
     color: #1A1A1A;
+  }
+
+  @media screen and (min-width: $screen-md-min) {
+
+    .col-md-6 {
+      padding-top: 4em;
+      padding-bottom: 4em;
+    }
+
+    .bg-side {
+      overflow: visible;
+     
+
+      
+      &::after {
+        background: url('../img/bg-side.jpg') right 0 no-repeat;
+        background-size: cover;
+        content: '';
+        width: 50vw;
+        height: 100%;
+        display: block;
+        top: 0;
+        right: -25vw;
+        position: absolute;
+      }
+    }
   }
 
   @media screen and (max-width: $screen-sm-max) {
