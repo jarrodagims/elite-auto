@@ -3,63 +3,44 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3390.457790655903!2d-106.55649168484219!3d31.812523981273937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ddf819c39ce66b%3A0xfc1ae623e6635fdb!2sBob-O&#39;s+Family+Fun+Center!5e0!3m2!1sen!2sus!4v1539873706024" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
 <section id="footer">
-<div class="top-footer">
-    <div class="container">
-        <div class="row flex-row">
-            <div class="col-md-12 flex-col">
-                <div class="logo-footer">
-                    <a class="navbar-brand" href='<?php echo get_site_url(); ?>'><img
-                                src="<?= IMGURL; ?>logo.png"
-                                alt="<?php echo get_bloginfo(
-                                    'description'
-                                ); ?>"/></a>
-
-                    <p>Nothing should stand in your way when it comes to <span class="brand">having fun</span>.</p>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</div>
     <div class="container">
             <div class="flex-row row">
                 <div class="col-xs-12 flex-col">
-                    <div class="footer-blocks"><div class="contact-footer phone-footer">
-                        <div><span class="title">Address</span>
-                            <p class="hidden-xs">3851 Constitution Dr, <span class="br-xs">El Paso, TX 79922</span><br />
-                                <strong>PH</strong>.  <?php printPhone(); ?>
-                            </p>
-                            <p class="visible-xs">
-                                <strong>PH</strong>.  <?php printPhone(); ?>
-                                <span class="br-xs">3851 Constitution Dr, El Paso, TX 79922</span>
+                    <div class="footer-blocks">
+                        <div class="logo-footer">
+                            <a class="navbar-brand" href='<?php echo get_site_url(); ?>'><img
+                                        src="<?= IMGURL; ?>logo.png"
+                                        alt="<?php echo get_bloginfo(
+                                            'description'
+                                        ); ?>"/></a>
+                        </div>
 
-                            </p>
-                            <a href="<?= SITEURL ?>/contact-us/">
-                                <button class="btn btn-primary">
-                                    CONTACT US TODAY
-                                </button>
-                            </a>
+
+                        <div class="contact-footer phone-footer">
+                        <div><span class="title">Contact</span>
+
+                            <p>3701 Mattox Ste. A, El Paso, TX 79925<br />
+                                <strong>E-mail.</strong> <a href="mailto:eliteautocollision2@gmail.com">eliteautocollision2@gmail.com</a><br />
+                                <strong>PH.</strong> <?php printPhone(); ?></p>
+
+
                         </div>
                     </div>
                     <div class="hours-footer">
                         <div>
-                            <span class="title">OPERATION HOURS</span>
-                            <p class="hidden-xs">Sunday - Thursday: <strong>12:00pm - 9:00pm</strong><br />
-                            Friday - Saturday: <strong>10:00am - 11:00pm</strong>
-                            </p>
-
-                            <p class="visible-xs">Sunday - Thursday: <strong>12pm - 9pm</strong><br />
-                                <span class="br-xs">Friday - Saturday: <strong>10am - 11pm</strong></span>
-                            </p>
+                            <span class="title">HOURS</span>
+                            <p>Monday - Friday : <strong>8:00 AM - 6:00 PM</strong><br />
+                            Saturday: <strong>By Appointment Only</strong><br />
+                            Sunday: <strong>Closed</strong></p>
                         </div>
                     </div>
 
                     <div class="button-footer">
-                        <div class="border-left">
-                            <span class="title">METHODS OF PAYMENT</span>
-                            <p>No Personal Checks</p>
-                           <img src="<?=IMGURL?>/cards.png" alt="Payment methods" />
-                        </div>
+                        <a href="<?= SITEURL ?>/contact-us/">
+                            <button class="btn btn-primary">
+                                CONTACT US TODAY
+                            </button>
+                        </a>
                     </div></div>
                     <div class="visible-xs">
                         <?php $sm = new SocialMedia(array('facebook', 'twitter'));

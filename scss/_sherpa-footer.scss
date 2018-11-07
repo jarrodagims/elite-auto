@@ -89,36 +89,10 @@
   }
 
   .logo-footer {
-    background: #000;
-    color: $white;
-    display: flex;
-    width: 100%;
-    align-items: center;
-    position: relative;
-    padding: 1em 0;
-    padding-left: 270px;
 
-    p {
-      margin-bottom: 0;
-    }
- 
-
-    &::before {
-      content: '';
-      display: block;
-      width: 100vw;
-      left: -50vw;
-      top: 0;
-      z-index: -1;
-      position: absolute;
-      background: #000;
-    }
-
-    p {
-      color: $white;
-      font-size: 28px;
-
-    }
+   .navbar-brand {
+     position: relative;
+   }
   }
 
 //   @media screen and (min-width: $screen-lg-min) {
@@ -143,9 +117,9 @@
        flex: 1;
        display: flex;
        flex-direction: row;
-       justify-content: space-between;
        width: 100%;
-       align-items: flex-start;
+       align-items: center;
+       justify-content: center;
    }
 
 
@@ -283,9 +257,6 @@
     }
   }
 
-  a {
-    color: #fff;
-  }
 
   .contact-button {
     margin-top: 5px;
@@ -317,8 +288,6 @@
     display: block;
     height: auto;
     float: none;
-    left: -30px;
-    top: -160px;
   }
 
   .navbar-sherpa .navbar-nav > li > a {
@@ -357,7 +326,7 @@
     display: block;
     font-family: "Montserrat", sans-serif;
     font-size: 18px;
-    color: $sherpa-secondary-color;
+    color: #93753F;
     font-weight: 600; 
     text-transform: uppercase;
   }
@@ -521,7 +490,7 @@
 
 .footer-nav {
 
-  background: transparent;
+  background: #000;
 
   @media screen and (min-width: $screen-md-min) {
 
@@ -574,7 +543,6 @@
     }
 
     margin-top: 1em;
-    margin-bottom: 1em;
     
     .navbar-sherpa {
       &::before {
@@ -608,7 +576,7 @@
   }
 
   .navbar-sherpa .navbar-nav > li > a {
-    color: #606060;
+    color: #fff;
     font-family: 'Poppins', sans-serif;
     text-transform: none;
     font-size: 12px;
@@ -785,7 +753,7 @@
 @media screen and (min-width: $screen-lg-min) {
 
   #footer p {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 
