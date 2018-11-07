@@ -67,24 +67,6 @@
     </div>
 </section>
 
-<section class="home-module-9">
-    <div class="container">
-        <div class="row flex-row">
-            <div class="flex-col col-md-6 hidden-xs hidden-sm">
-            </div>
-            <div class="flex-col col-md-6">
-                <div class="extra-padding"><h3>School Events</h3>
-                <p>Bob-O's Family Fun Center is a great place to host school events. We offer school field trips at discounted rates as well as End of the Year parties and Project Celebrations. We also offer educational materials upon request.</p>
-
-                <h3>Military Discounts</h3>
-
-                <p>Bob-O's Family Fun Center offers military discounts on attractions and birthday parties. Contact us today to find out more about our discounts. Remember, discounts cannot be combined!</p></div>
-            </div>
-        </div>
-    </div>
-
-</section>
-
 
 <section class="home-module-10">
     <div class="container">
