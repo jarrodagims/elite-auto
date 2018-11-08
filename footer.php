@@ -38,7 +38,7 @@
                     <div class="button-footer">
                         <a href="<?= SITEURL ?>/contact-us/">
                             <button class="btn btn-primary">
-                                CONTACT US TODAY
+                                GET AN ESTIMATE
                             </button>
                         </a>
                     </div></div>

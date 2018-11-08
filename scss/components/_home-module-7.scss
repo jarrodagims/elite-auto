@@ -1,5 +1,43 @@
 .home-module-7 {
-  background: url('../img/bg-party.jpg') 0 0 no-repeat;
-  background-size: cover;
-  height: 461px;
+
+  .banner {
+    background: $sherpa-dark-color;
+    text-align: center;
+
+    .flex-col {
+      justify-content: center;
+      align-items: center;
+    }
+
+    ul {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      padding: 0 0;
+
+
+      li {
+        float: left;
+
+        img {
+          width: 70px;
+          height: 70px;
+        }
+      }
+    }
+
+    h2 {
+
+      span {
+        @include raleway();
+      }
+      color: $white;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .btn {
+      margin: 0 auto;
+    }
+  }
 }

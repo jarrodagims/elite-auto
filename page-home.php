@@ -98,6 +98,67 @@
     <p>We will work with any insurance agencies not listed*</p>
 </section>
 
+
+<section class="home-module-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6"></div>
+            <div class="col-md-6">
+                <p><strong>We Will Take Care of Everything</strong></p>
+
+                <p>The journey towards completely repairing a vehicle after a collision may seem long and arduous but when you team up with us, you’ll have nothing to worry about!</p>
+
+                <p>This is because we will take care of everything, from towing your car and speaking to your insurance company to repairing and repainting your vehicle so it will look good as new.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="home-module-6">
+    <div class="container">
+        <div class="row flex-row">
+            <div class="flex-col">
+                <h2>Free towing assistance <span class="brand">AVAILABLE 24/7</span></h2>
+            </div>
+            <div class="flex-col">
+                <a href="">
+                    <button class="btn btn-primary">CALL US TODAY</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="home-module-7">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="banner">
+                    <div class="flex-row">
+                        <div class="flex-col">
+                            <h2><span>We Offer</span><br />
+                                MILITARY DISCOUNTS</h2>
+                            <br />
+                            <a href=""><button class="btn btn-primary">LEARN MORE</button></a>
+                        </div>
+                        <div class="flex-col">
+                            <img src="<?=IMGURL?>bg-banner-children.jpg" alt="Military" />
+                        </div>
+                        <div class="flex-col badge-col">
+                            <ul>
+                            <li><img src="<?=IMGURL?>badge-airforce.png" alt="" class="military-badge"></li>
+                            <li><img src="<?=IMGURL?>badge-marines.png" alt="" class="military-badge"></li>
+                            <li><img src="<?=IMGURL?>badge-navy.png" alt="" class="military-badge"></li>
+                            <li><img src="<?=IMGURL?>badge-army.png" alt="" class="military-badge"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="home-module-10">
     <div class="container">
 
