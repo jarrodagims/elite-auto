@@ -1,5 +1,5 @@
 .jumbotron {
-    height: 608px;
+    height: 545px;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -7,17 +7,17 @@
 
     h1 {
         font-size: 65px;
+        margin-bottom: 20px;
         font-family: 'Poppins', sans-serif;
     }
 
-
     h2 {
-        font-size: 42px;
+        font-size: 36px;
         letter-spacing: -1px;
         margin-top: 0;
         color: $white;
         font-family: 'Montserrat', sans-serif;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
         color: $sherpa-secondary-color;
         font-weight: 600;
     }

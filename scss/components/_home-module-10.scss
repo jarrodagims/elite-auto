@@ -1,13 +1,20 @@
 .home-module-10 {
   color: $white;
   text-align: center;
-  padding: 6em 0;
+  padding: 7em 0;
   background: #FF0008;
   border-bottom: 3px solid $sherpa-secondary-color;
 
   h2 {
     color: $white;
     margin-top: 0;
+    font-size: 26px;
+  }
+
+  strong {
+    font-size: 20px;
+    margin-bottom: 1em;
+    display: block;
   }
 
   @media screen and (max-width: $screen-sm-max) {

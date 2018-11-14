@@ -169,6 +169,15 @@
       position: absolute;
     } 
   }
+
+  @media screen and (min-width: $screen-md-min) {
+    
+    .container {
+      max-width: 1670px;
+      width: 100%;
+    }
+      
+  }
 }
 
 @media screen and (max-width: $screen-sm-max) {
@@ -627,10 +636,10 @@
     top: 0px;
     height: auto;
     position: absolute;
-    left: 0;
+    left: 0px;
 
     img {
-      height: 245px;
+      height: 300px;
       width: auto;
     }
   }

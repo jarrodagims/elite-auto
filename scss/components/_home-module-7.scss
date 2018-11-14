@@ -26,7 +26,11 @@
       background: $sherpa-dark-color;
 
       &:first-child, &:last-child {
-        padding: 2em;
+        padding: .5em 2em;
+      }
+
+      &:first-child {
+        flex: 1;
       }
 
       &:last-child {

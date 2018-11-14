@@ -19,9 +19,8 @@
                         <div class="contact-footer phone-footer">
                         <div><span class="title">Contact</span>
 
-                            <p>3701 Mattox Ste. A, El Paso, TX 79925<br />
-                                <span class="br-xs"><strong>E-mail.</strong> <a href="mailto:eliteautocollision2@gmail.com">eliteautocollision2@gmail.com</a><br />
-                                <strong>PH.</strong> <?php printPhone(); ?></span></p>
+                            <p>3701 Mattox Ste. A, El Paso, TX 79925<br /><strong>E-mail.</strong> <a href="mailto:eliteautocollision2@gmail.com">eliteautocollision2@gmail.com</a><br />
+                                <strong>PH.</strong> <?php printPhone(); ?></p>
 
                         </div>
                     </div>
