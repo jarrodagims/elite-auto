@@ -48,7 +48,7 @@
             </div>
         </div>
     </div>
-    <img src="<?=IMGURL?>bg-side-sm.jpg" alt="Auto Insurance" />
+    <img class="visible-sm visible-xs" src="<?=IMGURL?>bg-side-sm.jpg" alt="Auto Insurance" />
 </section>
 
 
@@ -119,20 +119,24 @@
                 <div class="col-xs-12">
                     <div class="banner">
                         <div class="flex-row">
-                            <div class="flex-col">
+                            <div class="flex-col hidden-sm hidden-xs">
                                 <h2><span>We Offer</span><br />
                                     MILITARY DISCOUNTS</h2>
-                                <a href=""><button class="btn btn-primary">LEARN MORE</button></a>
+                                <a href="<?=SITEURL?>/contact-us/"><button class="btn btn-primary">LEARN MORE</button></a>
                             </div>
                             <div class="flex-col banner-middle">
+                                <img class="visible-sm visible-xs" src="<?=IMGURL?>bg-family-sm.jpg" alt="Military Discounts" />
                             </div>
                             <div class="flex-col badge-col">
+                                <h2 class="visible-xs visible-sm"><span>We Offer</span><br />
+                                    MILITARY DISCOUNTS</h2>
                                 <ul>
                                     <li><img src="<?=IMGURL?>badge-airforce.png" alt="" class="military-badge"></li>
                                     <li><img src="<?=IMGURL?>badge-marines.png" alt="" class="military-badge"></li>
                                     <li><img src="<?=IMGURL?>badge-navy.png" alt="" class="military-badge"></li>
                                     <li><img src="<?=IMGURL?>badge-army.png" alt="" class="military-badge"></li>
                                 </ul>
+                                <a class="visible-xs visible-sm" href="<?=SITEURL?>/contact-us/"><button class="btn btn-primary">LEARN MORE</button></a>
                             </div>
                         </div>
                     </div>
@@ -181,10 +185,10 @@
 
         <div class="row">
             <div class="col-md-12">
+                <div class="extra-padding">
                 <h2>We’re Ready to Help - Contact Us Today</h2>
 
-               <div class="extra-padding">
-                   <p>If you’ve been in a collision, contact Elite Auto Collision Center today.</p>
+                   <p><strong>If you’ve been in a collision, contact Elite Auto Collision Center today.</strong></p>
 
                     <p>We understand how tedious the entire repair process may appear. For this reason, we’re devoted to making the process as easy and effortless so you won’t have to worry about anything! Let our team take care of everything. In no time, your vehicle will be back on the road. Contact us today to learn more about what we have to offer!</p>
                

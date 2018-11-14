@@ -20,9 +20,8 @@
                         <div><span class="title">Contact</span>
 
                             <p>3701 Mattox Ste. A, El Paso, TX 79925<br />
-                                <strong>E-mail.</strong> <a href="mailto:eliteautocollision2@gmail.com">eliteautocollision2@gmail.com</a><br />
-                                <strong>PH.</strong> <?php printPhone(); ?></p>
-
+                                <span class="br-xs"><strong>E-mail.</strong> <a href="mailto:eliteautocollision2@gmail.com">eliteautocollision2@gmail.com</a><br />
+                                <strong>PH.</strong> <?php printPhone(); ?></span></p>
 
                         </div>
                     </div>
@@ -42,7 +41,7 @@
                             </button>
                         </a>
                     </div></div>
-                    <div class="visible-xs">
+                    <div class="visible-xs visible-sm">
                         <?php $sm = new SocialMedia(array('facebook', 'twitter'));
                         $sm->setSize('sm');
                         $sm->showNetworkButtons();
@@ -53,9 +52,6 @@
             </div>
     </div>
 </section>
-    <section class="contact-button-footer visible-xs">
-        <a href="https://bobosfun.a.pcsparty.com/bookings/?_ga=2.117101574.1839719463.1539814279-1322542885.1535553428" class="arrow" target="_blank">Birthday Booking</a> <a href="https://bobosfun.a.pcsparty.com/bookings/?_ga=2.117101574.1839719463.1539814279-1322542885.1535553428" target="_blank"><button class="btn btn-primary">Contact Us Today</button></a>
-    </section>
 <section class="footer-nav hidden-xs hidden-sm">
     <div class="container">
         <div class="row flex-row">
@@ -68,7 +64,7 @@
 <section class="sub-footer">
     <div class="container">
         <div class="flex-row row">
-            <div class="flex-col"><?php $sm = new SocialMedia(array('facebook', 'twitter'));
+            <div class="flex-col hidden-xs hidden-xm"><?php $sm = new SocialMedia(array('facebook', 'twitter'));
                 $sm->setSize('sm');
                 $sm->showNetworkButtons();
                 $sm->setColorType('singleColor');

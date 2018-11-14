@@ -2,53 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2eb721c2-176a-4b35-a1f8-3c3538869751" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/template-parts/icons/icon-1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-parts/icons/icon-2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-parts/icons/icon-3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-parts/icons/icon-4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-parts/icons/icon-5.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-parts/icons/icon-6.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-parts/icons/icon-7.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-parts/icons/icon-8.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template-parts/icons/icon-9.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bg-banner-middle.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/bg-banner-middle.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/bg-hero.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/bg-hero.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/bg-icons-sm.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/bg-icons-sm.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page-home.php" beforeDir="false" afterPath="$PROJECT_DIR$/page-home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/_sherpa-buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_sherpa-buttons.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/_sherpa-footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_sherpa-footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_sherpa-header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_sherpa-header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_sherpa-home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_sherpa-home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_sherpa-main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_sherpa-main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/_sherpa-navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_sherpa-navbar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/_sherpa-socialmedia.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/_sherpa-socialmedia.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_home-module-1.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_home-module-1.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/components/_home-module-10.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_home-module-10.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_home-module-2.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_home-module-2.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_home-module-3.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_home-module-3.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_home-module-4.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_home-module-4.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_home-module-5.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_home-module-5.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_home-module-6.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_home-module-6.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/components/_home-module-7.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_home-module-7.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_home-module-8.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_home-module-8.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_icon-row.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_icon-row.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_jumbotron.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_jumbotron.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/components/_ribbon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/components/_ribbon.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/scss/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/icon-1.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/icon-2.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/icon-3.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/icon-4.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/icon-5.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/icon-6.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/icon-7.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/icon-8.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/icon-9.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/template-parts/icon-row.php" beforeDir="false" afterPath="$PROJECT_DIR$/template-parts/icon-row.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -442,7 +406,7 @@
         <counts>
           <entry key="css" value="22" />
           <entry key="json" value="6" />
-          <entry key="php" value="1984" />
+          <entry key="php" value="2182" />
           <entry key="scss" value="369" />
         </counts>
       </usages-collector>
@@ -450,7 +414,7 @@
         <counts>
           <entry key="CSS" value="22" />
           <entry key="JSON" value="6" />
-          <entry key="PHP" value="1984" />
+          <entry key="PHP" value="2182" />
           <entry key="SCSS" value="369" />
         </counts>
       </usages-collector>
@@ -458,14 +422,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page-home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="196" lean-forward="true" selection-start-line="196" selection-end-line="196" />
-              <folding>
-                <element signature="e#4235#5505#0#HTML" />
-              </folding>
+            <state relative-caret-position="252">
+              <caret line="193" column="15" lean-forward="true" selection-start-line="193" selection-start-column="15" selection-end-line="193" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -479,11 +440,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="61" column="35" lean-forward="true" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
+            <state relative-caret-position="247">
+              <caret line="23" column="82" selection-start-line="23" selection-start-column="82" selection-end-line="23" selection-end-column="82" />
             </state>
           </provider>
         </entry>
@@ -510,7 +471,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>navb</find>
       <find>arrow</find>
       <find>what bob-os</find>
       <find>birthday celebration</find>
@@ -540,6 +500,7 @@
       <find>meet the team</find>
       <find>get a free</find>
       <find>if your car</find>
+      <find>banner</find>
     </findStrings>
     <replaceStrings>
       <replace>%20</replace>
@@ -652,10 +613,10 @@
         <option value="$PROJECT_DIR$/template-parts/icons/icon-9.php" />
         <option value="$PROJECT_DIR$/template-parts/icons/icon-10.php" />
         <option value="$PROJECT_DIR$/template-parts/icon-row.php" />
-        <option value="$PROJECT_DIR$/footer.php" />
         <option value="$PROJECT_DIR$/header.php" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/page-home.php" />
+        <option value="$PROJECT_DIR$/footer.php" />
       </list>
     </option>
   </component>
@@ -680,10 +641,10 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="869" />
-    <option name="y" value="41" />
+    <option name="x" value="694" />
+    <option name="y" value="24" />
     <option name="width" value="2171" />
-    <option name="height" value="1417" />
+    <option name="height" value="1416" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -892,18 +853,18 @@
       <workItem from="1541517591616" duration="1250000" />
       <workItem from="1541622155368" duration="942000" />
       <workItem from="1541624850312" duration="12853000" />
-      <workItem from="1542122222675" duration="12017000" />
+      <workItem from="1542122222675" duration="15449000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1443762000" />
+    <option name="totallyTimeSpent" value="1447194000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="869" y="41" width="2171" height="1417" extended-state="0" />
+    <frame x="694" y="24" width="2171" height="1416" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4994012" visible="true" weight="0.16768436" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994012" visible="true" weight="0.16768436" />
       <window_info id="Structure" order="1" sideWeight="0.5005988" side_tool="true" weight="0.23852521" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -917,7 +878,7 @@
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5048909" side_tool="true" weight="0.21962617" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4951091" visible="true" weight="0.21925133" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.4951091" visible="true" weight="0.21941896" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -1266,20 +1227,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/footer.php">
+    <entry file="file://$PROJECT_DIR$/page-home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="61" column="35" lean-forward="true" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
+        <state relative-caret-position="252">
+          <caret line="193" column="15" lean-forward="true" selection-start-line="193" selection-start-column="15" selection-end-line="193" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page-home.php">
+    <entry file="file://$PROJECT_DIR$/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="196" lean-forward="true" selection-start-line="196" selection-end-line="196" />
-          <folding>
-            <element signature="e#4235#5505#0#HTML" />
-          </folding>
+        <state relative-caret-position="247">
+          <caret line="23" column="82" selection-start-line="23" selection-start-column="82" selection-end-line="23" selection-end-column="82" />
         </state>
       </provider>
     </entry>
