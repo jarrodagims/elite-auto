@@ -86,11 +86,16 @@
       flex: 1;
       display: flex;
       justify-content: center;
+      align-items: center;
       padding: 20px;
 
 
       img {
-        max-height: 88px;
+        max-height: 29px;
+
+        &.usaa {
+          max-height: 88px;
+        }
       }
     }
   }
@@ -125,6 +130,7 @@
 
     img {
       width: 100%; 
+    
     }
 
     h2 {
@@ -145,6 +151,16 @@
 
   @media screen and (max-width: $screen-sm-max) {
     @include sidebar-module();
+
+    ul.logos {
+        li {
+          padding: 1em .5em;
+
+          img.usaa {
+            max-height: 30px;
+          }
+        }
+    }
   }
 }
 

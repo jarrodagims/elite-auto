@@ -56,11 +56,16 @@
             <div class="row ">
                 <div class="v-align">
                     <div class="col-xs-12 navbar-button text-center">
+                        <div class="visible-xs"><?php $sm = new SocialMedia(array('facebook', 'twitter'));
+                        $sm->setSize('sm');
+                        $sm->showNetworkButtons();
+                        $sm->setColorType('singleColor');
+                            ?></div>
                         <?php echo responsive_bs_menu('primary', 'left', SITENAME); ?>
                         <ul class="nav navbar-nav navbar-right">
                             <li class="menu-item directions"><a
-                                        href="<?php echo get_site_url() ?>/contact-us">3701 Mattox Ste. A, El Paso, TX 79925</a></a></li>
-                            <li class="menu-item contact"><a href="tel:<?php if (!empty(get_option('sherpa_telephone_number'))) : echo get_option('sherpa_telephone_number'); endif; ?>">PH. 915.422.1474</a></li>
+                                        href="<?php echo get_site_url() ?>/contact-us"><span>3701 Mattox Ste. A, El Paso, TX 79925</span></a></a></li>
+                            <li class="menu-item contact"><a href="tel:<?php if (!empty(get_option('sherpa_telephone_number'))) : echo get_option('sherpa_telephone_number'); endif; ?>"><span>PH. 915.422.1474</span></a></li>
                         </ul>
                     </div>
                 </div>

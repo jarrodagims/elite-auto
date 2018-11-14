@@ -10,4 +10,16 @@
     font-size: 20px;
     margin-bottom: 1em;
   }
+
+  @media screen and (max-width: $screen-sm-max) {
+    text-align: center;
+    font-size: 31px;
+    padding: 2em 0;
+
+    p {
+      font-size: 19px;
+      line-height: 1.5;
+      margin-bottom: 1em;
+    }
+  }
 }

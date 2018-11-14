@@ -12,12 +12,14 @@
 
 
     h2 {
-        font-size: 31px;
+        font-size: 42px;
         letter-spacing: -1px;
         margin-top: 0;
         color: $white;
-        font-family: 'Poppins', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         margin-bottom: 40px;
+        color: $sherpa-secondary-color;
+        font-weight: 600;
     }
 
     a {
@@ -26,9 +28,9 @@
     }
 
     button {
-        font-size: 17px;
+        font-size: 12px;
         display: flex;
-        padding: 1.5em 2em;
+        padding: 2em 3em;
         margin: 0 auto;
     }
 

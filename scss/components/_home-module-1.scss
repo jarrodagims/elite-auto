@@ -19,6 +19,14 @@
       margin-top: 0;
       letter-spacing: -2px;
       line-height: 1.25;
+      font-size: 31px;
+      font-family: 'Poppins', sans-serif;
+
+      strong {
+        font-size: 49px;
+        display: block;
+        margin-bottom: 10px;
+      }
 
       span.dash {
         text-indent: -9999px;
@@ -42,8 +50,14 @@
   }
 
   @media screen and (max-width: $screen-sm-max) {
-    background: url('../img/bg-hero-mobile.jpg') 0 0 no-repeat;
+    background: url('../img/bg-mobile.jpg') 0 0 no-repeat;
     background-size: cover;
+    position: relative;
+
+    .navbar-brand {
+      top: 0;
+      left: 20px;
+    }
 
     .br-xs {
       display: block;
@@ -52,7 +66,17 @@
     .jumbo-content {
 
       h1 {
-        letter-spacing: -1px;
+        letter-spacing: 0;
+        font-size: 16px;
+        font-weight: 400;
+        @include raleway();
+
+
+        strong {
+          font-weight: 400;
+          font-size: 25px;
+          font-family: 'Poppins', sans-serif;
+        }
 
         span.dash {
           width: 10px;
@@ -65,26 +89,16 @@
         }
       }
     }
-    
-    &::after {
-      content: '';
-      @include gradient-line();
-      width: 100%;
-      display: block;
-      height: 4px;
-    }
    
     .container {
       height: 100%;
+      position: relative;
 
 
       .jumbotron {
         height: 100%;
-
-        padding: 80px 15px 100px;
+        padding: 140px 15px 80px;
       }
-
-      
     }
   }
 }

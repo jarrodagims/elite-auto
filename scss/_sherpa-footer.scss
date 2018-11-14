@@ -1,9 +1,31 @@
+.sub-footer {
+  background: #1E242D;
+  color: $white;
+  padding: 1em 0;
 
+  .flex-row {
+    justify-content: space-between;
+  }
+
+  .flex-col {
+    flex: 1;
+
+
+    &:last-child {
+      align-items: flex-end;
+    }
+  }
+
+  ul {
+    margin-bottom: 0;
+  }
+} 
 
 #footer {
   padding: 0 0 0;
   text-align: center;
   background: $white;
+
 
   .top-footer {
     background: #000;
@@ -40,7 +62,7 @@
     letter-spacing: 1px;
     padding: 1.5em 2.5em;
     font-size: 11px; 
-  } 
+  }
 
 
   a.arrow {
@@ -502,7 +524,11 @@
      width: 100%;
 
      li.menu-item {
-       margin-right: auto;
+       margin-right: 3em;
+
+       &:last-child {
+         margin-right: 0;
+       }
      }
    }
   }

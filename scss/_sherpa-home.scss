@@ -711,44 +711,44 @@ h2.line {
   }
 }
 
-@media screen and (max-width: $grid-float-breakpoint-max) {
-  .flex-order {
-    flex-direction: column;
+// @media screen and (max-width: $grid-float-breakpoint-max) {
+//   .flex-order {
+//     flex-direction: column;
 
-    .home-module-1 {
-      order: 1;
-    }
+//     .home-module-1 {
+//       order: 1;
+//     }
 
-    .home-module-4 {
-      order: 2;
-    }
+//     .home-module-4 {
+//       order: 2;
+//     }
 
-    .home-module-5 {
-      order: 3;
-    }
+//     .home-module-5 {
+//       order: 3;
+//     }
 
-    .home-module-2 {
-      order: 4;
-    }
+//     .home-module-2 {
+//       order: 4;
+//     }
 
-    .home-module-3 {
-      order: 5;
-    }
+//     .home-module-3 {
+//       order: 5;
+//     }
 
-    .home-module-1.visible-xs {
-      order: 6;
-    }
+//     .home-module-1.visible-xs {
+//       order: 6;
+//     }
 
-    .home-module-2.visible-xs {
-      order: 7;
-      margin: 32px;
-    }
+//     .home-module-2.visible-xs {
+//       order: 7;
+//       margin: 32px;
+//     }
 
-    .home-module-6 {
-      order: 8;
-    }
-  }
-}
+//     .home-module-6 {
+//       order: 8;
+//     }
+//   }
+// }
 
 input[type="text"]:focus, textarea:focus {
   outline: none !important;
@@ -822,6 +822,7 @@ input[type="text"]:focus, textarea:focus {
 
 span.brand {
   color: $sherpa-brand-primary;
+  font-family: 'Roboto', sans-serif;
 }
 
 @media screen and (min-width: $screen-md-min) {

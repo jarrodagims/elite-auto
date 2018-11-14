@@ -131,18 +131,18 @@
     }
   }
 }
-
+ 
 
 .navbar-sherpa {
   .navbar-brand {
     padding: 0;
   }
-}
+} 
 
 .top-header {
-  background: $sherpa-dark-color;
-  display: flex;
-  padding: 34px 0;
+  background: #000; 
+  display: flex; 
+  padding: 34px 0; 
  
   a.arrow {
     margin-left: auto;
@@ -151,7 +151,7 @@
     font-weight: 700;
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
-    display: flex;
+    display: flex; 
     font-size: 21px;
     position: relative;
     padding-right: 30px;
@@ -241,13 +241,29 @@
   }
 
   @media (max-width: $grid-float-breakpoint-max) {
-    position: absolute;
-    right: 30px;
-    top: -45px;
-    transform: translateY(-50%);
+    
     width: auto;
     z-index: 9999;
     left: auto;
+  }
+
+  @media screen and (max-width: $screen-sm-max) {
+    li.menu-item {
+
+      &.directions a, 
+      &.contact a {
+        &::before {
+          margin-right: 0;
+        }
+      }
+
+      &.directions a, &.contact a {
+        span {
+          text-indent: -9999px;
+          display: none;
+        }
+      }
+    }
   }
 }
 
@@ -263,23 +279,21 @@
         display: none;
       }
     }
-
+ 
     .dropdown-menu {
       text-align: center;
     }
   }
 
-
   .navbar-brand img {
-    height: 136px;
+    height: 120px;
   }
 
   .top-header {
-    position: absolute;
     z-index: 99;
-    right: 0;
-    top: 0;
-    height: 50px;
+    right: 0; 
+    top: 0; 
+    padding: 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -343,6 +357,17 @@
   .col-xs-12.navbar-button {
     padding-left: 0;
     padding-right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ul {
+      margin-bottom: 0;
+
+      &.social-media {
+        display: flex;
+      }
+    }
   }
 
   .navbar-sherpa {
@@ -355,8 +380,7 @@
       background: transparent;
       width: 100%;
       position: relative;
-      padding-bottom: 20px;
-
+      padding-bottom: 10px;
     }
 
     .navbar-collapse.in,
@@ -391,7 +415,7 @@
   .navbar-sherpa {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
     top: 53px;
     position: absolute;
     width: 100%;
@@ -434,10 +458,10 @@
 
     .navbar-toggle {
       position: absolute;
-      left: 20px;
+      right: 0;
       z-index: 10;
       border: 0;
-      top: 50%;
+      top: 0;
       transform: translateY(-50%);
       margin-top: 0;
 
@@ -748,6 +772,13 @@
 }
 
 @media screen and (max-width: $screen-sm-max) {
+
+  .navbar-sherpa {
+    position: absolute;
+    right: 0;
+    top: 60px;
+    z-index: 9999;
+  }
 
   .navbar-sherpa .navbar-collapse {
     padding-left: 0;
@@ -1081,7 +1112,7 @@
 
   @media screen and (max-width: $grid-float-breakpoint-max) {
     &::after {
-      background: $sherpa-secondary-color;
+      background: $white;
     }
     
   }

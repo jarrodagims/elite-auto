@@ -65,7 +65,20 @@
         </div>
     </div>
 </section>
-
+<section class="sub-footer">
+    <div class="container">
+        <div class="flex-row row">
+            <div class="flex-col"><?php $sm = new SocialMedia(array('facebook', 'twitter'));
+                $sm->setSize('sm');
+                $sm->showNetworkButtons();
+                $sm->setColorType('singleColor');
+                ?></div>
+            <div class="flex-col">
+                <div>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?> | All Rights Reserved</div>
+            </div>
+        </div>
+    </div>
+</section>
 <?php wp_footer(); ?>
 </body>
 </html>

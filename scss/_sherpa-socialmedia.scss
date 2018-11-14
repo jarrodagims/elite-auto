@@ -1,7 +1,9 @@
 .social-media-button {
-  color: #5F6A70;
+  i {
+    color: rgba(255, 255, 255, 0.5);
+  } 
   display: table-cell;
-  text-align: center;
+  text-align: center; 
   transition: all 250ms;
   vertical-align: middle;
   &:hover,
