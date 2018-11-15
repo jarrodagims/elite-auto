@@ -1,14 +1,12 @@
 @mixin icon-small() {
   width: 100%;
-  
 
-  .icon-row {
-	  background: url('../img/bg-sidebar.jpg') 0 0 no-repeat;
-	  background-size: cover;
+  .flex-col.contact-button {
+	display: flex;
   }
 
   .container {
-    padding: 0 0;
+	padding: 0 0;
   }
 
   .flex-row {
@@ -18,6 +16,7 @@
     margin-bottom: 0;
     width: 100%;
     border-top: 2px solid $white;
+	list-style-type: none !important;
 
 
     &:after {
@@ -25,6 +24,7 @@
     }
 
     .flex-col {
+    	
       width: 33.33%; 
       margin-bottom: 0;
       padding: 0.5em;
@@ -57,7 +57,7 @@
         align-items: center;
         justify-content: center;
         line-height: 2; 
-        white-space: nowrap;
+        white-space: nowrap; 
        
 
         .icon {
@@ -117,6 +117,9 @@
       border: 0;
     }
   }
+
+
+  
 }
 
 @keyframes anim-1 {
@@ -138,6 +141,9 @@
   text-align: center;
   overflow: hidden;
   border-bottom: 3px solid $sherpa-brand-primary;
+  list-style: none;
+
+  
 
   .flex-row {
     justify-content: space-between;
@@ -226,9 +232,15 @@
       }
     }
 
+    .flex-col.contact-button {
+    	display: none;
+    }
+
+
   @media screen and (max-width: $screen-sm-max) {
-    @include icon-small();
     
+     @include icon-small(); 
+
 
     .flex-row {
       &::before {
@@ -240,13 +252,41 @@
       }
     }
   }
-
 }
 
 
 body #main .container article #sidebar {
-  
-  @include icon-small();
+	
+  .icon-row {
+  	@include icon-small();
+  }
+
+  ul {
+  	list-style: none;
+  	padding-left: 0;
+  	margin-left: auto;
+  	margin-bottom: 0;
+
+  	&.logos {
+  		
+  	}
+
+
+  	li::before {
+  		display: none;
+  		content: '';
+  	}
+  }
+
+  .ribbon {
+  	p {
+  		color: $white;
+  		padding: .25em;
+  		margin-bottom: 0;
+  		font-size: 13px;
+  		font-weight: 600;
+  	}
+  }
 
 
 }

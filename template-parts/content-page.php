@@ -39,9 +39,17 @@
                 echo the_post_thumbnail(array(1060,209));
             else:
                 ?>
-                <img class="visible-xs" src="<?= IMGURL ?>banner-bottom.jpg" alt="<?php echo get_bloginfo( 'name' ); ?>" />
+                <img class="visible-xs" src="<?= IMGURL ?>bg-banner-bottom.jpg" alt="<?php echo get_bloginfo( 'name' ); ?>" />
             <?php
             endif; ?>
+                <div class="banner-text">
+                    Free towing assistance
+                    <strong>AVAILABLE 24/7</strong>
+                    <a href="<?= SITEURL ?>/contact-us/">
+                        <button class="btn btn-primary">GET AN ESTIMATE</button>
+                    </a>
+                </div>
+
             </div>
            <?php
            if (get_field('page_bottom', $pageid)) { ?>

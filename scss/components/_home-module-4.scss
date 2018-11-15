@@ -64,6 +64,17 @@
       }
     }
   }
+
+  ul.logos {
+      li {
+        padding: 1em .5em;
+        margin-bottom: 0;
+
+        img.usaa {
+          max-height: 30px;
+        }
+      }
+  }
 }
 .home-module-4 {
   @include dropshadow();
@@ -152,15 +163,7 @@
   @media screen and (max-width: $screen-sm-max) {
     @include sidebar-module();
 
-    ul.logos {
-        li {
-          padding: 1em .5em;
-
-          img.usaa {
-            max-height: 30px;
-          }
-        }
-    }
+    
   }
 }
 

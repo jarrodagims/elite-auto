@@ -1,3 +1,68 @@
+@mixin banner-sm() {
+
+  .col-xs-12 {
+      padding: 0 0;
+    }
+
+    .flex-row {
+      flex-direction: column;
+    }
+
+  
+    .banner {
+        
+
+      .btn {
+        padding: 2em 3em;
+        margin-bottom: 2em;
+      }
+
+      h2 {
+        line-height: 1.25;
+        margin-bottom: 1em;
+        color: $white;
+      }
+
+      .banner-middle {
+        height: auto;
+        min-height: auto;
+        background: none;
+        padding: 0 0;
+      }
+
+      .flex-col:last-child {
+        width: auto !important;
+        padding: 1em 0;
+      }
+
+      margin-top: 0;
+      margin-bottom: 0;
+
+
+      ul {
+        margin-bottom: 0;
+      }
+
+
+      ul li {
+        width: 25%;
+        padding: 0 0 !important;
+
+        img {
+          height: 57px;
+          width: 57px;
+          margin: 0 .5em 1em;
+        }
+      }
+    }
+
+    .sidebar-content {
+       ul li {
+          padding: 0 0;
+       }
+    }
+}
+
 .home-module-7 {
 
   .banner {
@@ -85,44 +150,12 @@
   }
 
   @media screen and (max-width: $screen-sm-max) {
-    .col-xs-12 {
-      padding: 0 0;
-    }
-
-  
-    .banner {
-      .btn {
-        padding: 2em 3em;
-        margin-bottom: 2em;
-      }
-
-      h2 {
-        line-height: 1.25;
-        margin-bottom: 1em;
-      }
-
-      .banner-middle {
-        height: auto;
-        min-height: auto;
-      }
-
-      .flex-col:last-child {
-        width: auto !important;
-        padding: 1em 0;
-      }
-
-      margin-top: 0;
-      margin-bottom: 0;
-
-      ul li {
-          width: 25%;
-
-        img {
-          height: 57px;
-          width: 57px;
-          margin: 0 .5em 1em;
-        }
-      }
-    }
+    @include banner-sm();
   }
+}
+
+
+
+#sidebar .home-module-7 {
+  @include banner-sm();
 }

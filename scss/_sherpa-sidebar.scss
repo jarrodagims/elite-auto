@@ -50,6 +50,10 @@ body #main .container article #sidebar {
   margin-left: 4em;
   text-align: center;
 
+  .shadow {
+    @include dropshadow();
+  }
+
   .box {
     background: $sherpa-secondary-color;
     padding: 44px;
@@ -112,6 +116,10 @@ body #main .container article #sidebar {
 
 //   z-index: 9999;
   position: relative;
+
+  .home-module-4 {
+    margin-top: 2em;
+  }
 
   .home-module-1 {
     padding: 42px 33px;

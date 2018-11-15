@@ -197,10 +197,10 @@ body {
 
         @media screen and (max-width: $grid-float-breakpoint-max) {
 
-
           h1 {
             text-align: center;
             line-height: 1.5;
+            margin-top: 0;
           }
 
           ul {
@@ -272,16 +272,18 @@ body {
           .banner-text {
             z-index: 1;
             position: absolute;
-            font-size: 32px; 
+            font-size: 21px; 
             @include raleway();
             width: 40%;
             height: 100%;
-            background: rgba(#fff, .7);
+            background: $sherpa-dark-color;
             justify-content: center;
             align-items: center;
             margin-left: auto;
             font-weight: 300;
             display: flex;
+            flex-direction: column;
+
 
             p {
               font-size: 25px;
@@ -294,10 +296,13 @@ body {
 
             strong {
               color: $sherpa-brand-primary;
+              font-size: 31px;
+              font-family: 'Roboto', sans-serif;
             }
 
             .btn {
-              margin-left: 2em; 
+              margin-left: 0;
+              margin-top: 1em;
             }
 
             @media screen and (max-width: $screen-sm-max) {
@@ -306,15 +311,24 @@ body {
               margin-left: auto;
               margin-right: auto;
               width: 100%;
+              flex-direction: column;
+              padding: 1em;
 
+              strong {
+                display: block;
+              }
+                
               .banner-text {
                 margin: 0 auto;
+                flex-direction: column;
+                color: $white;
+
+               
               }
             }
 
             @media screen and (max-width: $grid-float-breakpoint-max) {
-              position: relative;
-              color: #5f6a70;
+              position: relative;              
 
               .btn {
                 margin: 1em auto;
@@ -345,8 +359,8 @@ body {
             flex-direction: column;
             height: auto;
             max-height: 100%;
-            margin-bottom: 35px;
             background: none;
+            margin-bottom: 0;
           }
 
           @media screen and (max-width: $grid-float-breakpoint-max) {
@@ -390,7 +404,7 @@ body {
       }
 
       .sidebar-content {
-        ul:not(.list-unstyled) {
+        ul {
         list-style: none;
         padding-left: 1em;
  

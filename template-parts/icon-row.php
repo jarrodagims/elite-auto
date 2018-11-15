@@ -24,7 +24,7 @@
             <?php get_template_part('template-parts/icons/icon', '05'); ?>
             Hail Damage Repair</a>
     </li>
-    <li class="flex-col visible-xs visible-sm">
+    <li class="flex-col contact-button">
        <a href="<?=SITEURL?>/contact-us/">Call Us Today</a>
     </li>
 </ul>

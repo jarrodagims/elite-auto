@@ -61,6 +61,10 @@
       svg {
         flex: 1;
         max-height: 67px;
+
+        &.svg-inspection {
+          height: 44px;
+        }
       }
     }
   }
