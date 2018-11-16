@@ -3,14 +3,13 @@
     <?php if (is_page('contact-us')) : ?>
         <div id="contact-form">
             <?php if ($_SERVER['REMOTE_ADDR'] == '127.0.0.1') {
-                echo do_shortcode('[contact-form-7 id="41" title="Contact Form"]');
+                echo do_shortcode('[contact-form-7 id="74" title="Contact Form"]');
             } else {
-                echo do_shortcode('[contact-form-7 id="41" title="Contact Form"]');
+                echo do_shortcode('[contact-form-7 id="74" title="Contact Form"]');
             }
             ?>
         </div>
-        <section>
-        </section>
+    </div>
     <?php endif; ?>
     <?php if (!is_page('contact-us')) : ?>
         <section class="icon-row">

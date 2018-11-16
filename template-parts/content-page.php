@@ -46,7 +46,7 @@
                     Free towing assistance
                     <strong>AVAILABLE 24/7</strong>
                     <a href="<?= SITEURL ?>/contact-us/">
-                        <button class="btn btn-primary">GET AN ESTIMATE</button>
+                        <button class="btn btn-primary">Contact Us</button>
                     </a>
                 </div>
 

@@ -3,9 +3,11 @@
 (function($) {
   $(document).ready(function() {
 
+      // $('.expander').wrapInner('<span></span>');
+
       $('.expander').click(function (event) {
           event.preventDefault();
-          $($(this).next("ul")).slideToggle();
+          $($(this).data("target")).slideToggle();
           $(this).toggleClass('expanded');
       });
 

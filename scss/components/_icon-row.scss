@@ -109,10 +109,6 @@
   a {
     color: #606060;
 
-    svg path {
-      fill: $white;
-    }
-
     &::before {
       border: 0;
     }
@@ -259,6 +255,20 @@ body #main .container article #sidebar {
 	
   .icon-row {
   	@include icon-small();
+
+  	.flex-row {
+  		border-top: 0;
+  	}
+
+  	.flex-row .flex-col {
+      border-bottom: 1px solid $white;
+     
+
+      &:nth-child(2), &:nth-child(5) {
+      	border-left: 1px solid $white;
+      	border-right: 1px solid $white;
+      } 
+  	}
   }
 
   ul {

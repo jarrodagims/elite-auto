@@ -2,14 +2,23 @@
   
   overflow: hidden;
 
-  h4 {
+  h2 ul.expand {
+    display: none;
+    font-size: 16px;
+
+    li {
+      margin-bottom: .5em;
+    }
+  }
+
+  p.blurb {
     font-size: 26px;
     margin-bottom: 1em;
     @include raleway();
     color: #93753F;
     font-weight: 500;
     line-height: 1.5;
-  }
+  } 
 
   h5 {
     font-style: italic;
@@ -24,13 +33,13 @@
     }
   }
 
-  p.blurb {
-    font-size: 31px;
-    font-family: 'Poppins', sans-serif;
-    line-height: 1.5;
-    font-weight: 300;
-    color: #1A1A1A;
-  }
+//   p.blurb {
+//     font-size: 31px;
+//     font-family: 'Poppins', sans-serif;
+//     line-height: 1.5;
+//     font-weight: 300;
+//     color: #1A1A1A;
+//   }
 
   @media screen and (min-width: $screen-md-min) {
       

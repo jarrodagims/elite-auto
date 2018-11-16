@@ -376,13 +376,11 @@
       padding: 20px 32px;
       transition: all 0.3s ease-in-out; 
       border: 0;
-      background: rgb(255,212,23);
-      background: linear-gradient(90deg, rgba(255,212,23,0.75) 0%, rgba(255,0,0,1) 100%);
+      background: #FF0008;
       color: $white;
 
       &:hover {
         color: $white;
-        transform: scale(1.25);
       }
     }
 
@@ -399,7 +397,7 @@
 }
 
 #contact-form {
-  background: $sherpa-secondary-color;
+  background: $sherpa-dark-color;
 
   @media screen and (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
     margin-bottom: 3em;

@@ -1,6 +1,6 @@
     <div id="map-section">
 
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3390.457790655903!2d-106.55649168484219!3d31.812523981273937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ddf819c39ce66b%3A0xfc1ae623e6635fdb!2sBob-O&#39;s+Family+Fun+Center!5e0!3m2!1sen!2sus!4v1539873706024" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54277.20563773339!2d-106.36755935680694!3d31.761611010211126!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e75ac2ec2749e3%3A0xd5fe00d506ac4490!2sAuto+Collision+Center!5e0!3m2!1sen!2sus!4v1542321016528" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
 <section id="footer">
     <div class="container">
@@ -27,7 +27,7 @@
                     <div class="hours-footer">
                         <div>
                             <span class="title">HOURS</span>
-                            <p>Monday - Friday : <strong>8:00 AM - 6:00 PM</strong><br />
+                            <p>Monday - Friday : <strong>8:00 AM - 5:00 PM</strong><br />
                             Saturday: <strong>By Appointment Only</strong><br />
                             Sunday: <strong>Closed</strong></p>
                         </div>

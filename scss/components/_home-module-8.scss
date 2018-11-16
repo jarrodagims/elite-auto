@@ -3,15 +3,25 @@
   background-size: cover;
   padding: 3em 0;
 
+  p {
+    color: $white;
+    text-align: center;
+  }
+
   h2 {
     text-align: center;
     color: $white;
-    margin-bottom: 2.5em;
+    margin-bottom: 1em;
     font-size: 26px;
+  }
+
+  .row:last-child {
+    margin-top: 2em;
   }
 
   .col-md-6:first-child {
     padding-right: 4em;
+
 
     &::after {
       content: '';
@@ -78,6 +88,10 @@
     }
 
     background: $white;
+
+    p {
+      color: #000;
+    }
 
     h2 {
       color: $sherpa-secondary-color;
