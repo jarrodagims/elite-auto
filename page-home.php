@@ -11,10 +11,16 @@
                     alt="<?php echo get_bloginfo(
                         'description'
                     ); ?>"/></a>
+        <?php $sm = new SocialMedia(array('facebook', 'twitter'));
+        $sm->setSize('md');
+        $sm->showNetworkButtons();
+        $sm->setColorType('singleColor');
+        ?>
     <div class="jumbotron">
+
         <div class="jumbo-content">
             <h1 class="expander" data-target="#expand"><strong>Auto Body Shop</strong>
-                — Elite Auto Collision Center is Devoted to El Paso’s Drivers
+                Elite Auto Collision Center is Devoted to El Paso’s Drivers
             </h1>
 
             <h2><a href="tel:<?php echo get_option('sherpa_telephone_number'); ?>"><?php printPhone(); ?></a></h2>
@@ -106,7 +112,7 @@
             <div class="col-md-6">
                 <div class="extra-padding"><p><strong>We Take Care of Everything, Literally!</strong></p>
 
-                <p>The journey towards completely repairing a vehicle after a collision may seem long and arduous but when you team up with us, you’ll have nothing to worry about! This is because we will take care of everything—from towing your car and speaking to your insurance company to repairing and repainting your vehicle so it will look good as new.</p>
+                <p>The journey towards completely repairing a vehicle after a collision may seem long and arduous but when you team up with us, you’ll have nothing to worry about! This is because we will take care of everything, from towing your car and speaking to your insurance company to repairing and repainting your vehicle so it will look good as new.</p>
 
                  <p>Since we use the CCC system, we’ll be able to repair your vehicle with the exact parts required. We offer much more than collision repair; it’s our goal to offer high-quality service to drivers in the El Paso area. Choose Elite Auto Collision Center as your #1 auto body shop!</p></div>
             </div>
@@ -118,7 +124,7 @@
     <div class="container">
         <div class="row flex-row">
             <div class="flex-col">
-                <div class="extra-padding"><h2>Free towing assistance <span class="brand">AVAILABLE 24/7</span></h2></div>
+                <div class="extra-padding"><h2>Free towing assistance <span class="brand"><strong>AVAILABLE 24/7</strong></span></h2></div>
             </div>
             <div class="flex-col">
                 <a href="<?=SITEURL?>/contact-us/">
@@ -137,7 +143,7 @@
                         <div class="flex-row">
                             <div class="flex-col hidden-sm hidden-xs">
                                 <h2><span>We Offer</span><br />
-                                    MILITARY DISCOUNTS</h2>
+                                    <strong>MILITARY DISCOUNTS</strong></h2>
                                 <a href="<?=SITEURL?>/contact-us/"><button class="btn btn-primary">LEARN MORE</button></a>
                             </div>
                             <div class="flex-col banner-middle">
@@ -145,7 +151,7 @@
                             </div>
                             <div class="flex-col badge-col">
                                 <h2 class="visible-xs visible-sm"><span>We Offer</span><br />
-                                    MILITARY DISCOUNTS</h2>
+                                    <strong>MILITARY DISCOUNTS</strong></h2>
                                 <ul>
                                     <li><img src="<?=IMGURL?>badge-airforce.png" alt="" class="military-badge"></li>
                                     <li><img src="<?=IMGURL?>badge-marines.png" alt="" class="military-badge"></li>

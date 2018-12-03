@@ -638,7 +638,7 @@
     left: 0px;
 
     img {
-      height: 300px;
+      height: 200px;
       width: auto;
     }
   }
@@ -666,16 +666,22 @@
   }
 }
 
+@media screen and (min-width: 1500px) {
+  .navbar-brand {
+    img {
+      height: 300px;
+    }
+  }
+}
+
 @media screen and (min-width: $screen-lg-min) {
 
+
   .logo-section {
-    
 
     p {
       font-size: 20px;
     }
-
-    
   }
 
 
@@ -1150,11 +1156,16 @@
 @media screen and (min-width: $screen-sm-min) {
   .dropdown-menu>li>a {
     font-weight: 600;
+    padding: 2em;
+    text-align: center;
   }
 
   .dropdown-menu {
-    background: $sherpa-dark-color;
+    background: #000;
+
     text-align: left;  
+
+
   } 
 }
 

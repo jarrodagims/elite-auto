@@ -415,6 +415,11 @@ body {
         li {
           position: relative;
           padding-left: 1em;
+
+          h3 {
+            font-size: 1em;
+            margin-bottom: 0;
+          }
         }
 
         li::before {

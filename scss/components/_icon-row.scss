@@ -252,6 +252,8 @@
 
 
 body #main .container article #sidebar {
+
+	
 	
   .icon-row {
   	@include icon-small();
@@ -269,17 +271,17 @@ body #main .container article #sidebar {
       	border-right: 1px solid $white;
       } 
   	}
+
+  	 
   }
+
+
 
   ul {
   	list-style: none;
   	padding-left: 0;
   	margin-left: auto;
   	margin-bottom: 0;
-
-  	&.logos {
-  		
-  	}
 
 
   	li::before {
